@@ -14,8 +14,8 @@ recovery, measured against the public Reg E error-resolution timelines.
 
 | Tab | Question it answers |
 |---|---|
-| **Rate trends** | Are claim volume, on-time resolution, provisional-credit timeliness and chargeback wins moving the right way? Each chart has a dashed window-average line, and an option to hide immature months. |
-| **Claims funnel** | How many claims and disputed transactions moved through intake, provisional credit, resolution and chargebacks each month or week? Rates are shaded green or red against their window average. |
+| **Rate trends** | Are claim volume, on-time resolution, provisional-credit timeliness and chargeback wins moving the right way? Each chart has a dashed line at Northwind's monthly target, and an option to hide immature months. |
+| **Claims funnel** | How many claims and disputed transactions moved through intake, provisional credit, resolution and chargebacks each month or week? Rates are shaded green when they meet Northwind's monthly target and red when they miss it. |
 | **Dollars funnel** | The same flow in dollars: credited to customers, recovered from merchants' banks, written off. |
 | **Resolution timing** | How quickly does each month's group of claims close? A heatmap by reason, with outcome breakdowns on hover, plus a year-over-year claim-rate chart. |
 | **Dictionary** | Every column, its formula, and a plain-English definition. |
@@ -70,8 +70,8 @@ SELECT reason_category, COUNT(*) FROM 'data/raw/claims.parquet' GROUP BY 1;
   (Nov–Dec +35%), a February dip and ~6% yearly growth. Claim rates run higher Nov–Jan.
 - **Immature recent months:** claims received recently are still open, so their rates
   aren't final. The dashboard marks a month as mature once 98% of its claims have closed.
-- **Window averages are a ratio of sums** (`SUM(numerator) / SUM(denominator)`), never an
-  average of monthly rates.
+- **Monthly targets are fixed goals** set per rate in `build_aggregates.py`, each with a
+  direction (higher or lower is better). They drive the chart target lines and table shading.
 - **Reproducible:** the same flags and seed produce byte-identical files (`check.py`
   verifies this).
 

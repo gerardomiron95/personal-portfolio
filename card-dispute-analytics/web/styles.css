@@ -5,7 +5,7 @@
   --prior: #4a8fd8;
   --better: #d9f0e1;
   --worse: #fbe0dd;
-  --equal: #fcefc7;
+  --miss: #c8372d;
   --ink: #1c2a24;
   --muted: #869189;
   --border: #e0e6e2;
@@ -122,7 +122,6 @@ thead th.label { z-index: 3; }
 .funnel td.current, .funnel th.current { color: #5b6573; }
 .funnel td.better { background: var(--better); }
 .funnel td.worse { background: var(--worse); }
-.funnel td.equal { background: var(--equal); }
 [data-tip] { cursor: help; }
 td.label[data-tip] { text-decoration: underline dotted #b3bcc8; text-underline-offset: 3px; }
 .muted { color: var(--muted); }

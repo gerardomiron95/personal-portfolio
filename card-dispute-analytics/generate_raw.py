@@ -41,13 +41,13 @@ REASON_CAT_P = np.array([
     [.06, .08, .14, .36, .02, .14, .08, .12],
     [.18, .14, .06, .18, .10, .06, .18, .10],
 ])
-# Final outcome per reason: customer favor, no error found, withdrawn (~68 / 25 / 7 overall).
+# Final outcome per reason: customer win, no error found, withdrawn (~68 / 25 / 7 overall).
 OUTCOME_P = np.array([
     [.74, .20, .06],
     [.60, .31, .09],
     [.66, .28, .06],
 ])
-OUTCOMES = np.array(["Resolved - customer favor", "Resolved - no error found", "Withdrawn"])
+OUTCOMES = np.array(["Resolved - customer win", "Resolved - no error found", "Withdrawn"])
 
 # Transactions per claim: 72% have one, the rest 2-5.
 MULTI_TXN_K = np.array([2, 3, 4, 5])
@@ -221,7 +221,7 @@ def main() -> None:
                         + secs(rng.integers(9 * 3600, 18 * 3600, n)))
     issue_ts = np.where(issue_ts >= end_ts, on_time_fallback, issue_ts)  # credit always precedes resolution
     has_pc = required & (issue_ts < as_of)
-    pc_final = np.where(is_open, "Pending", np.where(outcome == 0, "Made permanent", "Reversed"))
+    pc_final = np.where(is_open, "Pending", np.where(outcome == 0, "Kept by customer", "Reversed"))
     provisional_credits = pd.DataFrame({
         "claim_id": claim_ids[has_pc],
         "issued_ts": issue_ts[has_pc],
@@ -274,7 +274,7 @@ def main() -> None:
     })
 
     # ------------------------------------------------------------------ chargebacks
-    # Filed with the card network on ~40% of customer-favor unauthorized / merchant
+    # Filed with the card network on ~40% of customer-win unauthorized / merchant
     # claims, one row per disputed transaction, inside the 120-day filing window.
     filed_ts = recv + days_td(rng.uniform(2, 12, n))
     cb = (outcome == 0) & (reason < 2) & (rng.random(n) < .40) & (filed_ts < as_of)

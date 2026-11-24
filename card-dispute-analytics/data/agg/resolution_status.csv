@@ -1,531 +1,531 @@
 cohort_month,reason_category,bucket,outcome,n
-2025-11,Merchant dispute,0.0,Customer favor,467
+2025-11,Merchant dispute,0.0,Claims withdrawn,121
+2025-11,Merchant dispute,0.0,Customer wins,467
 2025-11,Merchant dispute,0.0,No error found,225
-2025-11,Merchant dispute,0.0,Withdrawn,121
-2025-11,Merchant dispute,1.0,Customer favor,579
+2025-11,Merchant dispute,1.0,Claims withdrawn,43
+2025-11,Merchant dispute,1.0,Customer wins,579
 2025-11,Merchant dispute,1.0,No error found,273
-2025-11,Merchant dispute,1.0,Withdrawn,43
-2025-11,Merchant dispute,2.0,Customer favor,49
+2025-11,Merchant dispute,2.0,Claims withdrawn,1
+2025-11,Merchant dispute,2.0,Customer wins,49
 2025-11,Merchant dispute,2.0,No error found,25
-2025-11,Merchant dispute,2.0,Withdrawn,1
-2025-11,Merchant dispute,3.0,Customer favor,9
+2025-11,Merchant dispute,3.0,Customer wins,9
 2025-11,Merchant dispute,3.0,No error found,4
-2025-11,Merchant dispute,4.0,Customer favor,1
+2025-11,Merchant dispute,4.0,Customer wins,1
 2025-11,Merchant dispute,4.0,No error found,1
-2025-11,Processing error,0.0,Customer favor,160
+2025-11,Processing error,0.0,Claims withdrawn,28
+2025-11,Processing error,0.0,Customer wins,160
 2025-11,Processing error,0.0,No error found,55
-2025-11,Processing error,0.0,Withdrawn,28
-2025-11,Processing error,1.0,Customer favor,174
+2025-11,Processing error,1.0,Claims withdrawn,15
+2025-11,Processing error,1.0,Customer wins,174
 2025-11,Processing error,1.0,No error found,77
-2025-11,Processing error,1.0,Withdrawn,15
-2025-11,Processing error,2.0,Customer favor,22
+2025-11,Processing error,2.0,Claims withdrawn,1
+2025-11,Processing error,2.0,Customer wins,22
 2025-11,Processing error,2.0,No error found,4
-2025-11,Processing error,2.0,Withdrawn,1
-2025-11,Processing error,3.0,Customer favor,2
-2025-11,Total,0.0,Customer favor,1538
+2025-11,Processing error,3.0,Customer wins,2
+2025-11,Total,0.0,Claims withdrawn,270
+2025-11,Total,0.0,Customer wins,1538
 2025-11,Total,0.0,No error found,545
-2025-11,Total,0.0,Withdrawn,270
-2025-11,Total,1.0,Customer favor,1880
+2025-11,Total,1.0,Claims withdrawn,94
+2025-11,Total,1.0,Customer wins,1880
 2025-11,Total,1.0,No error found,646
-2025-11,Total,1.0,Withdrawn,94
-2025-11,Total,2.0,Customer favor,169
+2025-11,Total,2.0,Claims withdrawn,2
+2025-11,Total,2.0,Customer wins,169
 2025-11,Total,2.0,No error found,56
-2025-11,Total,2.0,Withdrawn,2
-2025-11,Total,3.0,Customer favor,18
+2025-11,Total,3.0,Customer wins,18
 2025-11,Total,3.0,No error found,6
-2025-11,Total,4.0,Customer favor,4
+2025-11,Total,4.0,Customer wins,4
 2025-11,Total,4.0,No error found,2
-2025-11,Unauthorized,0.0,Customer favor,911
+2025-11,Unauthorized,0.0,Claims withdrawn,121
+2025-11,Unauthorized,0.0,Customer wins,911
 2025-11,Unauthorized,0.0,No error found,265
-2025-11,Unauthorized,0.0,Withdrawn,121
-2025-11,Unauthorized,1.0,Customer favor,1127
+2025-11,Unauthorized,1.0,Claims withdrawn,36
+2025-11,Unauthorized,1.0,Customer wins,1127
 2025-11,Unauthorized,1.0,No error found,296
-2025-11,Unauthorized,1.0,Withdrawn,36
-2025-11,Unauthorized,2.0,Customer favor,98
+2025-11,Unauthorized,2.0,Customer wins,98
 2025-11,Unauthorized,2.0,No error found,27
-2025-11,Unauthorized,3.0,Customer favor,7
+2025-11,Unauthorized,3.0,Customer wins,7
 2025-11,Unauthorized,3.0,No error found,2
-2025-11,Unauthorized,4.0,Customer favor,3
+2025-11,Unauthorized,4.0,Customer wins,3
 2025-11,Unauthorized,4.0,No error found,1
-2025-12,Merchant dispute,0.0,Customer favor,498
+2025-12,Merchant dispute,0.0,Claims withdrawn,134
+2025-12,Merchant dispute,0.0,Customer wins,498
 2025-12,Merchant dispute,0.0,No error found,275
-2025-12,Merchant dispute,0.0,Withdrawn,134
-2025-12,Merchant dispute,1.0,Customer favor,592
+2025-12,Merchant dispute,1.0,Claims withdrawn,46
+2025-12,Merchant dispute,1.0,Customer wins,592
 2025-12,Merchant dispute,1.0,No error found,308
-2025-12,Merchant dispute,1.0,Withdrawn,46
-2025-12,Merchant dispute,2.0,Customer favor,43
+2025-12,Merchant dispute,2.0,Claims withdrawn,1
+2025-12,Merchant dispute,2.0,Customer wins,43
 2025-12,Merchant dispute,2.0,No error found,27
-2025-12,Merchant dispute,2.0,Withdrawn,1
-2025-12,Merchant dispute,3.0,Customer favor,5
+2025-12,Merchant dispute,3.0,Customer wins,5
 2025-12,Merchant dispute,3.0,No error found,5
-2025-12,Merchant dispute,4.0,Customer favor,1
+2025-12,Merchant dispute,4.0,Customer wins,1
 2025-12,Merchant dispute,4.0,No error found,1
-2025-12,Merchant dispute,5.0,Customer favor,1
-2025-12,Processing error,0.0,Customer favor,163
+2025-12,Merchant dispute,5.0,Customer wins,1
+2025-12,Processing error,0.0,Claims withdrawn,26
+2025-12,Processing error,0.0,Customer wins,163
 2025-12,Processing error,0.0,No error found,73
-2025-12,Processing error,0.0,Withdrawn,26
-2025-12,Processing error,1.0,Customer favor,185
+2025-12,Processing error,1.0,Claims withdrawn,8
+2025-12,Processing error,1.0,Customer wins,185
 2025-12,Processing error,1.0,No error found,69
-2025-12,Processing error,1.0,Withdrawn,8
-2025-12,Processing error,2.0,Customer favor,12
+2025-12,Processing error,2.0,Claims withdrawn,1
+2025-12,Processing error,2.0,Customer wins,12
 2025-12,Processing error,2.0,No error found,5
-2025-12,Processing error,2.0,Withdrawn,1
-2025-12,Processing error,3.0,Customer favor,1
-2025-12,Total,0.0,Customer favor,1731
+2025-12,Processing error,3.0,Customer wins,1
+2025-12,Total,0.0,Claims withdrawn,276
+2025-12,Total,0.0,Customer wins,1731
 2025-12,Total,0.0,No error found,629
-2025-12,Total,0.0,Withdrawn,276
-2025-12,Total,1.0,Customer favor,1876
+2025-12,Total,1.0,Claims withdrawn,95
+2025-12,Total,1.0,Customer wins,1876
 2025-12,Total,1.0,No error found,697
-2025-12,Total,1.0,Withdrawn,95
-2025-12,Total,2.0,Customer favor,149
+2025-12,Total,2.0,Claims withdrawn,2
+2025-12,Total,2.0,Customer wins,149
 2025-12,Total,2.0,No error found,50
-2025-12,Total,2.0,Withdrawn,2
-2025-12,Total,3.0,Customer favor,18
+2025-12,Total,3.0,Customer wins,18
 2025-12,Total,3.0,No error found,7
-2025-12,Total,4.0,Customer favor,2
+2025-12,Total,4.0,Customer wins,2
 2025-12,Total,4.0,No error found,2
-2025-12,Total,5.0,Customer favor,2
-2025-12,Unauthorized,0.0,Customer favor,1070
+2025-12,Total,5.0,Customer wins,2
+2025-12,Unauthorized,0.0,Claims withdrawn,116
+2025-12,Unauthorized,0.0,Customer wins,1070
 2025-12,Unauthorized,0.0,No error found,281
-2025-12,Unauthorized,0.0,Withdrawn,116
-2025-12,Unauthorized,1.0,Customer favor,1099
+2025-12,Unauthorized,1.0,Claims withdrawn,41
+2025-12,Unauthorized,1.0,Customer wins,1099
 2025-12,Unauthorized,1.0,No error found,320
-2025-12,Unauthorized,1.0,Withdrawn,41
-2025-12,Unauthorized,2.0,Customer favor,94
+2025-12,Unauthorized,2.0,Customer wins,94
 2025-12,Unauthorized,2.0,No error found,18
-2025-12,Unauthorized,3.0,Customer favor,12
+2025-12,Unauthorized,3.0,Customer wins,12
 2025-12,Unauthorized,3.0,No error found,2
-2025-12,Unauthorized,4.0,Customer favor,1
+2025-12,Unauthorized,4.0,Customer wins,1
 2025-12,Unauthorized,4.0,No error found,1
-2025-12,Unauthorized,5.0,Customer favor,1
-2026-01,Merchant dispute,0.0,Customer favor,401
+2025-12,Unauthorized,5.0,Customer wins,1
+2026-01,Merchant dispute,0.0,Claims withdrawn,111
+2026-01,Merchant dispute,0.0,Customer wins,401
 2026-01,Merchant dispute,0.0,No error found,198
-2026-01,Merchant dispute,0.0,Withdrawn,111
-2026-01,Merchant dispute,1.0,Customer favor,424
+2026-01,Merchant dispute,1.0,Claims withdrawn,38
+2026-01,Merchant dispute,1.0,Customer wins,424
 2026-01,Merchant dispute,1.0,No error found,226
-2026-01,Merchant dispute,1.0,Withdrawn,38
-2026-01,Merchant dispute,2.0,Customer favor,55
+2026-01,Merchant dispute,2.0,Claims withdrawn,5
+2026-01,Merchant dispute,2.0,Customer wins,55
 2026-01,Merchant dispute,2.0,No error found,30
-2026-01,Merchant dispute,2.0,Withdrawn,5
-2026-01,Merchant dispute,3.0,Customer favor,3
+2026-01,Merchant dispute,3.0,Customer wins,3
 2026-01,Merchant dispute,3.0,No error found,1
 2026-01,Merchant dispute,4.0,No error found,1
 2026-01,Merchant dispute,5.0,No error found,1
-2026-01,Processing error,0.0,Customer favor,120
+2026-01,Processing error,0.0,Claims withdrawn,22
+2026-01,Processing error,0.0,Customer wins,120
 2026-01,Processing error,0.0,No error found,67
-2026-01,Processing error,0.0,Withdrawn,22
-2026-01,Processing error,1.0,Customer favor,132
+2026-01,Processing error,1.0,Claims withdrawn,9
+2026-01,Processing error,1.0,Customer wins,132
 2026-01,Processing error,1.0,No error found,55
-2026-01,Processing error,1.0,Withdrawn,9
-2026-01,Processing error,2.0,Customer favor,19
+2026-01,Processing error,2.0,Customer wins,19
 2026-01,Processing error,2.0,No error found,2
-2026-01,Processing error,3.0,Customer favor,2
-2026-01,Processing error,4.0,Customer favor,1
-2026-01,Processing error,5.0,Customer favor,1
-2026-01,Total,0.0,Customer favor,1261
+2026-01,Processing error,3.0,Customer wins,2
+2026-01,Processing error,4.0,Customer wins,1
+2026-01,Processing error,5.0,Customer wins,1
+2026-01,Total,0.0,Claims withdrawn,224
+2026-01,Total,0.0,Customer wins,1261
 2026-01,Total,0.0,No error found,485
-2026-01,Total,0.0,Withdrawn,224
-2026-01,Total,1.0,Customer favor,1366
+2026-01,Total,1.0,Claims withdrawn,90
+2026-01,Total,1.0,Customer wins,1366
 2026-01,Total,1.0,No error found,518
-2026-01,Total,1.0,Withdrawn,90
-2026-01,Total,2.0,Customer favor,174
+2026-01,Total,2.0,Claims withdrawn,6
+2026-01,Total,2.0,Customer wins,174
 2026-01,Total,2.0,No error found,54
-2026-01,Total,2.0,Withdrawn,6
-2026-01,Total,3.0,Customer favor,13
+2026-01,Total,3.0,Customer wins,13
 2026-01,Total,3.0,No error found,4
-2026-01,Total,4.0,Customer favor,3
+2026-01,Total,4.0,Customer wins,3
 2026-01,Total,4.0,No error found,1
-2026-01,Total,5.0,Customer favor,1
+2026-01,Total,5.0,Customer wins,1
 2026-01,Total,5.0,No error found,1
-2026-01,Unauthorized,0.0,Customer favor,740
+2026-01,Unauthorized,0.0,Claims withdrawn,91
+2026-01,Unauthorized,0.0,Customer wins,740
 2026-01,Unauthorized,0.0,No error found,220
-2026-01,Unauthorized,0.0,Withdrawn,91
-2026-01,Unauthorized,1.0,Customer favor,810
+2026-01,Unauthorized,1.0,Claims withdrawn,43
+2026-01,Unauthorized,1.0,Customer wins,810
 2026-01,Unauthorized,1.0,No error found,237
-2026-01,Unauthorized,1.0,Withdrawn,43
-2026-01,Unauthorized,2.0,Customer favor,100
+2026-01,Unauthorized,2.0,Claims withdrawn,1
+2026-01,Unauthorized,2.0,Customer wins,100
 2026-01,Unauthorized,2.0,No error found,22
-2026-01,Unauthorized,2.0,Withdrawn,1
-2026-01,Unauthorized,3.0,Customer favor,8
+2026-01,Unauthorized,3.0,Customer wins,8
 2026-01,Unauthorized,3.0,No error found,3
-2026-01,Unauthorized,4.0,Customer favor,2
-2026-02,Merchant dispute,0.0,Customer favor,248
+2026-01,Unauthorized,4.0,Customer wins,2
+2026-02,Merchant dispute,0.0,Claims withdrawn,61
+2026-02,Merchant dispute,0.0,Customer wins,248
 2026-02,Merchant dispute,0.0,No error found,115
-2026-02,Merchant dispute,0.0,Withdrawn,61
-2026-02,Merchant dispute,1.0,Customer favor,262
+2026-02,Merchant dispute,1.0,Claims withdrawn,35
+2026-02,Merchant dispute,1.0,Customer wins,262
 2026-02,Merchant dispute,1.0,No error found,153
-2026-02,Merchant dispute,1.0,Withdrawn,35
-2026-02,Merchant dispute,2.0,Customer favor,28
+2026-02,Merchant dispute,2.0,Claims withdrawn,2
+2026-02,Merchant dispute,2.0,Customer wins,28
 2026-02,Merchant dispute,2.0,No error found,15
-2026-02,Merchant dispute,2.0,Withdrawn,2
-2026-02,Merchant dispute,3.0,Customer favor,4
+2026-02,Merchant dispute,3.0,Customer wins,4
 2026-02,Merchant dispute,3.0,No error found,4
 2026-02,Merchant dispute,4.0,No error found,1
-2026-02,Processing error,0.0,Customer favor,74
+2026-02,Processing error,0.0,Claims withdrawn,7
+2026-02,Processing error,0.0,Customer wins,74
 2026-02,Processing error,0.0,No error found,27
-2026-02,Processing error,0.0,Withdrawn,7
-2026-02,Processing error,1.0,Customer favor,87
+2026-02,Processing error,1.0,Claims withdrawn,4
+2026-02,Processing error,1.0,Customer wins,87
 2026-02,Processing error,1.0,No error found,45
-2026-02,Processing error,1.0,Withdrawn,4
-2026-02,Processing error,2.0,Customer favor,8
-2026-02,Processing error,3.0,Customer favor,5
-2026-02,Total,0.0,Customer favor,765
+2026-02,Processing error,2.0,Customer wins,8
+2026-02,Processing error,3.0,Customer wins,5
+2026-02,Total,0.0,Claims withdrawn,128
+2026-02,Total,0.0,Customer wins,765
 2026-02,Total,0.0,No error found,265
-2026-02,Total,0.0,Withdrawn,128
-2026-02,Total,1.0,Customer favor,918
+2026-02,Total,1.0,Claims withdrawn,64
+2026-02,Total,1.0,Customer wins,918
 2026-02,Total,1.0,No error found,323
-2026-02,Total,1.0,Withdrawn,64
-2026-02,Total,2.0,Customer favor,93
+2026-02,Total,2.0,Claims withdrawn,2
+2026-02,Total,2.0,Customer wins,93
 2026-02,Total,2.0,No error found,22
-2026-02,Total,2.0,Withdrawn,2
-2026-02,Total,3.0,Customer favor,11
+2026-02,Total,3.0,Customer wins,11
 2026-02,Total,3.0,No error found,5
-2026-02,Total,4.0,Customer favor,4
+2026-02,Total,4.0,Customer wins,4
 2026-02,Total,4.0,No error found,1
-2026-02,Unauthorized,0.0,Customer favor,443
+2026-02,Unauthorized,0.0,Claims withdrawn,60
+2026-02,Unauthorized,0.0,Customer wins,443
 2026-02,Unauthorized,0.0,No error found,123
-2026-02,Unauthorized,0.0,Withdrawn,60
-2026-02,Unauthorized,1.0,Customer favor,569
+2026-02,Unauthorized,1.0,Claims withdrawn,25
+2026-02,Unauthorized,1.0,Customer wins,569
 2026-02,Unauthorized,1.0,No error found,125
-2026-02,Unauthorized,1.0,Withdrawn,25
-2026-02,Unauthorized,2.0,Customer favor,57
+2026-02,Unauthorized,2.0,Customer wins,57
 2026-02,Unauthorized,2.0,No error found,7
-2026-02,Unauthorized,3.0,Customer favor,2
+2026-02,Unauthorized,3.0,Customer wins,2
 2026-02,Unauthorized,3.0,No error found,1
-2026-02,Unauthorized,4.0,Customer favor,4
-2026-03,Merchant dispute,0.0,Customer favor,311
+2026-02,Unauthorized,4.0,Customer wins,4
+2026-03,Merchant dispute,0.0,Claims withdrawn,66
+2026-03,Merchant dispute,0.0,Customer wins,311
 2026-03,Merchant dispute,0.0,No error found,163
-2026-03,Merchant dispute,0.0,Withdrawn,66
-2026-03,Merchant dispute,1.0,Customer favor,379
+2026-03,Merchant dispute,1.0,Claims withdrawn,27
+2026-03,Merchant dispute,1.0,Customer wins,379
 2026-03,Merchant dispute,1.0,No error found,160
-2026-03,Merchant dispute,1.0,Withdrawn,27
-2026-03,Merchant dispute,2.0,Customer favor,23
+2026-03,Merchant dispute,2.0,Claims withdrawn,1
+2026-03,Merchant dispute,2.0,Customer wins,23
 2026-03,Merchant dispute,2.0,No error found,22
-2026-03,Merchant dispute,2.0,Withdrawn,1
-2026-03,Merchant dispute,3.0,Customer favor,5
-2026-03,Merchant dispute,4.0,Customer favor,2
-2026-03,Processing error,0.0,Customer favor,100
+2026-03,Merchant dispute,3.0,Customer wins,5
+2026-03,Merchant dispute,4.0,Customer wins,2
+2026-03,Processing error,0.0,Claims withdrawn,14
+2026-03,Processing error,0.0,Customer wins,100
 2026-03,Processing error,0.0,No error found,47
-2026-03,Processing error,0.0,Withdrawn,14
-2026-03,Processing error,1.0,Customer favor,105
+2026-03,Processing error,1.0,Claims withdrawn,5
+2026-03,Processing error,1.0,Customer wins,105
 2026-03,Processing error,1.0,No error found,50
-2026-03,Processing error,1.0,Withdrawn,5
-2026-03,Processing error,2.0,Customer favor,7
+2026-03,Processing error,2.0,Customer wins,7
 2026-03,Processing error,2.0,No error found,7
-2026-03,Processing error,3.0,Customer favor,1
-2026-03,Processing error,5.0,Customer favor,1
-2026-03,Total,0.0,Customer favor,1030
+2026-03,Processing error,3.0,Customer wins,1
+2026-03,Processing error,5.0,Customer wins,1
+2026-03,Total,0.0,Claims withdrawn,175
+2026-03,Total,0.0,Customer wins,1030
 2026-03,Total,0.0,No error found,393
-2026-03,Total,0.0,Withdrawn,175
-2026-03,Total,1.0,Customer favor,1169
+2026-03,Total,1.0,Claims withdrawn,75
+2026-03,Total,1.0,Customer wins,1169
 2026-03,Total,1.0,No error found,385
-2026-03,Total,1.0,Withdrawn,75
-2026-03,Total,2.0,Customer favor,103
+2026-03,Total,2.0,Claims withdrawn,1
+2026-03,Total,2.0,Customer wins,103
 2026-03,Total,2.0,No error found,49
-2026-03,Total,2.0,Withdrawn,1
-2026-03,Total,3.0,Customer favor,14
+2026-03,Total,3.0,Customer wins,14
 2026-03,Total,3.0,No error found,6
-2026-03,Total,4.0,Customer favor,2
-2026-03,Total,5.0,Customer favor,1
-2026-03,Unauthorized,0.0,Customer favor,619
+2026-03,Total,4.0,Customer wins,2
+2026-03,Total,5.0,Customer wins,1
+2026-03,Unauthorized,0.0,Claims withdrawn,95
+2026-03,Unauthorized,0.0,Customer wins,619
 2026-03,Unauthorized,0.0,No error found,183
-2026-03,Unauthorized,0.0,Withdrawn,95
-2026-03,Unauthorized,1.0,Customer favor,685
+2026-03,Unauthorized,1.0,Claims withdrawn,43
+2026-03,Unauthorized,1.0,Customer wins,685
 2026-03,Unauthorized,1.0,No error found,175
-2026-03,Unauthorized,1.0,Withdrawn,43
-2026-03,Unauthorized,2.0,Customer favor,73
+2026-03,Unauthorized,2.0,Customer wins,73
 2026-03,Unauthorized,2.0,No error found,20
-2026-03,Unauthorized,3.0,Customer favor,8
+2026-03,Unauthorized,3.0,Customer wins,8
 2026-03,Unauthorized,3.0,No error found,6
-2026-04,Merchant dispute,0.0,Customer favor,269
+2026-04,Merchant dispute,0.0,Claims withdrawn,51
+2026-04,Merchant dispute,0.0,Customer wins,269
 2026-04,Merchant dispute,0.0,No error found,155
-2026-04,Merchant dispute,0.0,Withdrawn,51
-2026-04,Merchant dispute,1.0,Customer favor,319
+2026-04,Merchant dispute,1.0,Claims withdrawn,22
+2026-04,Merchant dispute,1.0,Customer wins,319
 2026-04,Merchant dispute,1.0,No error found,166
-2026-04,Merchant dispute,1.0,Withdrawn,22
-2026-04,Merchant dispute,2.0,Customer favor,35
+2026-04,Merchant dispute,2.0,Customer wins,35
 2026-04,Merchant dispute,2.0,No error found,24
 2026-04,Merchant dispute,3.0,No error found,2
-2026-04,Processing error,0.0,Customer favor,107
+2026-04,Processing error,0.0,Claims withdrawn,8
+2026-04,Processing error,0.0,Customer wins,107
 2026-04,Processing error,0.0,No error found,38
-2026-04,Processing error,0.0,Withdrawn,8
-2026-04,Processing error,1.0,Customer favor,100
+2026-04,Processing error,1.0,Claims withdrawn,6
+2026-04,Processing error,1.0,Customer wins,100
 2026-04,Processing error,1.0,No error found,38
-2026-04,Processing error,1.0,Withdrawn,6
-2026-04,Processing error,2.0,Customer favor,5
+2026-04,Processing error,2.0,Customer wins,5
 2026-04,Processing error,2.0,No error found,3
-2026-04,Processing error,3.0,Customer favor,4
+2026-04,Processing error,3.0,Customer wins,4
 2026-04,Processing error,3.0,No error found,1
-2026-04,Total,0.0,Customer favor,953
+2026-04,Total,0.0,Claims withdrawn,135
+2026-04,Total,0.0,Customer wins,953
 2026-04,Total,0.0,No error found,336
-2026-04,Total,0.0,Withdrawn,135
-2026-04,Total,1.0,Customer favor,1069
+2026-04,Total,1.0,Claims withdrawn,54
+2026-04,Total,1.0,Customer wins,1069
 2026-04,Total,1.0,No error found,375
-2026-04,Total,1.0,Withdrawn,54
-2026-04,Total,2.0,Customer favor,90
+2026-04,Total,2.0,Claims withdrawn,1
+2026-04,Total,2.0,Customer wins,90
 2026-04,Total,2.0,No error found,32
-2026-04,Total,2.0,Withdrawn,1
-2026-04,Total,3.0,Customer favor,7
+2026-04,Total,3.0,Customer wins,7
 2026-04,Total,3.0,No error found,6
-2026-04,Total,4.0,Customer favor,1
+2026-04,Total,4.0,Customer wins,1
 2026-04,Total,4.0,No error found,1
-2026-04,Total,5.0,Customer favor,1
-2026-04,Unauthorized,0.0,Customer favor,577
+2026-04,Total,5.0,Customer wins,1
+2026-04,Unauthorized,0.0,Claims withdrawn,76
+2026-04,Unauthorized,0.0,Customer wins,577
 2026-04,Unauthorized,0.0,No error found,143
-2026-04,Unauthorized,0.0,Withdrawn,76
-2026-04,Unauthorized,1.0,Customer favor,650
+2026-04,Unauthorized,1.0,Claims withdrawn,26
+2026-04,Unauthorized,1.0,Customer wins,650
 2026-04,Unauthorized,1.0,No error found,171
-2026-04,Unauthorized,1.0,Withdrawn,26
-2026-04,Unauthorized,2.0,Customer favor,50
+2026-04,Unauthorized,2.0,Claims withdrawn,1
+2026-04,Unauthorized,2.0,Customer wins,50
 2026-04,Unauthorized,2.0,No error found,5
-2026-04,Unauthorized,2.0,Withdrawn,1
-2026-04,Unauthorized,3.0,Customer favor,3
+2026-04,Unauthorized,3.0,Customer wins,3
 2026-04,Unauthorized,3.0,No error found,3
-2026-04,Unauthorized,4.0,Customer favor,1
+2026-04,Unauthorized,4.0,Customer wins,1
 2026-04,Unauthorized,4.0,No error found,1
-2026-04,Unauthorized,5.0,Customer favor,1
-2026-05,Merchant dispute,0.0,Customer favor,312
+2026-04,Unauthorized,5.0,Customer wins,1
+2026-05,Merchant dispute,0.0,Claims withdrawn,66
+2026-05,Merchant dispute,0.0,Customer wins,312
 2026-05,Merchant dispute,0.0,No error found,155
-2026-05,Merchant dispute,0.0,Withdrawn,66
-2026-05,Merchant dispute,1.0,Customer favor,352
+2026-05,Merchant dispute,1.0,Claims withdrawn,36
+2026-05,Merchant dispute,1.0,Customer wins,352
 2026-05,Merchant dispute,1.0,No error found,199
-2026-05,Merchant dispute,1.0,Withdrawn,36
-2026-05,Merchant dispute,2.0,Customer favor,38
+2026-05,Merchant dispute,2.0,Claims withdrawn,1
+2026-05,Merchant dispute,2.0,Customer wins,38
 2026-05,Merchant dispute,2.0,No error found,21
-2026-05,Merchant dispute,2.0,Withdrawn,1
 2026-05,Merchant dispute,3.0,No error found,4
-2026-05,Processing error,0.0,Customer favor,88
+2026-05,Processing error,0.0,Claims withdrawn,16
+2026-05,Processing error,0.0,Customer wins,88
 2026-05,Processing error,0.0,No error found,41
-2026-05,Processing error,0.0,Withdrawn,16
-2026-05,Processing error,1.0,Customer favor,99
+2026-05,Processing error,1.0,Claims withdrawn,7
+2026-05,Processing error,1.0,Customer wins,99
 2026-05,Processing error,1.0,No error found,51
-2026-05,Processing error,1.0,Withdrawn,7
-2026-05,Processing error,2.0,Customer favor,8
+2026-05,Processing error,2.0,Customer wins,8
 2026-05,Processing error,2.0,No error found,5
-2026-05,Processing error,3.0,Customer favor,4
-2026-05,Total,0.0,Customer favor,1029
+2026-05,Processing error,3.0,Customer wins,4
+2026-05,Total,0.0,Claims withdrawn,163
+2026-05,Total,0.0,Customer wins,1029
 2026-05,Total,0.0,No error found,379
-2026-05,Total,0.0,Withdrawn,163
-2026-05,Total,1.0,Customer favor,1126
+2026-05,Total,1.0,Claims withdrawn,74
+2026-05,Total,1.0,Customer wins,1126
 2026-05,Total,1.0,No error found,433
-2026-05,Total,1.0,Withdrawn,74
-2026-05,Total,2.0,Customer favor,127
+2026-05,Total,2.0,Claims withdrawn,2
+2026-05,Total,2.0,Customer wins,127
 2026-05,Total,2.0,No error found,43
-2026-05,Total,2.0,Withdrawn,2
-2026-05,Total,3.0,Customer favor,12
+2026-05,Total,3.0,Customer wins,12
 2026-05,Total,3.0,No error found,4
-2026-05,Total,4.0,Customer favor,1
+2026-05,Total,4.0,Customer wins,1
 2026-05,Total,4.0,No error found,1
-2026-05,Total,5.0,Customer favor,2
-2026-05,Unauthorized,0.0,Customer favor,629
+2026-05,Total,5.0,Customer wins,2
+2026-05,Unauthorized,0.0,Claims withdrawn,81
+2026-05,Unauthorized,0.0,Customer wins,629
 2026-05,Unauthorized,0.0,No error found,183
-2026-05,Unauthorized,0.0,Withdrawn,81
-2026-05,Unauthorized,1.0,Customer favor,675
+2026-05,Unauthorized,1.0,Claims withdrawn,31
+2026-05,Unauthorized,1.0,Customer wins,675
 2026-05,Unauthorized,1.0,No error found,183
-2026-05,Unauthorized,1.0,Withdrawn,31
-2026-05,Unauthorized,2.0,Customer favor,81
+2026-05,Unauthorized,2.0,Claims withdrawn,1
+2026-05,Unauthorized,2.0,Customer wins,81
 2026-05,Unauthorized,2.0,No error found,17
-2026-05,Unauthorized,2.0,Withdrawn,1
-2026-05,Unauthorized,3.0,Customer favor,8
-2026-05,Unauthorized,4.0,Customer favor,1
+2026-05,Unauthorized,3.0,Customer wins,8
+2026-05,Unauthorized,4.0,Customer wins,1
 2026-05,Unauthorized,4.0,No error found,1
-2026-05,Unauthorized,5.0,Customer favor,2
-2026-06,Merchant dispute,0.0,Customer favor,300
+2026-05,Unauthorized,5.0,Customer wins,2
+2026-06,Merchant dispute,0.0,Claims withdrawn,66
+2026-06,Merchant dispute,0.0,Customer wins,300
 2026-06,Merchant dispute,0.0,No error found,143
-2026-06,Merchant dispute,0.0,Withdrawn,66
-2026-06,Merchant dispute,1.0,Customer favor,331
+2026-06,Merchant dispute,1.0,Claims withdrawn,27
+2026-06,Merchant dispute,1.0,Customer wins,331
 2026-06,Merchant dispute,1.0,No error found,171
-2026-06,Merchant dispute,1.0,Withdrawn,27
-2026-06,Merchant dispute,2.0,Customer favor,33
+2026-06,Merchant dispute,2.0,Customer wins,33
 2026-06,Merchant dispute,2.0,No error found,12
-2026-06,Merchant dispute,3.0,Customer favor,3
+2026-06,Merchant dispute,3.0,Customer wins,3
 2026-06,Merchant dispute,4.0,No error found,1
-2026-06,Merchant dispute,5.0,Customer favor,1
+2026-06,Merchant dispute,5.0,Customer wins,1
 2026-06,Merchant dispute,5.0,No error found,1
-2026-06,Processing error,0.0,Customer favor,92
+2026-06,Processing error,0.0,Claims withdrawn,13
+2026-06,Processing error,0.0,Customer wins,92
 2026-06,Processing error,0.0,No error found,39
-2026-06,Processing error,0.0,Withdrawn,13
-2026-06,Processing error,1.0,Customer favor,133
+2026-06,Processing error,1.0,Claims withdrawn,7
+2026-06,Processing error,1.0,Customer wins,133
 2026-06,Processing error,1.0,No error found,47
-2026-06,Processing error,1.0,Withdrawn,7
-2026-06,Processing error,2.0,Customer favor,11
+2026-06,Processing error,2.0,Customer wins,11
 2026-06,Processing error,2.0,No error found,10
-2026-06,Processing error,3.0,Customer favor,1
+2026-06,Processing error,3.0,Customer wins,1
 2026-06,Processing error,3.0,No error found,1
-2026-06,Processing error,4.0,Customer favor,1
+2026-06,Processing error,4.0,Customer wins,1
 2026-06,Processing error,4.0,No error found,1
-2026-06,Total,0.0,Customer favor,951
+2026-06,Total,0.0,Claims withdrawn,148
+2026-06,Total,0.0,Customer wins,951
 2026-06,Total,0.0,No error found,339
-2026-06,Total,0.0,Withdrawn,148
-2026-06,Total,1.0,Customer favor,1118
+2026-06,Total,1.0,Claims withdrawn,67
+2026-06,Total,1.0,Customer wins,1118
 2026-06,Total,1.0,No error found,403
-2026-06,Total,1.0,Withdrawn,67
-2026-06,Total,2.0,Customer favor,88
+2026-06,Total,2.0,Customer wins,88
 2026-06,Total,2.0,No error found,31
-2026-06,Total,3.0,Customer favor,16
+2026-06,Total,3.0,Customer wins,16
 2026-06,Total,3.0,No error found,2
-2026-06,Total,4.0,Customer favor,2
+2026-06,Total,4.0,Customer wins,2
 2026-06,Total,4.0,No error found,2
-2026-06,Total,5.0,Customer favor,1
+2026-06,Total,5.0,Customer wins,1
 2026-06,Total,5.0,No error found,1
-2026-06,Unauthorized,0.0,Customer favor,559
+2026-06,Unauthorized,0.0,Claims withdrawn,69
+2026-06,Unauthorized,0.0,Customer wins,559
 2026-06,Unauthorized,0.0,No error found,157
-2026-06,Unauthorized,0.0,Withdrawn,69
-2026-06,Unauthorized,1.0,Customer favor,654
+2026-06,Unauthorized,1.0,Claims withdrawn,33
+2026-06,Unauthorized,1.0,Customer wins,654
 2026-06,Unauthorized,1.0,No error found,185
-2026-06,Unauthorized,1.0,Withdrawn,33
-2026-06,Unauthorized,2.0,Customer favor,44
+2026-06,Unauthorized,2.0,Customer wins,44
 2026-06,Unauthorized,2.0,No error found,9
-2026-06,Unauthorized,3.0,Customer favor,12
+2026-06,Unauthorized,3.0,Customer wins,12
 2026-06,Unauthorized,3.0,No error found,1
-2026-06,Unauthorized,4.0,Customer favor,1
-2026-07,Merchant dispute,0.0,Customer favor,338
+2026-06,Unauthorized,4.0,Customer wins,1
+2026-07,Merchant dispute,0.0,Claims withdrawn,69
+2026-07,Merchant dispute,0.0,Customer wins,338
 2026-07,Merchant dispute,0.0,No error found,157
-2026-07,Merchant dispute,0.0,Withdrawn,69
-2026-07,Merchant dispute,1.0,Customer favor,337
+2026-07,Merchant dispute,1.0,Claims withdrawn,29
+2026-07,Merchant dispute,1.0,Customer wins,337
 2026-07,Merchant dispute,1.0,No error found,206
-2026-07,Merchant dispute,1.0,Withdrawn,29
-2026-07,Merchant dispute,2.0,Customer favor,38
+2026-07,Merchant dispute,2.0,Claims withdrawn,1
+2026-07,Merchant dispute,2.0,Customer wins,38
 2026-07,Merchant dispute,2.0,No error found,11
-2026-07,Merchant dispute,2.0,Withdrawn,1
-2026-07,Merchant dispute,3.0,Customer favor,3
+2026-07,Merchant dispute,3.0,Customer wins,3
 2026-07,Merchant dispute,3.0,No error found,1
-2026-07,Processing error,0.0,Customer favor,87
+2026-07,Processing error,0.0,Claims withdrawn,12
+2026-07,Processing error,0.0,Customer wins,87
 2026-07,Processing error,0.0,No error found,30
-2026-07,Processing error,0.0,Withdrawn,12
-2026-07,Processing error,1.0,Customer favor,116
+2026-07,Processing error,1.0,Claims withdrawn,4
+2026-07,Processing error,1.0,Customer wins,116
 2026-07,Processing error,1.0,No error found,37
-2026-07,Processing error,1.0,Withdrawn,4
-2026-07,Processing error,2.0,Customer favor,10
+2026-07,Processing error,2.0,Customer wins,10
 2026-07,Processing error,2.0,No error found,4
-2026-07,Total,0.0,Customer favor,1054
+2026-07,Total,0.0,Claims withdrawn,156
+2026-07,Total,0.0,Customer wins,1054
 2026-07,Total,0.0,No error found,359
-2026-07,Total,0.0,Withdrawn,156
-2026-07,Total,1.0,Customer favor,1185
+2026-07,Total,1.0,Claims withdrawn,55
+2026-07,Total,1.0,Customer wins,1185
 2026-07,Total,1.0,No error found,460
-2026-07,Total,1.0,Withdrawn,55
-2026-07,Total,2.0,Customer favor,104
+2026-07,Total,2.0,Claims withdrawn,1
+2026-07,Total,2.0,Customer wins,104
 2026-07,Total,2.0,No error found,29
-2026-07,Total,2.0,Withdrawn,1
-2026-07,Total,3.0,Customer favor,11
+2026-07,Total,3.0,Customer wins,11
 2026-07,Total,3.0,No error found,2
-2026-07,Total,4.0,Customer favor,2
-2026-07,Unauthorized,0.0,Customer favor,629
+2026-07,Total,4.0,Customer wins,2
+2026-07,Unauthorized,0.0,Claims withdrawn,75
+2026-07,Unauthorized,0.0,Customer wins,629
 2026-07,Unauthorized,0.0,No error found,172
-2026-07,Unauthorized,0.0,Withdrawn,75
-2026-07,Unauthorized,1.0,Customer favor,732
+2026-07,Unauthorized,1.0,Claims withdrawn,22
+2026-07,Unauthorized,1.0,Customer wins,732
 2026-07,Unauthorized,1.0,No error found,217
-2026-07,Unauthorized,1.0,Withdrawn,22
-2026-07,Unauthorized,2.0,Customer favor,56
+2026-07,Unauthorized,2.0,Customer wins,56
 2026-07,Unauthorized,2.0,No error found,14
-2026-07,Unauthorized,3.0,Customer favor,8
+2026-07,Unauthorized,3.0,Customer wins,8
 2026-07,Unauthorized,3.0,No error found,1
-2026-07,Unauthorized,4.0,Customer favor,2
-2026-08,Merchant dispute,0.0,Customer favor,275
+2026-07,Unauthorized,4.0,Customer wins,2
+2026-08,Merchant dispute,0.0,Claims withdrawn,62
+2026-08,Merchant dispute,0.0,Customer wins,275
 2026-08,Merchant dispute,0.0,No error found,171
-2026-08,Merchant dispute,0.0,Withdrawn,62
-2026-08,Merchant dispute,1.0,Customer favor,389
+2026-08,Merchant dispute,1.0,Claims withdrawn,36
+2026-08,Merchant dispute,1.0,Customer wins,389
 2026-08,Merchant dispute,1.0,No error found,172
-2026-08,Merchant dispute,1.0,Withdrawn,36
-2026-08,Merchant dispute,2.0,Customer favor,40
+2026-08,Merchant dispute,2.0,Customer wins,40
 2026-08,Merchant dispute,2.0,No error found,26
-2026-08,Merchant dispute,3.0,Customer favor,4
+2026-08,Merchant dispute,3.0,Customer wins,4
 2026-08,Merchant dispute,3.0,No error found,2
-2026-08,Processing error,0.0,Customer favor,96
+2026-08,Processing error,0.0,Claims withdrawn,16
+2026-08,Processing error,0.0,Customer wins,96
 2026-08,Processing error,0.0,No error found,41
-2026-08,Processing error,0.0,Withdrawn,16
-2026-08,Processing error,1.0,Customer favor,108
+2026-08,Processing error,1.0,Claims withdrawn,5
+2026-08,Processing error,1.0,Customer wins,108
 2026-08,Processing error,1.0,No error found,49
-2026-08,Processing error,1.0,Withdrawn,5
-2026-08,Processing error,2.0,Customer favor,17
+2026-08,Processing error,2.0,Customer wins,17
 2026-08,Processing error,2.0,No error found,2
-2026-08,Total,0.0,Customer favor,999
+2026-08,Total,0.0,Claims withdrawn,148
+2026-08,Total,0.0,Customer wins,999
 2026-08,Total,0.0,No error found,393
-2026-08,Total,0.0,Withdrawn,148
-2026-08,Total,1.0,Customer favor,1137
+2026-08,Total,1.0,Claims withdrawn,64
+2026-08,Total,1.0,Customer wins,1137
 2026-08,Total,1.0,No error found,384
-2026-08,Total,1.0,Withdrawn,64
-2026-08,Total,2.0,Customer favor,127
+2026-08,Total,2.0,Customer wins,127
 2026-08,Total,2.0,No error found,41
-2026-08,Total,3.0,Customer favor,11
+2026-08,Total,3.0,Customer wins,11
 2026-08,Total,3.0,No error found,3
-2026-08,Unauthorized,0.0,Customer favor,628
+2026-08,Unauthorized,0.0,Claims withdrawn,70
+2026-08,Unauthorized,0.0,Customer wins,628
 2026-08,Unauthorized,0.0,No error found,181
-2026-08,Unauthorized,0.0,Withdrawn,70
-2026-08,Unauthorized,1.0,Customer favor,640
+2026-08,Unauthorized,1.0,Claims withdrawn,23
+2026-08,Unauthorized,1.0,Customer wins,640
 2026-08,Unauthorized,1.0,No error found,163
-2026-08,Unauthorized,1.0,Withdrawn,23
-2026-08,Unauthorized,2.0,Customer favor,70
+2026-08,Unauthorized,2.0,Customer wins,70
 2026-08,Unauthorized,2.0,No error found,13
-2026-08,Unauthorized,3.0,Customer favor,7
+2026-08,Unauthorized,3.0,Customer wins,7
 2026-08,Unauthorized,3.0,No error found,1
-2026-09,Merchant dispute,0.0,Customer favor,300
+2026-09,Merchant dispute,0.0,Claims withdrawn,75
+2026-09,Merchant dispute,0.0,Customer wins,300
 2026-09,Merchant dispute,0.0,No error found,173
-2026-09,Merchant dispute,0.0,Withdrawn,75
-2026-09,Merchant dispute,1.0,Customer favor,359
+2026-09,Merchant dispute,1.0,Claims withdrawn,26
+2026-09,Merchant dispute,1.0,Customer wins,359
 2026-09,Merchant dispute,1.0,No error found,194
-2026-09,Merchant dispute,1.0,Withdrawn,26
-2026-09,Merchant dispute,2.0,Customer favor,29
+2026-09,Merchant dispute,2.0,Customer wins,29
 2026-09,Merchant dispute,2.0,No error found,12
-2026-09,Processing error,0.0,Customer favor,101
+2026-09,Processing error,0.0,Claims withdrawn,14
+2026-09,Processing error,0.0,Customer wins,101
 2026-09,Processing error,0.0,No error found,40
-2026-09,Processing error,0.0,Withdrawn,14
-2026-09,Processing error,1.0,Customer favor,119
+2026-09,Processing error,1.0,Claims withdrawn,4
+2026-09,Processing error,1.0,Customer wins,119
 2026-09,Processing error,1.0,No error found,40
-2026-09,Processing error,1.0,Withdrawn,4
-2026-09,Processing error,2.0,Customer favor,9
+2026-09,Processing error,2.0,Customer wins,9
 2026-09,Processing error,2.0,No error found,4
-2026-09,Total,0.0,Customer favor,962
+2026-09,Total,0.0,Claims withdrawn,159
+2026-09,Total,0.0,Customer wins,962
 2026-09,Total,0.0,No error found,381
-2026-09,Total,0.0,Withdrawn,159
-2026-09,Total,1.0,Customer favor,1138
+2026-09,Total,1.0,Claims withdrawn,65
+2026-09,Total,1.0,Customer wins,1138
 2026-09,Total,1.0,No error found,401
-2026-09,Total,1.0,Withdrawn,65
-2026-09,Total,2.0,Customer favor,84
+2026-09,Total,2.0,Claims withdrawn,1
+2026-09,Total,2.0,Customer wins,84
 2026-09,Total,2.0,No error found,31
-2026-09,Total,2.0,Withdrawn,1
-2026-09,Unauthorized,0.0,Customer favor,561
+2026-09,Unauthorized,0.0,Claims withdrawn,70
+2026-09,Unauthorized,0.0,Customer wins,561
 2026-09,Unauthorized,0.0,No error found,168
-2026-09,Unauthorized,0.0,Withdrawn,70
-2026-09,Unauthorized,1.0,Customer favor,660
+2026-09,Unauthorized,1.0,Claims withdrawn,35
+2026-09,Unauthorized,1.0,Customer wins,660
 2026-09,Unauthorized,1.0,No error found,167
-2026-09,Unauthorized,1.0,Withdrawn,35
-2026-09,Unauthorized,2.0,Customer favor,46
+2026-09,Unauthorized,2.0,Claims withdrawn,1
+2026-09,Unauthorized,2.0,Customer wins,46
 2026-09,Unauthorized,2.0,No error found,15
-2026-09,Unauthorized,2.0,Withdrawn,1
-2026-10,Merchant dispute,0.0,Customer favor,332
+2026-10,Merchant dispute,0.0,Claims withdrawn,85
+2026-10,Merchant dispute,0.0,Customer wins,332
 2026-10,Merchant dispute,0.0,No error found,158
-2026-10,Merchant dispute,0.0,Withdrawn,85
-2026-10,Merchant dispute,1.0,Customer favor,363
+2026-10,Merchant dispute,1.0,Claims withdrawn,45
+2026-10,Merchant dispute,1.0,Customer wins,363
 2026-10,Merchant dispute,1.0,No error found,178
-2026-10,Merchant dispute,1.0,Withdrawn,45
-2026-10,Processing error,0.0,Customer favor,102
+2026-10,Processing error,0.0,Claims withdrawn,17
+2026-10,Processing error,0.0,Customer wins,102
 2026-10,Processing error,0.0,No error found,40
-2026-10,Processing error,0.0,Withdrawn,17
-2026-10,Processing error,1.0,Customer favor,106
+2026-10,Processing error,1.0,Claims withdrawn,5
+2026-10,Processing error,1.0,Customer wins,106
 2026-10,Processing error,1.0,No error found,30
-2026-10,Processing error,1.0,Withdrawn,5
-2026-10,Total,0.0,Customer favor,1090
+2026-10,Total,0.0,Claims withdrawn,177
+2026-10,Total,0.0,Customer wins,1090
 2026-10,Total,0.0,No error found,378
-2026-10,Total,0.0,Withdrawn,177
-2026-10,Total,1.0,Customer favor,1067
+2026-10,Total,1.0,Claims withdrawn,86
+2026-10,Total,1.0,Customer wins,1067
 2026-10,Total,1.0,No error found,408
-2026-10,Total,1.0,Withdrawn,86
-2026-10,Unauthorized,0.0,Customer favor,656
+2026-10,Unauthorized,0.0,Claims withdrawn,75
+2026-10,Unauthorized,0.0,Customer wins,656
 2026-10,Unauthorized,0.0,No error found,180
-2026-10,Unauthorized,0.0,Withdrawn,75
-2026-10,Unauthorized,1.0,Customer favor,598
+2026-10,Unauthorized,1.0,Claims withdrawn,36
+2026-10,Unauthorized,1.0,Customer wins,598
 2026-10,Unauthorized,1.0,No error found,200
-2026-10,Unauthorized,1.0,Withdrawn,36
-2026-11,Merchant dispute,0.0,Customer favor,280
+2026-11,Merchant dispute,0.0,Claims withdrawn,101
+2026-11,Merchant dispute,0.0,Customer wins,280
 2026-11,Merchant dispute,0.0,No error found,165
-2026-11,Merchant dispute,0.0,Withdrawn,101
-2026-11,Processing error,0.0,Customer favor,91
+2026-11,Processing error,0.0,Claims withdrawn,22
+2026-11,Processing error,0.0,Customer wins,91
 2026-11,Processing error,0.0,No error found,58
-2026-11,Processing error,0.0,Withdrawn,22
-2026-11,Total,0.0,Customer favor,953
+2026-11,Total,0.0,Claims withdrawn,209
+2026-11,Total,0.0,Customer wins,953
 2026-11,Total,0.0,No error found,386
-2026-11,Total,0.0,Withdrawn,209
-2026-11,Unauthorized,0.0,Customer favor,582
+2026-11,Unauthorized,0.0,Claims withdrawn,86
+2026-11,Unauthorized,0.0,Customer wins,582
 2026-11,Unauthorized,0.0,No error found,163
-2026-11,Unauthorized,0.0,Withdrawn,86

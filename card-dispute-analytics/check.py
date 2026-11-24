@@ -118,6 +118,8 @@ def main() -> None:
             if not np.allclose(f[r["id"]], expect, equal_nan=True):
                 bad.append(r["id"])
     check(not bad, "every rate = numerator / denominator" + (f" (bad: {bad})" if bad else ""))
+    check(all(r["direction"] in ("higher", "lower") and isinstance(r["target"], (int, float)) and r["target"] > 0
+              for r in data["rates"]), "every rate has a target and a higher/lower direction")
     check(len(data["funnel_month"]) == len(fm) and len(data["funnel_week"]) == len(fw),
           "data.json matches the aggregate CSVs")
 

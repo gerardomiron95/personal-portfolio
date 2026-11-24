@@ -7,46 +7,46 @@ Reg E resolution deadline,Scope,45 days standard; 90 days for new accounts (open
 Cardholder notice,Scope,Within 3 business days of resolution,Customers are told the outcome within 3 business days.
 Chargeback window,Scope,Generic network rule: filed within 120 days of the transaction,How long the bank has to dispute a charge with the merchant's bank.
 Mature data,Scope,A cohort month is mature when its Total resolved_rate >= 98%; a week is mature when every month it touches is mature; months older than the maturation table are mature,"Recent periods still have open claims, so their rates are not final yet."
-Window average,Scope,SUM(numerator) / SUM(denominator) over the periods shown,"The dashed line and the table shading use a true average, not an average of averages."
+Monthly targets,Scope,"Fixed per rate (see each rate below); met = at or above a higher-is-better target, at or below a lower-is-better target",Northwind's goal for each rate: the dashed line on the trend charts and the green / red table shading.
 period_start,Keys,Month: first day of the month. Week: the Monday that starts the week,The period a row covers.
 card_transactions,Intake,SUM(card_volume_daily.card_transactions) for days in the period,Every card transaction in the period: the denominator for the claim rate.
 card_dollars,Intake,SUM(card_volume_daily.card_dollars) for days in the period,Total card spending in the period.
-credited_amount,Losses,SUM(claimed_amount) for customer-favor claims,Money permanently credited back to customers.
+credited_amount,Losses,SUM(claimed_amount) for customer-win claims,Money permanently credited back to customers.
 recovered_amount,Losses,SUM(chargebacks.recovered_amount),Money won back from merchants' banks through chargebacks.
-written_off_amount,Losses,SUM(claimed_amount - recovered_amount) for customer-favor claims with no pending chargeback,Money the bank absorbed as a loss.
+written_off_amount,Losses,SUM(claimed_amount - recovered_amount) for customer-win claims with no pending chargeback,Money the bank absorbed as a loss.
 claims,Intake,COUNT(claims) by received date; transactions = COUNT(claim_transactions); $ = SUM(claimed_amount),Dispute claims customers opened in the period.
 claim_transactions,Intake,Disputed transactions on the claims counted in claims,"Dispute claims customers opened in the period, counted by transaction."
 claimed_amount,Intake,Dollar amount of the claims counted in claims,"Dispute claims customers opened in the period, in dollars."
 open_claims,Intake,Claims with current status Open,Claims from this period that are not resolved yet.
 open_claims_txns,Intake,Disputed transactions on the claims counted in open_claims,"Claims from this period that are not resolved yet, counted by transaction."
 open_claims_amount,Intake,Dollar amount of the claims counted in open_claims,"Claims from this period that are not resolved yet, in dollars."
-withdrawn_claims,Intake,Claims with current status Withdrawn,Claims the customer withdrew before a decision.
-withdrawn_claims_txns,Intake,Disputed transactions on the claims counted in withdrawn_claims,"Claims the customer withdrew before a decision, counted by transaction."
-withdrawn_claims_amount,Intake,Dollar amount of the claims counted in withdrawn_claims,"Claims the customer withdrew before a decision, in dollars."
-pc_required,Provisional credit,"Claims still open at the end of business day 10 after notice (weekends skipped), counted once day 10 has passed","Claims that ran past 10 business days, so Reg E requires a temporary credit."
-pc_required_txns,Provisional credit,Disputed transactions on the claims counted in pc_required,"Claims that ran past 10 business days, so Reg E requires a temporary credit, counted by transaction."
-pc_required_amount,Provisional credit,Dollar amount of the claims counted in pc_required,"Claims that ran past 10 business days, so Reg E requires a temporary credit, in dollars."
+claims_withdrawn,Intake,Claims with current status Withdrawn,Claims the customer withdrew before a decision.
+claims_withdrawn_txns,Intake,Disputed transactions on the claims counted in claims_withdrawn,"Claims the customer withdrew before a decision, counted by transaction."
+claims_withdrawn_amount,Intake,Dollar amount of the claims counted in claims_withdrawn,"Claims the customer withdrew before a decision, in dollars."
+pc_due,Provisional credit,"Claims still open at the end of business day 10 after notice (weekends skipped), counted once day 10 has passed","Claims that ran past 10 business days, so Reg E requires a temporary credit."
+pc_due_txns,Provisional credit,Disputed transactions on the claims counted in pc_due,"Claims that ran past 10 business days, so Reg E requires a temporary credit, counted by transaction."
+pc_due_amount,Provisional credit,Dollar amount of the claims counted in pc_due,"Claims that ran past 10 business days, so Reg E requires a temporary credit, in dollars."
 pc_issued,Provisional credit,Claims with a row in provisional_credits; $ = SUM(provisional credit amount),Claims where the customer received a temporary credit.
 pc_issued_txns,Provisional credit,Disputed transactions on the claims counted in pc_issued,"Claims where the customer received a temporary credit, counted by transaction."
 pc_issued_amount,Provisional credit,Dollar amount of the claims counted in pc_issued,"Claims where the customer received a temporary credit, in dollars."
-pc_within_10bd,Provisional credit,Credit-required claims whose credit was issued by the end of business day 10,Temporary credits that went out on time.
+pc_within_10bd,Provisional credit,Claims due a provisional credit whose credit was issued by the end of business day 10,Temporary credits that went out on time.
 pc_within_10bd_txns,Provisional credit,Disputed transactions on the claims counted in pc_within_10bd,"Temporary credits that went out on time, counted by transaction."
 pc_within_10bd_amount,Provisional credit,Dollar amount of the claims counted in pc_within_10bd,"Temporary credits that went out on time, in dollars."
-pc_made_permanent,Provisional credit,Provisional credits with final_status = Made permanent,Temporary credits the customer keeps because the claim went their way.
-pc_made_permanent_txns,Provisional credit,Disputed transactions on the claims counted in pc_made_permanent,"Temporary credits the customer keeps because the claim went their way, counted by transaction."
-pc_made_permanent_amount,Provisional credit,Dollar amount of the claims counted in pc_made_permanent,"Temporary credits the customer keeps because the claim went their way, in dollars."
+pc_kept_by_customer,Provisional credit,Provisional credits with final_status = Kept by customer,Temporary credits the customer keeps because the claim went their way.
+pc_kept_by_customer_txns,Provisional credit,Disputed transactions on the claims counted in pc_kept_by_customer,"Temporary credits the customer keeps because the claim went their way, counted by transaction."
+pc_kept_by_customer_amount,Provisional credit,Dollar amount of the claims counted in pc_kept_by_customer,"Temporary credits the customer keeps because the claim went their way, in dollars."
 pc_reversed,Provisional credit,Provisional credits with final_status = Reversed,Temporary credits taken back because no error was found or the claim was withdrawn.
 pc_reversed_txns,Provisional credit,Disputed transactions on the claims counted in pc_reversed,"Temporary credits taken back because no error was found or the claim was withdrawn, counted by transaction."
 pc_reversed_amount,Provisional credit,Dollar amount of the claims counted in pc_reversed,"Temporary credits taken back because no error was found or the claim was withdrawn, in dollars."
-pc_finalized,Provisional credit,pc_made_permanent + pc_reversed,Temporary credits with a final decision.
+pc_finalized,Provisional credit,pc_kept_by_customer + pc_reversed,Temporary credits with a final decision.
 pc_finalized_txns,Provisional credit,Disputed transactions on the claims counted in pc_finalized,"Temporary credits with a final decision, counted by transaction."
 pc_finalized_amount,Provisional credit,Dollar amount of the claims counted in pc_finalized,"Temporary credits with a final decision, in dollars."
-resolved_claims,Resolution,Claims with status Resolved - customer favor or Resolved - no error found (withdrawals excluded),Claims that reached a decision.
+resolved_claims,Resolution,Claims with status Resolved - customer win or Resolved - no error found (withdrawals excluded),Claims that reached a decision.
 resolved_claims_txns,Resolution,Disputed transactions on the claims counted in resolved_claims,"Claims that reached a decision, counted by transaction."
 resolved_claims_amount,Resolution,Dollar amount of the claims counted in resolved_claims,"Claims that reached a decision, in dollars."
-resolved_customer_favor,Resolution,Claims with status Resolved - customer favor,Claims decided in the customer's favor.
-resolved_customer_favor_txns,Resolution,Disputed transactions on the claims counted in resolved_customer_favor,"Claims decided in the customer's favor, counted by transaction."
-resolved_customer_favor_amount,Resolution,Dollar amount of the claims counted in resolved_customer_favor,"Claims decided in the customer's favor, in dollars."
+customer_wins,Resolution,Claims with status Resolved - customer win,Claims decided in the customer's favor.
+customer_wins_txns,Resolution,Disputed transactions on the claims counted in customer_wins,"Claims decided in the customer's favor, counted by transaction."
+customer_wins_amount,Resolution,Dollar amount of the claims counted in customer_wins,"Claims decided in the customer's favor, in dollars."
 resolved_no_error,Resolution,Claims with status Resolved - no error found,Claims where the investigation found no error.
 resolved_no_error_txns,Resolution,Disputed transactions on the claims counted in resolved_no_error,"Claims where the investigation found no error, counted by transaction."
 resolved_no_error_amount,Resolution,Dollar amount of the claims counted in resolved_no_error,"Claims where the investigation found no error, in dollars."
@@ -62,20 +62,21 @@ chargebacks_decided_amount,Chargebacks,Dollar amount of the claims counted in ch
 chargebacks_won,Chargebacks,Chargebacks with network_outcome Won,Chargebacks where the money came back from the merchant's bank.
 chargebacks_won_txns,Chargebacks,Disputed transactions on the claims counted in chargebacks_won,"Chargebacks where the money came back from the merchant's bank, counted by transaction."
 chargebacks_won_amount,Chargebacks,Dollar amount of the claims counted in chargebacks_won,"Chargebacks where the money came back from the merchant's bank, in dollars."
-written_off_claims,Losses,Customer-favor claims with no pending chargeback and recovered < claimed,Claims where the bank absorbed at least part of the credit.
+written_off_claims,Losses,Customer-win claims with no pending chargeback and recovered < claimed,Claims where the bank absorbed at least part of the credit.
 written_off_claims_txns,Losses,Disputed transactions on the claims counted in written_off_claims,"Claims where the bank absorbed at least part of the credit, counted by transaction."
 written_off_claims_amount,Losses,Dollar amount of the claims counted in written_off_claims,"Claims where the bank absorbed at least part of the credit, in dollars."
-claim_rate,Rates,claim_transactions / card_transactions,"Disputed transactions per 10,000 card transactions. Lower is better. Shown per 10,000 transactions."
-on_time_resolution_rate,Rates,resolved_within_deadline / resolved_claims,Share of decisions reached inside the 45- or 90-day deadline. Higher is better.
-pc_timeliness_rate,Rates,pc_within_10bd / pc_required,Share of required temporary credits issued by business day 10. Higher is better.
-pc_rate,Rates,pc_issued / claims,Share of claims that received a temporary credit. Neutral.
-pc_reversal_rate,Rates,pc_reversed / pc_finalized,Share of finalized temporary credits that were taken back. Neutral.
-customer_favor_rate,Rates,resolved_customer_favor / resolved_claims,Share of decisions that went the customer's way. Neutral.
-chargeback_rate,Rates,chargebacks_filed / resolved_customer_favor,Chargebacks filed per customer-favor decision. Higher is better.
-chargeback_win_rate,Rates,chargebacks_won / chargebacks_decided,Share of decided chargebacks the bank won. Higher is better.
-withdrawal_rate,Rates,withdrawn_claims / claims,Share of claims the customer withdrew. Neutral.
-recovery_rate,Rates,recovered_amount / credited_amount,Share of money credited to customers that came back through chargebacks. Higher is better.
-write_off_rate,Rates,written_off_amount / claimed_amount,Share of disputed dollars the bank absorbed as a loss. Lower is better.
+claim_rate,Rates,"claim_transactions / card_transactions; monthly target <= 45 per 10,000","Disputed transactions per 10,000 card transactions. Lower is better. Target: at most 45 per 10,000. Shown per 10,000 transactions."
+on_time_resolution_rate,Rates,resolved_within_deadline / resolved_claims; monthly target >= 98.0%,Share of decisions reached inside the 45- or 90-day deadline. Higher is better. Target: at least 98.0%.
+pc_timeliness_rate,Rates,pc_within_10bd / pc_due; monthly target >= 97.5%,Share of required temporary credits issued by business day 10. Higher is better. Target: at least 97.5%.
+pc_rate,Rates,pc_issued / claims; monthly target <= 49.0%,Share of claims that received a temporary credit; lower means more claims resolved inside 10 business days. Lower is better. Target: at most 49.0%.
+pc_reversal_rate,Rates,pc_reversed / pc_finalized; monthly target <= 28.0%,Share of finalized temporary credits that were taken back. Lower is better. Target: at most 28.0%.
+customer_win_rate,Rates,customer_wins / resolved_claims; monthly target <= 73.5%,Share of decisions that went the customer's way; a rise can signal fraud or merchant problems. Lower is better. Target: at most 73.5%.
+chargeback_rate,Rates,chargebacks_filed / customer_wins; monthly target >= 36.5%,Chargebacks filed per customer win. Higher is better. Target: at least 36.5%.
+chargeback_win_rate,Rates,chargebacks_won / chargebacks_decided; monthly target >= 60.0%,Share of decided chargebacks the bank won. Higher is better. Target: at least 60.0%.
+withdrawal_rate,Rates,claims_withdrawn / claims; monthly target <= 7.0%,Share of claims the customer withdrew. Lower is better. Target: at most 7.0%.
+recovery_rate,Rates,recovered_amount / credited_amount; monthly target >= 22.0%,Share of money credited to customers that came back through chargebacks. Higher is better. Target: at least 22.0%.
+loss_rate,Rates,written_off_claims / customer_wins; monthly target <= 78.0%,Share of customer wins where the bank absorbed at least part of the credit. Lower is better. Target: at most 78.0%.
+write_off_rate,Rates,written_off_amount / claimed_amount; monthly target <= 53.0%,Share of disputed dollars the bank absorbed as a loss. Lower is better. Target: at most 53.0%.
 cohort_month,Resolution timing,Month the claim was received (YYYY-MM),The group of claims a heatmap row follows.
 M0_count … M6_count,Resolution timing,Claims resolved or withdrawn 0…6 calendar months after the received month; blank when that month is in the future,How many claims closed in each month.
 M0_rate … M6_rate,Resolution timing,Mi_count / claims,Share of the cohort that closed in each month.

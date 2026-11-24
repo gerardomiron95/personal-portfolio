@@ -1,0 +1,17 @@
+{
+  "issuer": "Northwind Bank",
+  "seed": 42,
+  "start": "2025-01-01",
+  "as_of": "2026-11-24",
+  "accounts": 150000,
+  "claims": 80000,
+  "rows": {
+    "accounts": 150000,
+    "card_volume_daily": 5536,
+    "claims": 80000,
+    "claim_transactions": 122941,
+    "claim_events": 418470,
+    "provisional_credits": 37688,
+    "chargebacks": 29806
+  }
+}

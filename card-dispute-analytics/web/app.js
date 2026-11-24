@@ -9,7 +9,7 @@
   const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
   const DEFAULT_METRICS = ['claim_rate', 'on_time_resolution_rate', 'pc_timeliness_rate',
-    'customer_favor_rate', 'chargeback_win_rate', 'withdrawal_rate'];
+    'customer_win_rate', 'chargeback_win_rate', 'withdrawal_rate'];
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const REASONS = ['Total', 'Unauthorized', 'Merchant dispute', 'Processing error'];
   const TABLE_TABS = ['counts', 'dollars'];
@@ -19,23 +19,23 @@
   // card = transactions only, d = dollars, r = rate row.
   const COUNT_LAYOUT = [
     ['Intake', [['m', 'claims'], ['card', 'card_transactions'], ['r', 'claim_rate'],
-      ['m', 'open_claims'], ['m', 'withdrawn_claims'], ['r', 'withdrawal_rate']]],
-    ['Provisional credit', [['m', 'pc_required'], ['m', 'pc_issued'], ['m', 'pc_within_10bd'],
-      ['m', 'pc_made_permanent'], ['m', 'pc_reversed'],
+      ['m', 'open_claims'], ['m', 'claims_withdrawn'], ['r', 'withdrawal_rate']]],
+    ['Provisional credit', [['m', 'pc_due'], ['m', 'pc_issued'], ['m', 'pc_within_10bd'],
+      ['m', 'pc_kept_by_customer'], ['m', 'pc_reversed'],
       ['r', 'pc_rate'], ['r', 'pc_timeliness_rate'], ['r', 'pc_reversal_rate']]],
-    ['Resolution', [['m', 'resolved_claims'], ['m', 'resolved_customer_favor'], ['m', 'resolved_no_error'],
-      ['m', 'resolved_within_deadline'], ['r', 'customer_favor_rate'], ['r', 'on_time_resolution_rate']]],
+    ['Resolution', [['m', 'resolved_claims'], ['m', 'customer_wins'], ['m', 'resolved_no_error'],
+      ['m', 'resolved_within_deadline'], ['r', 'customer_win_rate'], ['r', 'on_time_resolution_rate']]],
     ['Chargebacks', [['m', 'chargebacks_filed'], ['m', 'chargebacks_decided'], ['m', 'chargebacks_won'],
       ['r', 'chargeback_rate'], ['r', 'chargeback_win_rate']]],
-    ['Losses', [['m', 'written_off_claims']]],
+    ['Losses', [['r', 'loss_rate']]],
   ];
   const DOLLAR_LAYOUT = [
     ['Intake', [['d', 'card_dollars', 'Card spending'], ['d', 'claimed_amount', 'Claimed'],
-      ['d', 'open_claims_amount', 'Still open'], ['d', 'withdrawn_claims_amount', 'Withdrawn']]],
-    ['Provisional credit', [['d', 'pc_issued_amount', 'Credit issued'],
-      ['d', 'pc_made_permanent_amount', 'Made permanent'], ['d', 'pc_reversed_amount', 'Reversed']]],
+      ['d', 'open_claims_amount', 'Open claims'], ['d', 'claims_withdrawn_amount', 'Claims withdrawn']]],
+    ['Provisional credit', [['d', 'pc_issued_amount', 'Provisional credits issued'],
+      ['d', 'pc_kept_by_customer_amount', 'Provisional credits kept by customer'], ['d', 'pc_reversed_amount', 'Reversed']]],
     ['Resolution', [['d', 'resolved_claims_amount', 'Resolved'],
-      ['d', 'resolved_customer_favor_amount', 'Customer favor'], ['d', 'resolved_no_error_amount', 'No error found']]],
+      ['d', 'customer_wins_amount', 'Customer wins'], ['d', 'resolved_no_error_amount', 'No error found']]],
     ['Chargebacks', [['d', 'chargebacks_filed_amount', 'Chargebacks filed'],
       ['d', 'chargebacks_won_amount', 'Chargebacks won'], ['d', 'recovered_amount', 'Recovered'],
       ['r', 'recovery_rate']]],
@@ -76,7 +76,6 @@
   const fmtScaled = (r, v, digits = 2) => (v == null ? '–'
     : r.format === 'per10k' ? v.toFixed(digits) : `${v.toFixed(digits)}%`);
   const fmtRate = (r, v, digits = 2) => fmtScaled(r, scaleRate(r, v), digits);
-  const signedPct = (x) => `${x >= 0 ? '+' : '−'}${Math.abs(x * 100).toFixed(1)}%`;
 
   // ------------------------------------------------------------------ data helpers
   const byPeriod = (a, b) => (a.period_start < b.period_start ? -1 : a.period_start > b.period_start ? 1 : 0);
@@ -97,13 +96,8 @@
     return isMonthMature(start.slice(0, 7)) && isMonthMature(end.slice(0, 7));
   }
 
-  /** Window average = SUM(numerator) / SUM(denominator), never an average of rates. */
-  function windowAvg(rows, id) {
-    const r = RATE[id];
-    let num = 0; let den = 0;
-    rows.forEach((x) => { num += x[r.num] || 0; den += x[r.den] || 0; });
-    return den > 0 ? num / den : null;
-  }
+  /** "Target ≥ 98.00%" / "Target ≤ 45.00": the side of the target that counts as met. */
+  const targetText = (r) => `Target ${r.direction === 'higher' ? '≥' : '≤'} ${fmtRate(r, r.target)}`;
 
   function isPartial(row, grain) {
     if (grain === 'month') {
@@ -131,7 +125,7 @@
     D.funnel_week.sort(byPeriod);
     RATE = Object.fromEntries(D.rates.map((r) => [r.id, r]));
     palette = {
-      primary: cssVar('--primary'), prior: cssVar('--prior'), muted: cssVar('--muted'),
+      primary: cssVar('--primary'), prior: cssVar('--prior'), muted: cssVar('--muted'), miss: cssVar('--miss'),
       border: cssVar('--border'), ink: cssVar('--ink'), card: cssVar('--card'),
     };
     D.resolution_maturation.filter((r) => r.reason_category === 'Total')
@@ -323,7 +317,7 @@
     grid.innerHTML = ids.map((id) => `
       <div class="card chart-card">
         <h3>${esc(RATE[id].label)}</h3>
-        <p>${esc(RATE[id].description)}</p>
+        <p>${esc(RATE[id].description)} <strong>${esc(targetText(RATE[id]))}</strong> (dashed line); red points missed it.</p>
         <div class="chart-box"><canvas data-metric="${id}" aria-label="${esc(RATE[id].label)} trend" role="img"></canvas></div>
       </div>`).join('');
     $$('canvas[data-metric]', grid).forEach((cv) => charts.push(lineChart(cv, RATE[cv.dataset.metric], shown)));
@@ -332,7 +326,22 @@
   function lineChart(canvas, r, rows) {
     const labels = rows.map((x) => axisLabel(x.period_start));
     const values = rows.map((x) => scaleRate(r, x[r.id]));
-    const avg = scaleRate(r, windowAvg(rows, r.id));
+    const target = scaleRate(r, r.target);
+    // Points that miss the target are red; the current (in-progress) period is never judged.
+    const cur = currentRow(state.grain);
+    const pointColors = rows.map((x) => (x[r.id] != null && x !== cur && !meetsTarget(r, x[r.id])
+      ? palette.miss : palette.primary));
+    // Zoom the y-axis when the data and target sit in a narrow band far from zero (e.g. 97–99%),
+    // so misses against the target line are visible; otherwise keep a zero baseline.
+    const seen = values.filter((v) => v != null).concat(target);
+    const lo = Math.min(...seen); const hi = Math.max(...seen);
+    const zoom = lo > hi * 0.5;
+    const pad = Math.max((hi - lo) * 0.35, hi * 0.005);
+    const step = hi - lo < 4 ? 0.5 : 1;
+    const yMin = zoom ? Math.floor((lo - pad) / step) * step : 0;
+    let yMax = zoom ? Math.ceil((hi + pad) / step) * step : undefined;
+    if (r.format === 'pct' && (yMax > 100 || (!zoom && hi > 88))) yMax = 100;
+    const tickDigits = zoom && hi - lo < 4 ? 1 : 0;
     return new Chart(canvas, {
       type: 'line',
       data: {
@@ -340,10 +349,11 @@
         datasets: [
           {
             label: r.label, data: values, borderColor: palette.primary, backgroundColor: palette.primary,
-            borderWidth: 2, pointRadius: 3, pointHoverRadius: 5, tension: 0.25, spanGaps: true,
+            pointBackgroundColor: pointColors, pointBorderColor: pointColors,
+            borderWidth: 2, pointRadius: 3.5, pointHoverRadius: 5, tension: 0.25, spanGaps: true,
           },
           {
-            label: 'Window average', data: labels.map(() => avg), borderColor: palette.muted,
+            label: 'Target', data: labels.map(() => target), borderColor: palette.muted,
             borderDash: [5, 4], borderWidth: 1.5, pointRadius: 0, pointHoverRadius: 0, fill: false,
           },
         ],
@@ -356,12 +366,10 @@
         layout: { padding: { top: 18, right: 6 } },
         scales: {
           y: {
-            beginAtZero: true, grace: '12%',
-            // Percentages never exceed 100%, so don't let headroom push the axis past it.
-            max: r.format === 'pct' && Math.max(...values.filter((v) => v != null)) > 88 ? 100 : undefined,
+            min: yMin, max: yMax, grace: zoom ? 0 : '12%',
             grid: { color: palette.border },
             ticks: { color: palette.muted, font: { size: 11 }, maxTicksLimit: 6,
-              callback: (v) => fmtScaled(r, v, 0) },
+              callback: (v) => fmtScaled(r, v, tickDigits) },
           },
           x: {
             grid: { display: false },
@@ -374,8 +382,9 @@
             callbacks: {
               title: (items) => (items.length ? periodLabel(rows[items[0].dataIndex].period_start) : ''),
               label: (ctx) => (ctx.datasetIndex === 1
-                ? `Window average: ${fmtScaled(r, ctx.parsed.y)}`
-                : `${r.label}: ${fmtScaled(r, ctx.parsed.y)}`),
+                ? targetText(r)
+                : `${r.label}: ${fmtScaled(r, ctx.parsed.y)}`
+                  + (pointColors[ctx.dataIndex] === palette.miss ? ' · missed target' : '')),
             },
           },
           pointLabels: { format: (v) => fmtScaled(r, v, 1), color: palette.ink },
@@ -390,14 +399,11 @@
     const grain = state.grain;
     const rows = rowsFrom(grain, state.lookback);
     const cur = currentRow(grain);
-    const winName = windowLabel(rows, grain);
     const counts = kind === 'counts';
     const layout = counts ? COUNT_LAYOUT : DOLLAR_LAYOUT;
     const span = counts ? 2 : 1;
-    const avgs = Object.fromEntries(D.rates.map((r) => [r.id, windowAvg(rows, r.id)]));
-
-    $(`#${kind}-note`).textContent = `Rates shaded vs their average across the full ${winName} window: `
-      + 'green better, red worse, amber equal. Current period not shaded.';
+    $(`#${kind}-note`).textContent = 'Rates shaded against Northwind\'s monthly targets: green meets the target, '
+      + 'red misses it. Hover a rate for its target. Current period not shaded.';
 
     const head1 = rows.map((r) => `<th class="divider${r === cur ? ' current' : ''}" colspan="${span}">`
       + `${esc(periodLabel(r.period_start))}${r === cur ? ' *' : ''}</th>`).join('');
@@ -413,7 +419,7 @@
           const r = RATE[col];
           const tip = Dictionary.tipFor(col);
           body += `<tr class="rate"><td class="label" data-tip="${esc(tip)}">${esc(r.label)}</td>`
-            + rows.map((row) => rateCell(r, row, span, row === cur, avgs[col], winName)).join('') + '</tr>';
+            + rows.map((row) => rateCell(r, row, span, row === cur)).join('') + '</tr>';
           return;
         }
         const name = type === 'm' ? D.labels[col] : type === 'card' ? 'Card transactions' : label;
@@ -437,20 +443,21 @@
       + '<p class="panel-note" style="margin:8px 10px">* Current period, still in progress.</p>';
   }
 
-  function rateCell(r, row, span, isCurrent, avg, winName) {
+  /** Meets target: at or above it for "higher" rates, at or below it for "lower" rates. */
+  const meetsTarget = (r, v) => (r.direction === 'higher' ? v >= r.target - 1e-12 : v <= r.target + 1e-12);
+
+  function rateCell(r, row, span, isCurrent) {
     const v = row[r.id];
     const text = fmtRate(r, v);
     let cls = 'value divider';
     let tip = '';
-    if (v != null && avg != null) {
-      tip = `${winName} average ${fmtRate(r, avg)}`;
-      if (avg !== 0) tip += ` · ${signedPct(v / avg - 1)} vs average`;
+    if (v != null) {
+      const ok = meetsTarget(r, v);
+      tip = targetText(r);
       if (isCurrent) tip += '\nCurrent period: not shaded';
-      else if (r.direction === 'neutral') tip += '\nNeutral metric: not shaded';
-      else if (text === fmtRate(r, avg)) cls += ' equal';
       else {
-        const up = v > avg;
-        cls += (up === (r.direction === 'higher')) ? ' better' : ' worse';
+        tip += ok ? ' · met' : ' · missed';
+        cls += ok ? ' better' : ' worse';
       }
     }
     if (isCurrent) cls += ' current';
@@ -501,7 +508,7 @@
       return `<td class="cell${extra}" style="background:${bg};color:${color}" data-tip="${esc(tip)}">${fmt(v)}</td>`;
     };
     const breakdown = (row, list) => {
-      const totals = { 'Customer favor': 0, 'No error found': 0, Withdrawn: 0 };
+      const totals = { 'Customer wins': 0, 'No error found': 0, 'Claims withdrawn': 0 };
       list.forEach((i) => {
         const s = statusIndex[`${row.cohort_month}|${row.reason_category}|${i}`] || {};
         Object.keys(totals).forEach((k) => { totals[k] += s[k] || 0; });

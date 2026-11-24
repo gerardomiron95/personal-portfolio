@@ -4,8 +4,8 @@
 data/raw/*.parquet  ->  data/agg/*.csv  +  data/data.json
 
 Every table is at its final grain; the web page never touches raw rows.
-Rates are stored as ratios next to their numerator and denominator columns so
-window averages can be computed as SUM(numerator) / SUM(denominator).
+Rates are stored as ratios next to their numerator and denominator columns, and
+each rate carries Northwind's fixed monthly target.
 """
 from __future__ import annotations
 
@@ -20,9 +20,9 @@ import pandas as pd
 MATURITY_THRESHOLD = 0.98
 REASONS = ["Unauthorized", "Merchant dispute", "Processing error"]
 OUTCOME_LABEL = {
-    "Resolved - customer favor": "Customer favor",
+    "Resolved - customer win": "Customer wins",
     "Resolved - no error found": "No error found",
-    "Withdrawn": "Withdrawn",
+    "Withdrawn": "Claims withdrawn",
 }
 
 # --------------------------------------------------------------------------- metric catalogue
@@ -33,35 +33,35 @@ COUNT_METRICS = [
     ("claims", "Intake", "claim_transactions", "claimed_amount", "Claims received",
      "COUNT(claims) by received date; transactions = COUNT(claim_transactions); $ = SUM(claimed_amount)",
      "Dispute claims customers opened in the period."),
-    ("open_claims", "Intake", "open_claims_txns", "open_claims_amount", "Still open",
+    ("open_claims", "Intake", "open_claims_txns", "open_claims_amount", "Open claims",
      "Claims with current status Open",
      "Claims from this period that are not resolved yet."),
-    ("withdrawn_claims", "Intake", "withdrawn_claims_txns", "withdrawn_claims_amount", "Withdrawn",
+    ("claims_withdrawn", "Intake", "claims_withdrawn_txns", "claims_withdrawn_amount", "Claims withdrawn",
      "Claims with current status Withdrawn",
      "Claims the customer withdrew before a decision."),
-    ("pc_required", "Provisional credit", "pc_required_txns", "pc_required_amount", "Credit required",
+    ("pc_due", "Provisional credit", "pc_due_txns", "pc_due_amount", "Provisional credit due",
      "Claims still open at the end of business day 10 after notice (weekends skipped), counted once day 10 has passed",
      "Claims that ran past 10 business days, so Reg E requires a temporary credit."),
-    ("pc_issued", "Provisional credit", "pc_issued_txns", "pc_issued_amount", "Credit issued",
+    ("pc_issued", "Provisional credit", "pc_issued_txns", "pc_issued_amount", "Provisional credits issued",
      "Claims with a row in provisional_credits; $ = SUM(provisional credit amount)",
      "Claims where the customer received a temporary credit."),
     ("pc_within_10bd", "Provisional credit", "pc_within_10bd_txns", "pc_within_10bd_amount", "Credited by day 10",
-     "Credit-required claims whose credit was issued by the end of business day 10",
+     "Claims due a provisional credit whose credit was issued by the end of business day 10",
      "Temporary credits that went out on time."),
-    ("pc_made_permanent", "Provisional credit", "pc_made_permanent_txns", "pc_made_permanent_amount",
-     "Made permanent", "Provisional credits with final_status = Made permanent",
+    ("pc_kept_by_customer", "Provisional credit", "pc_kept_by_customer_txns", "pc_kept_by_customer_amount",
+     "Provisional credits kept by customer", "Provisional credits with final_status = Kept by customer",
      "Temporary credits the customer keeps because the claim went their way."),
     ("pc_reversed", "Provisional credit", "pc_reversed_txns", "pc_reversed_amount", "Reversed",
      "Provisional credits with final_status = Reversed",
      "Temporary credits taken back because no error was found or the claim was withdrawn."),
     ("pc_finalized", "Provisional credit", "pc_finalized_txns", "pc_finalized_amount", "Credit finalized",
-     "pc_made_permanent + pc_reversed",
+     "pc_kept_by_customer + pc_reversed",
      "Temporary credits with a final decision."),
     ("resolved_claims", "Resolution", "resolved_claims_txns", "resolved_claims_amount", "Resolved",
-     "Claims with status Resolved - customer favor or Resolved - no error found (withdrawals excluded)",
+     "Claims with status Resolved - customer win or Resolved - no error found (withdrawals excluded)",
      "Claims that reached a decision."),
-    ("resolved_customer_favor", "Resolution", "resolved_customer_favor_txns", "resolved_customer_favor_amount",
-     "Customer favor", "Claims with status Resolved - customer favor",
+    ("customer_wins", "Resolution", "customer_wins_txns", "customer_wins_amount",
+     "Customer wins", "Claims with status Resolved - customer win",
      "Claims decided in the customer's favor."),
     ("resolved_no_error", "Resolution", "resolved_no_error_txns", "resolved_no_error_amount", "No error found",
      "Claims with status Resolved - no error found",
@@ -73,13 +73,13 @@ COUNT_METRICS = [
      "Claims with at least one chargeback; transactions = chargeback rows; $ = SUM(chargeback amount)",
      "Claims the bank sent back to the merchant's bank through the card network."),
     ("chargebacks_decided", "Chargebacks", "chargebacks_decided_txns", "chargebacks_decided_amount",
-     "Network decided", "Chargebacks with network_outcome Won or Lost",
+     "Chargebacks decided", "Chargebacks with network_outcome Won or Lost",
      "Chargebacks the network has ruled on."),
     ("chargebacks_won", "Chargebacks", "chargebacks_won_txns", "chargebacks_won_amount", "Chargebacks won",
      "Chargebacks with network_outcome Won",
      "Chargebacks where the money came back from the merchant's bank."),
     ("written_off_claims", "Losses", "written_off_claims_txns", "written_off_claims_amount", "Claims with a loss",
-     "Customer-favor claims with no pending chargeback and recovered < claimed",
+     "Customer-win claims with no pending chargeback and recovered < claimed",
      "Claims where the bank absorbed at least part of the credit."),
 ]
 
@@ -88,39 +88,45 @@ EXTRA_COLUMNS = [
      "Every card transaction in the period: the denominator for the claim rate."),
     ("card_dollars", "Intake", "SUM(card_volume_daily.card_dollars) for days in the period",
      "Total card spending in the period."),
-    ("credited_amount", "Losses", "SUM(claimed_amount) for customer-favor claims",
+    ("credited_amount", "Losses", "SUM(claimed_amount) for customer-win claims",
      "Money permanently credited back to customers."),
     ("recovered_amount", "Losses", "SUM(chargebacks.recovered_amount)",
      "Money won back from merchants' banks through chargebacks."),
     ("written_off_amount", "Losses",
-     "SUM(claimed_amount - recovered_amount) for customer-favor claims with no pending chargeback",
+     "SUM(claimed_amount - recovered_amount) for customer-win claims with no pending chargeback",
      "Money the bank absorbed as a loss."),
 ]
 
-# Rates: (id, label, numerator, denominator, direction, format, table, description)
+# Rates: (id, label, numerator, denominator, direction, format, table, description, target)
+# Targets are Northwind's fixed monthly goals. direction says which side of the target is good:
+# "higher" = meet or beat it from above, "lower" = stay at or under it.
 RATES = [
     ("claim_rate", "Claim rate", "claim_transactions", "card_transactions", "lower", "per10k", "counts",
-     "Disputed transactions per 10,000 card transactions."),
+     "Disputed transactions per 10,000 card transactions.", 0.0045),
     ("on_time_resolution_rate", "On-time resolution", "resolved_within_deadline", "resolved_claims", "higher", "pct",
-     "counts", "Share of decisions reached inside the 45- or 90-day deadline."),
-    ("pc_timeliness_rate", "Provisional-credit timeliness", "pc_within_10bd", "pc_required", "higher", "pct",
-     "counts", "Share of required temporary credits issued by business day 10."),
-    ("pc_rate", "Provisional-credit rate", "pc_issued", "claims", "neutral", "pct", "counts",
-     "Share of claims that received a temporary credit."),
-    ("pc_reversal_rate", "Provisional-credit reversal rate", "pc_reversed", "pc_finalized", "neutral", "pct",
-     "counts", "Share of finalized temporary credits that were taken back."),
-    ("customer_favor_rate", "Customer-favor rate", "resolved_customer_favor", "resolved_claims", "neutral", "pct",
-     "counts", "Share of decisions that went the customer's way."),
-    ("chargeback_rate", "Chargeback rate", "chargebacks_filed", "resolved_customer_favor", "higher", "pct",
-     "counts", "Chargebacks filed per customer-favor decision."),
+     "counts", "Share of decisions reached inside the 45- or 90-day deadline.", 0.98),
+    ("pc_timeliness_rate", "Provisional-credit timeliness", "pc_within_10bd", "pc_due", "higher", "pct",
+     "counts", "Share of required temporary credits issued by business day 10.", 0.975),
+    ("pc_rate", "Provisional-credit rate", "pc_issued", "claims", "lower", "pct", "counts",
+     "Share of claims that received a temporary credit; lower means more claims resolved inside 10 business days.",
+     0.49),
+    ("pc_reversal_rate", "Provisional-credit reversal rate", "pc_reversed", "pc_finalized", "lower", "pct",
+     "counts", "Share of finalized temporary credits that were taken back.", 0.28),
+    ("customer_win_rate", "Customer win rate", "customer_wins", "resolved_claims", "lower", "pct",
+     "counts", "Share of decisions that went the customer's way; a rise can signal fraud or merchant problems.",
+     0.735),
+    ("chargeback_rate", "Chargeback rate", "chargebacks_filed", "customer_wins", "higher", "pct",
+     "counts", "Chargebacks filed per customer win.", 0.365),
     ("chargeback_win_rate", "Chargeback win rate", "chargebacks_won", "chargebacks_decided", "higher", "pct",
-     "counts", "Share of decided chargebacks the bank won."),
-    ("withdrawal_rate", "Withdrawal rate", "withdrawn_claims", "claims", "neutral", "pct", "counts",
-     "Share of claims the customer withdrew."),
+     "counts", "Share of decided chargebacks the bank won.", 0.60),
+    ("withdrawal_rate", "Withdrawal rate", "claims_withdrawn", "claims", "lower", "pct", "counts",
+     "Share of claims the customer withdrew.", 0.07),
     ("recovery_rate", "Recovery rate", "recovered_amount", "credited_amount", "higher", "pct", "dollars",
-     "Share of money credited to customers that came back through chargebacks."),
+     "Share of money credited to customers that came back through chargebacks.", 0.22),
+    ("loss_rate", "Loss rate", "written_off_claims", "customer_wins", "lower", "pct", "counts",
+     "Share of customer wins where the bank absorbed at least part of the credit.", 0.78),
     ("write_off_rate", "Write-off rate", "written_off_amount", "claimed_amount", "lower", "pct", "dollars",
-     "Share of disputed dollars the bank absorbed as a loss."),
+     "Share of disputed dollars the bank absorbed as a loss.", 0.53),
 ]
 
 
@@ -151,16 +157,16 @@ def claim_frame(raw: Path, as_of: pd.Timestamp) -> pd.DataFrame:
     f = pd.DataFrame(index=c.index)
     f["claims"] = True
     f["open_claims"] = status == "Open"
-    f["withdrawn_claims"] = status == "Withdrawn"
-    f["pc_required"] = (bd10_due <= as_of) & (res.isna() | (res > bd10_due))
+    f["claims_withdrawn"] = status == "Withdrawn"
+    f["pc_due"] = (bd10_due <= as_of) & (res.isna() | (res > bd10_due))
     f["pc_issued"] = c["issued_ts"].notna()
-    f["pc_within_10bd"] = f["pc_required"] & f["pc_issued"] & (c["issued_ts"] <= bd10_due)
-    f["pc_made_permanent"] = c["final_status"] == "Made permanent"
+    f["pc_within_10bd"] = f["pc_due"] & f["pc_issued"] & (c["issued_ts"] <= bd10_due)
+    f["pc_kept_by_customer"] = c["final_status"] == "Kept by customer"
     f["pc_reversed"] = c["final_status"] == "Reversed"
-    f["pc_finalized"] = f["pc_made_permanent"] | f["pc_reversed"]
-    f["resolved_customer_favor"] = status == "Resolved - customer favor"
+    f["pc_finalized"] = f["pc_kept_by_customer"] | f["pc_reversed"]
+    f["customer_wins"] = status == "Resolved - customer win"
     f["resolved_no_error"] = status == "Resolved - no error found"
-    f["resolved_claims"] = f["resolved_customer_favor"] | f["resolved_no_error"]
+    f["resolved_claims"] = f["customer_wins"] | f["resolved_no_error"]
     elapsed = (res - c["received_ts"]).dt.total_seconds() / 86_400
     f["resolved_within_deadline"] = f["resolved_claims"] & (elapsed <= c["deadline_days"])
 
@@ -188,7 +194,7 @@ def claim_frame(raw: Path, as_of: pd.Timestamp) -> pd.DataFrame:
     f["chargebacks_filed"] = c["cb_rows"] > 0
     f["chargebacks_decided"] = c["cb_decided_rows"] > 0
     f["chargebacks_won"] = c["cb_won_rows"] > 0
-    loss_basis = f["resolved_customer_favor"] & ~c["cb_pending"]
+    loss_basis = f["customer_wins"] & ~c["cb_pending"]
     loss = np.where(loss_basis, (c["claimed_amount"] - c["recovered"]).round(2), 0.0)
     f["written_off_claims"] = loss > 0
 
@@ -198,7 +204,7 @@ def claim_frame(raw: Path, as_of: pd.Timestamp) -> pd.DataFrame:
         "chargebacks_won": c["cb_won_rows"],
     }
     amounts = {
-        "pc_issued": c["pc_amount"], "pc_within_10bd": c["pc_amount"], "pc_made_permanent": c["pc_amount"],
+        "pc_issued": c["pc_amount"], "pc_within_10bd": c["pc_amount"], "pc_kept_by_customer": c["pc_amount"],
         "pc_reversed": c["pc_amount"], "pc_finalized": c["pc_amount"],
         "chargebacks_filed": c["cb_amount"], "chargebacks_decided": c["cb_decided_amount"],
         "chargebacks_won": c["cb_won_amount"],
@@ -208,7 +214,7 @@ def claim_frame(raw: Path, as_of: pd.Timestamp) -> pd.DataFrame:
         out[name] = m.astype(int)
         out[txn_col] = np.where(m, txns.get(name, c["n_txns"]), 0).astype(int)
         out[amt_col] = np.where(m, amounts.get(name, c["claimed_amount"]).fillna(0), 0.0)
-    out["credited_amount"] = out["resolved_customer_favor_amount"]
+    out["credited_amount"] = out["customer_wins_amount"]
     out["recovered_amount"] = c["recovered"]
     out["written_off_amount"] = loss
     return out
@@ -319,8 +325,9 @@ def dictionary(meta: dict, window_start: pd.Timestamp, last_day: pd.Timestamp, t
          f"A cohort month is mature when its Total resolved_rate >= {threshold:.0%}; a week is mature when every "
          "month it touches is mature; months older than the maturation table are mature",
          "Recent periods still have open claims, so their rates are not final yet."),
-        ("Window average", "Scope", "SUM(numerator) / SUM(denominator) over the periods shown",
-         "The dashed line and the table shading use a true average, not an average of averages."),
+        ("Monthly targets", "Scope", "Fixed per rate (see each rate below); met = at or above a higher-is-better "
+         "target, at or below a lower-is-better target",
+         "Northwind's goal for each rate: the dashed line on the trend charts and the green / red table shading."),
         ("period_start", "Keys", "Month: first day of the month. Week: the Monday that starts the week",
          "The period a row covers."),
     ]
@@ -332,10 +339,13 @@ def dictionary(meta: dict, window_start: pd.Timestamp, last_day: pd.Timestamp, t
                      plain.rstrip(".") + ", counted by transaction."))
         rows.append((amt_col, section, "Dollar amount of the claims counted in " + name,
                      plain.rstrip(".") + ", in dollars."))
-    for rid, label, num, den, direction, fmt, _, desc in RATES:
-        better = {"higher": "Higher is better", "lower": "Lower is better", "neutral": "Neutral"}[direction]
+    for rid, label, num, den, direction, fmt, _, desc, target in RATES:
+        better = {"higher": "Higher is better", "lower": "Lower is better"}[direction]
         shown = " Shown per 10,000 transactions." if fmt == "per10k" else ""
-        rows.append((rid, "Rates", f"{num} / {den}", f"{desc} {better}.{shown}"))
+        goal = f"{target * 1e4:g} per 10,000" if fmt == "per10k" else f"{target:.1%}"
+        sign = ">=" if direction == "higher" else "<="
+        rows.append((rid, "Rates", f"{num} / {den}; monthly target {sign} {goal}",
+                     f"{desc} {better}. Target: {'at least' if direction == 'higher' else 'at most'} {goal}.{shown}"))
     for col, method, plain in [
         ("cohort_month", "Month the claim was received (YYYY-MM)", "The group of claims a heatmap row follows."),
         ("M0_count … M6_count", "Claims resolved or withdrawn 0…6 calendar months after the received month; "
@@ -386,7 +396,7 @@ def main() -> None:
         "last_day": str(last_day.date()),
         "window_start": str(window_start.date()),
         "maturity_threshold": a.maturity_threshold,
-        "rates": [dict(zip(["id", "label", "num", "den", "direction", "format", "table", "description"], r))
+        "rates": [dict(zip(["id", "label", "num", "den", "direction", "format", "table", "description", "target"], r))
                   for r in RATES],
         "labels": {name: label for name, _, _, _, label, *_ in COUNT_METRICS},
         **{name: records(df) for name, df in tables.items()},

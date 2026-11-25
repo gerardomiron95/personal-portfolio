@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mobile check deposit flow · Northwind Bank</title>
+  <meta name="description" content="Portfolio demo: a dashboard that follows every mobile check deposit from receipt to return.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="northwind-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div>
+        <div class="brand">
+          <img src="northwind-logo.svg" alt="" width="32" height="32">
+          <span class="wordmark">Northwind<span> Bank</span></span>
+        </div>
+        <h1>Mobile check deposit flow</h1>
+        <p class="subtitle">Portfolio demo</p>
+      </div>
+      <div class="updated" id="range">Loading data…</div>
+    </header>
+
+    <section class="card controls" id="controls" aria-label="Filters"></section>
+
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Period"></nav>
+
+    <section class="scorecards" id="cards" aria-label="Scorecards"></section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Deposit flow</h2>
+        <p class="note">
+          Each box shows its share of the box it comes from. Medians are business days: receipt to funds
+          available or rejection on decision boxes, and deposit to return on Returned after deposit.
+          Use ▾ to open details.
+        </p>
+      </div>
+      <div class="flow-scroll"><div id="flow"></div></div>
+      <div id="panel"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Auto-deny reasons</h2>
+        <p class="note">Checks the deposit vendor's screening denied before review. Click a reason to see its sub-reasons.</p>
+      </div>
+      <div class="two-col" id="autodeny"></div>
+    </section>
+
+    <section class="card" id="trends" hidden>
+      <div class="card-head row">
+        <div>
+          <h2>Trends</h2>
+          <p class="note">By the date checks were received, for the selected date range and segment.</p>
+        </div>
+        <div class="segmented" id="grain" role="group" aria-label="Trend grain">
+          <button type="button" data-grain="month" class="active">Monthly</button>
+          <button type="button" data-grain="week">Weekly</button>
+        </div>
+      </div>
+      <div class="chart-grid">
+        <div class="chart-card wide"><h3>Outcome mix · share of checks received</h3><div class="chart-box"><canvas id="chart-mix" role="img" aria-label="Outcome mix over time"></canvas></div></div>
+        <div class="chart-card wide"><h3>Auto-deny reasons over time</h3><div class="chart-box"><canvas id="chart-reasons" role="img" aria-label="Auto-deny reasons over time"></canvas></div></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <strong>About this data:</strong> Northwind Bank is not a real bank, and every check, reviewer, analyst,
+      returning bank and dollar figure on this page was generated for this portfolio project with a fixed seed.
+      Business days skip weekends and US federal holidays.
+    </footer>
+  </div>
+</body>
+</html>

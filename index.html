@@ -87,6 +87,49 @@
 
       <article class="project">
         <div>
+          <h3>Mobile Check Deposit Flow</h3>
+          <p>
+            A dashboard, built on generated sample data, that follows every mobile check deposit from receipt
+            through vendor screening, manual review queues and the reviewer's decision to whether the check was
+            later returned. Business-day timing and drill-downs by reviewer, hold time and return reason.
+          </p>
+          <p class="tags">Python · NumPy · Faker · JavaScript · SVG · Chart.js</p>
+        </div>
+        <div class="project-actions">
+          <a class="button" href="check-deposit-dashboard/">View dashboard</a>
+          <a class="button ghost" href="https://github.com/gerardomiron95/personal-portfolio/tree/main/check-deposit-dashboard">Code</a>
+          <button type="button" class="button ghost" data-about="about-check-deposits">About</button>
+        </div>
+      </article>
+
+      <dialog class="about" id="about-check-deposits" aria-labelledby="about-check-deposits-title">
+        <div class="about-head">
+          <h3 id="about-check-deposits-title">Mobile Check Deposit Flow</h3>
+          <button type="button" class="about-close" aria-label="Close">×</button>
+        </div>
+        <dl>
+          <dt>Problem</dt>
+          <dd>
+            No one knew the real check deposit success rate. Data started only once a check reached agent
+            review, so every check the vendor auto-denied before that point was missing.
+          </dd>
+          <dt>Insight</dt>
+          <dd>
+            With the vendor's data added, the full picture showed high rejection rates, both automatic and
+            agent-reviewed. Many readable checks were turned away for minor flaws, like a torn corner or a slightly
+            blurry photo, which created friction for customers.
+          </dd>
+          <dt>Initiative</dt>
+          <dd>
+            Built a dashboard that maps every deposit attempt from start to finish, combining the vendor's screening
+            data with agent review and returns. It gave the team the evidence to revise the rejection criteria so
+            readable checks are no longer rejected for cosmetic issues.
+          </dd>
+        </dl>
+      </dialog>
+
+      <article class="project">
+        <div>
           <h3>Weekly Operations Performance Review</h3>
           <p>
             A weekly review deck for a bank's operations team, built on generated sample data. It covers check

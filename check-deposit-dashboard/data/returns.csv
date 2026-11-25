@@ -1,0 +1,690 @@
+check_id,deposit_date,return_date,return_amount,return_reason,returning_bank,reason_entered_by,case_assigned_to
+R-000234,2026-01-02,2026-01-26,220.84,Unable to locate account,Silverbrook Trust Company,Michele Williams,Jamie Arnold
+R-000285,2026-01-05,2026-01-15,180.12,Closed account,Marlow Ridge Credit Union,Lisa Hensley,Michele Williams
+R-000322,2026-01-09,2026-01-14,611.45,Uncollected funds hold,Heron Bay State Bank,Jamie Arnold,Lisa Hensley
+R-000335,2026-01-05,2026-01-16,9314.03,Unable to locate account,Larkspur Savings Bank,Monica Herrera,Monica Herrera
+R-000352,2026-01-13,2026-01-28,230.02,Closed account,Copper Hollow State Bank,Jamie Arnold,Dylan Miller
+R-000353,2026-01-05,2026-01-12,447.90,NSF,Harbor State Bank,Lisa Hensley,Monica Herrera
+R-000472,2026-01-05,2026-01-26,844.56,Forgery,Cobble Creek Savings Bank,Dylan Miller,Lisa Hensley
+R-000556,2026-01-06,2026-01-28,163.97,NSF,Kestrel Point Community Bank,Jamie Arnold,Monica Herrera
+R-000611,2026-01-12,2026-01-14,375.11,Stop payment,Pinecrest Credit Union,Lisa Hensley,Jamie Arnold
+R-000614,2026-01-14,2026-02-05,1796.20,NSF,Brackenridge Trust Company,Lisa Hensley,Lisa Hensley
+R-000653,2026-01-09,2026-01-15,53.39,NSF,Glenhaven Community Bank,Monica Herrera,Michele Williams
+R-000706,2026-01-09,2026-01-22,282.66,,Ashgrove Trust Company,,Dylan Miller
+R-000716,2026-01-12,2026-01-30,986.32,Unable to locate account,Harbor State Bank,Lisa Hensley,Lisa Hensley
+R-000810,2026-01-16,2026-01-29,194.37,Refer to maker,Saltmarsh Trust Company,Jamie Arnold,Michele Williams
+R-000815,2026-01-08,2026-01-29,252.87,Unable to locate account,Brackenridge Savings Bank,Lisa Hensley,Michele Williams
+R-000817,2026-01-15,2026-02-05,722.10,NSF,Silverbrook Trust Company,Lisa Hensley,Jamie Arnold
+R-000874,2026-01-16,2026-01-21,592.16,NSF,Quillstone Community Bank,Lisa Hensley,Lisa Hensley
+R-000977,2026-01-12,2026-01-16,1734.67,NSF,Silverbrook Credit Union,Monica Herrera,Michele Williams
+R-000979,2026-01-20,2026-02-04,705.50,Unable to locate account,Marlow Ridge Credit Union,Lisa Hensley,Michele Williams
+R-001005,2026-01-09,2026-01-30,548.73,NSF,Quillstone Community Bank,Michele Williams,Monica Herrera
+R-001026,2026-01-20,2026-01-30,94.21,Signature missing,Bramblewood Trust Company,Michele Williams,Jamie Arnold
+R-001191,2026-01-21,2026-02-06,684.76,Uncollected funds hold,Bramblewood Trust Company,Monica Herrera,Dylan Miller
+R-001209,2026-01-14,2026-01-29,1088.85,Unable to locate account,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-001210,2026-01-13,2026-01-27,216.79,NSF,Silverbrook Trust Company,Lisa Hensley,Monica Herrera
+R-001248,2026-01-20,2026-02-06,481.75,Stop payment,Ambergate State Bank,Jamie Arnold,Monica Herrera
+R-001422,2026-01-21,2026-01-28,356.21,Closed account,Pinecrest Credit Union,Monica Herrera,Lisa Hensley
+R-001522,2026-01-15,2026-02-04,228.54,NSF,Thistlewood Credit Union,Lisa Hensley,Monica Herrera
+R-001546,2026-01-21,2026-01-30,425.68,Refer to maker,Pinecrest Credit Union,Michele Williams,Lisa Hensley
+R-001607,2026-01-16,2026-02-09,1091.58,Closed account,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-001646,2026-01-26,2026-02-02,352.84,NSF,Ambergate State Bank,Monica Herrera,Dylan Miller
+R-001743,2026-01-23,2026-02-11,1225.97,NSF,Brackenridge Savings Bank,Monica Herrera,Monica Herrera
+R-001764,2026-01-27,2026-02-04,278.91,NSF,Oakhurst Valley Community Bank,Lisa Hensley,Jamie Arnold
+R-001783,2026-01-21,2026-02-03,169.46,Refer to maker,Pinecrest Credit Union,Jamie Arnold,Lisa Hensley
+R-001791,2026-01-16,2026-01-28,965.39,NSF,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-001823,2026-01-21,2026-01-27,1553.75,NSF,Silverbrook Trust Company,Monica Herrera,Lisa Hensley
+R-001859,2026-01-20,2026-01-23,246.99,Stop payment,Copper Hollow State Bank,Jamie Arnold,Michele Williams
+R-001878,2026-01-28,2026-02-19,91.03,Altered/fictitious item,Silverbrook Trust Company,Monica Herrera,Monica Herrera
+R-001891,2026-01-22,2026-02-12,115.94,Uncollected funds hold,Pinecrest Credit Union,Monica Herrera,Monica Herrera
+R-001969,2026-01-26,2026-01-29,285.86,Altered/fictitious item,Pinecrest Credit Union,Monica Herrera,Michele Williams
+R-002001,2026-01-28,2026-02-10,454.21,NSF,Harbor State Bank,Lisa Hensley,Monica Herrera
+R-002071,2026-01-20,2026-02-10,263.94,NSF,Harbor State Bank,Lisa Hensley,Monica Herrera
+R-002078,2026-01-28,2026-02-18,414.30,Uncollected funds hold,Wrenfield Savings Bank,Monica Herrera,Michele Williams
+R-002266,2026-01-27,2026-02-10,239.46,NSF,Saltmarsh Trust Company,Monica Herrera,Lisa Hensley
+R-002269,2026-01-26,2026-02-12,140.47,Refer to maker,Pinecrest Credit Union,Lisa Hensley,Michele Williams
+R-002337,2026-01-26,2026-01-30,310.26,NSF,Quillstone Community Bank,Monica Herrera,Monica Herrera
+R-002417,2026-01-26,2026-02-02,317.05,Stop payment,Kestrel Point Community Bank,Monica Herrera,Michele Williams
+R-002421,2026-01-22,2026-01-28,123.39,Duplicate presentment,Ashgrove Trust Company,Michele Williams,Monica Herrera
+R-002425,2026-01-29,2026-02-18,49.43,Closed account,Harbor State Bank,Monica Herrera,Monica Herrera
+R-002439,2026-01-27,2026-02-05,2566.92,Closed account,Ambergate State Bank,Dylan Miller,Michele Williams
+R-002442,2026-01-22,2026-01-26,47.22,NSF,Ashgrove Savings Bank,Lisa Hensley,Monica Herrera
+R-002486,2026-01-28,2026-02-13,216.42,Closed account,Oakhurst Valley Community Bank,Jamie Arnold,Lisa Hensley
+R-002517,2026-01-29,2026-02-02,142.66,Refer to maker,Harbor State Bank,Dylan Miller,Lisa Hensley
+R-002526,2026-01-23,2026-02-04,198.10,NSF,Fernwick Trust Company,Jamie Arnold,Lisa Hensley
+R-002539,2026-01-23,2026-02-11,335.70,NSF,Quillstone Community Bank,Lisa Hensley,Dylan Miller
+R-002596,2026-01-23,2026-01-28,220.49,NSF,Harbor State Bank,Lisa Hensley,Monica Herrera
+R-002648,2026-01-28,2026-01-30,73.76,Stop payment,Pinecrest Credit Union,Monica Herrera,Jamie Arnold
+R-002670,2026-02-03,2026-02-09,41.72,NSF,Harbor State Bank,Dylan Miller,Lisa Hensley
+R-002684,2026-02-02,2026-02-24,544.99,Refer to maker,Pinecrest Credit Union,Monica Herrera,Monica Herrera
+R-002687,2026-01-28,2026-02-19,946.14,NSF,Harbor State Bank,Dylan Miller,Jamie Arnold
+R-002694,2026-02-03,2026-02-19,134.93,Stop payment,Harbor State Bank,Monica Herrera,Monica Herrera
+R-002776,2026-02-02,2026-02-24,124.34,Stop payment,Pinecrest Credit Union,Jamie Arnold,Dylan Miller
+R-002796,2026-01-28,2026-01-30,122.78,NSF,Pinecrest Credit Union,Lisa Hensley,Monica Herrera
+R-002811,2026-02-02,2026-02-05,333.07,Stop payment,Pinecrest Credit Union,Monica Herrera,Dylan Miller
+R-002922,2026-02-02,2026-02-19,686.65,Unable to locate account,Oakhurst Valley Community Bank,Dylan Miller,Michele Williams
+R-002944,2026-01-29,2026-02-10,1015.42,NSF,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-002980,2026-01-29,2026-02-06,277.38,Duplicate presentment,Juniper Flats Savings Bank,Lisa Hensley,Monica Herrera
+R-003128,2026-01-30,2026-02-13,293.27,Refer to maker,Pinecrest Credit Union,Monica Herrera,Monica Herrera
+R-003186,2026-02-03,2026-02-10,578.59,NSF,Ambergate State Bank,Monica Herrera,Michele Williams
+R-003211,2026-02-02,2026-02-17,252.53,Closed account,Oakhurst Valley Community Bank,Michele Williams,Jamie Arnold
+R-003281,2026-02-03,2026-02-11,1215.17,Closed account,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-003330,2026-02-05,2026-02-24,1256.75,Refer to maker,Copper Hollow State Bank,Jamie Arnold,Jamie Arnold
+R-003347,2026-01-30,2026-02-23,1171.21,NSF,Copper Hollow Community Bank,Michele Williams,Monica Herrera
+R-003364,2026-02-04,2026-02-09,2088.82,NSF,Quillstone Community Bank,Jamie Arnold,Lisa Hensley
+R-003388,2026-02-02,2026-02-11,65.98,NSF,Thistlewood Credit Union,Jamie Arnold,Michele Williams
+R-003424,2026-02-03,2026-02-06,681.24,NSF,Glenhaven Credit Union,Michele Williams,Michele Williams
+R-003436,2026-02-06,2026-02-20,364.91,Closed account,Larkspur Savings Bank,Monica Herrera,Dylan Miller
+R-003443,2026-02-03,2026-02-12,1181.33,NSF,Ambergate State Bank,Michele Williams,Michele Williams
+R-003444,2026-01-30,2026-02-20,345.15,,Quillstone State Bank,,Monica Herrera
+R-003492,2026-02-04,2026-02-10,224.04,Stop payment,Lanternhill Trust Company,Monica Herrera,Dylan Miller
+R-003557,2026-02-06,2026-02-27,2028.75,Stop payment,Kestrel Point Community Bank,Jamie Arnold,Lisa Hensley
+R-003572,2026-02-04,2026-02-12,269.33,Refer to maker,Harbor State Bank,Lisa Hensley,Lisa Hensley
+R-003668,2026-02-04,2026-02-18,255.74,NSF,Quillstone Community Bank,Jamie Arnold,Michele Williams
+R-003706,2026-02-10,2026-02-20,319.20,Stop payment,Stonemere State Bank,Jamie Arnold,Dylan Miller
+R-003764,2026-02-02,2026-02-20,955.46,NSF,Quillstone Community Bank,Monica Herrera,Monica Herrera
+R-003958,2026-02-12,2026-02-20,375.23,Refer to maker,Ambergate Savings Bank,Monica Herrera,Dylan Miller
+R-004160,2026-02-09,2026-02-18,667.05,Stop payment,Pinecrest Credit Union,Monica Herrera,Jamie Arnold
+R-004205,2026-02-10,2026-02-27,644.55,Duplicate presentment,Ashgrove Savings Bank,Monica Herrera,Dylan Miller
+R-004259,2026-02-10,2026-03-03,417.77,NSF,Stonemere Savings Bank,Jamie Arnold,Dylan Miller
+R-004376,2026-02-24,2026-03-03,114.16,NSF,Bramblewood Trust Company,Lisa Hensley,Monica Herrera
+R-004454,2026-02-12,2026-02-18,1118.18,NSF,Redfern Community Bank,Jamie Arnold,Jamie Arnold
+R-004459,2026-02-11,2026-03-04,230.64,Closed account,Saltmarsh Trust Company,Lisa Hensley,Jamie Arnold
+R-004490,2026-02-09,2026-02-11,580.14,Uncollected funds hold,Heron Bay State Bank,Lisa Hensley,Monica Herrera
+R-004637,2026-02-12,2026-03-05,3204.08,Unable to locate account,Harbor State Bank,Jamie Arnold,Michele Williams
+R-004666,2026-02-18,2026-03-05,311.89,Closed account,Harbor State Bank,Lisa Hensley,Monica Herrera
+R-004719,2026-02-19,2026-03-05,557.61,Closed account,Copper Hollow Community Bank,Michele Williams,Jamie Arnold
+R-004747,2026-02-23,2026-03-11,196.69,Stop payment,Larkspur Savings Bank,Monica Herrera,Monica Herrera
+R-005018,2026-02-18,2026-03-11,112.57,Stop payment,Thistlewood Credit Union,Lisa Hensley,Michele Williams
+R-005028,2026-02-13,2026-02-23,263.45,Closed account,Brackenridge Savings Bank,Jamie Arnold,Michele Williams
+R-005102,2026-02-18,2026-03-02,287.25,Duplicate presentment,Harbor State Bank,Michele Williams,Monica Herrera
+R-005195,2026-02-19,2026-03-02,865.50,Duplicate presentment,Brackenridge Savings Bank,Monica Herrera,Monica Herrera
+R-005212,2026-02-17,2026-02-20,146.88,Duplicate presentment,Stonemere State Bank,Jamie Arnold,Monica Herrera
+R-005236,2026-02-25,2026-03-03,846.83,Stop payment,Ashgrove Savings Bank,Monica Herrera,Michele Williams
+R-005237,2026-02-24,2026-03-12,202.81,Stop payment,Kestrel Point State Bank,Lisa Hensley,Lisa Hensley
+R-005294,2026-02-17,2026-03-05,637.09,NSF,Willowmere Credit Union,Dylan Miller,Dylan Miller
+R-005371,2026-02-20,2026-03-09,909.46,NSF,Kestrel Point Community Bank,Monica Herrera,Michele Williams
+R-005548,2026-02-23,2026-03-05,233.35,Duplicate presentment,Pinecrest Credit Union,Michele Williams,Monica Herrera
+R-005691,2026-02-24,2026-03-11,432.43,NSF,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-005714,2026-02-20,2026-03-12,363.23,Stop payment,Marlow Ridge Community Bank,Jamie Arnold,Michele Williams
+R-005740,2026-02-27,2026-03-03,186.84,NSF,Harbor Savings Bank,Lisa Hensley,Monica Herrera
+R-005888,2026-02-23,2026-03-10,1257.83,Unable to locate account,Ambergate State Bank,Jamie Arnold,Jamie Arnold
+R-005936,2026-02-27,2026-03-06,569.26,Closed account,Willowmere Credit Union,Monica Herrera,Dylan Miller
+R-005974,2026-02-25,2026-03-03,334.80,NSF,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-005976,2026-02-25,2026-03-18,274.80,NSF,Heron Bay State Bank,Jamie Arnold,Lisa Hensley
+R-005999,2026-02-25,2026-03-18,63.83,NSF,Glenhaven Community Bank,Monica Herrera,Lisa Hensley
+R-006142,2026-03-04,2026-03-23,696.49,NSF,Thistlewood Credit Union,Monica Herrera,Michele Williams
+R-006143,2026-03-04,2026-03-13,377.32,Closed account,Fernwick Trust Company,Monica Herrera,Jamie Arnold
+R-006245,2026-02-26,2026-03-05,280.61,Forgery,Redfern Community Bank,Monica Herrera,Monica Herrera
+R-006274,2026-03-02,2026-03-19,48.06,NSF,Pinecrest Credit Union,Lisa Hensley,Jamie Arnold
+R-006328,2026-03-04,2026-03-06,238.33,NSF,Oakhurst Valley State Bank,Monica Herrera,Lisa Hensley
+R-006654,2026-03-03,2026-03-10,116.25,NSF,Quillstone Community Bank,Jamie Arnold,Michele Williams
+R-006673,2026-03-02,2026-03-11,95.52,Stop payment,Pinecrest Credit Union,Lisa Hensley,Jamie Arnold
+R-006769,2026-03-11,2026-03-25,317.25,NSF,Wrenfield State Bank,Michele Williams,Monica Herrera
+R-006942,2026-03-04,2026-03-24,359.87,Stop payment,Ambergate State Bank,Monica Herrera,Michele Williams
+R-007038,2026-03-05,2026-03-12,706.95,NSF,Ambergate State Bank,Jamie Arnold,Dylan Miller
+R-007041,2026-03-05,2026-03-09,1591.03,Closed account,Glenhaven Community Bank,Monica Herrera,Michele Williams
+R-007049,2026-03-09,2026-03-13,467.80,NSF,Kestrel Point Community Bank,Lisa Hensley,Michele Williams
+R-007057,2026-03-09,2026-03-13,294.26,Stop payment,Pinecrest Credit Union,Jamie Arnold,Dylan Miller
+R-007205,2026-03-12,2026-03-19,504.72,Refer to maker,Marlow Ridge Credit Union,Monica Herrera,Monica Herrera
+R-007383,2026-03-09,2026-03-20,207.82,Closed account,Harbor State Bank,Monica Herrera,Michele Williams
+R-007503,2026-03-09,2026-03-24,741.48,NSF,Redfern Community Bank,Jamie Arnold,Monica Herrera
+R-007648,2026-03-17,2026-04-07,303.81,Stop payment,Silverbrook Trust Company,Monica Herrera,Jamie Arnold
+R-007823,2026-03-19,2026-04-09,380.27,NSF,Pinecrest Credit Union,Jamie Arnold,Monica Herrera
+R-007832,2026-03-17,2026-03-25,529.66,Uncollected funds hold,Harbor State Bank,Dylan Miller,Dylan Miller
+R-007894,2026-03-19,2026-04-08,3192.70,NSF,Lanternhill Trust Company,Dylan Miller,Jamie Arnold
+R-007974,2026-03-20,2026-03-26,695.91,NSF,Kestrel Point Community Bank,Lisa Hensley,Dylan Miller
+R-008044,2026-03-16,2026-04-06,1176.59,Stop payment,Larkspur Savings Bank,Jamie Arnold,Michele Williams
+R-008104,2026-03-16,2026-03-23,329.61,NSF,Copper Hollow State Bank,Michele Williams,Jamie Arnold
+R-008132,2026-03-16,2026-03-31,128.69,Stop payment,Redfern Community Bank,Jamie Arnold,Monica Herrera
+R-008134,2026-03-18,2026-04-01,296.44,Uncollected funds hold,Juniper Flats Savings Bank,Michele Williams,Jamie Arnold
+R-008161,2026-03-20,2026-04-10,163.46,Uncollected funds hold,Bramblewood Credit Union,Lisa Hensley,Jamie Arnold
+R-008247,2026-03-31,2026-04-20,246.76,NSF,Larkspur Trust Company,Lisa Hensley,Monica Herrera
+R-008276,2026-03-20,2026-04-08,253.14,NSF,Thistlewood Credit Union,Jamie Arnold,Monica Herrera
+R-008284,2026-03-18,2026-03-30,66.45,Closed account,Kestrel Point Community Bank,Lisa Hensley,Michele Williams
+R-008310,2026-03-20,2026-04-06,1150.20,Unable to locate account,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-008448,2026-03-25,2026-04-03,178.72,NSF,Larkspur Savings Bank,Monica Herrera,Jamie Arnold
+R-008453,2026-03-20,2026-04-03,1777.25,NSF,Pinecrest Credit Union,Michele Williams,Monica Herrera
+R-008457,2026-03-25,2026-03-27,66.01,Closed account,Bramblewood Trust Company,Lisa Hensley,Lisa Hensley
+R-008479,2026-03-25,2026-04-06,239.42,Duplicate presentment,Quillstone Community Bank,Lisa Hensley,Dylan Miller
+R-008533,2026-03-18,2026-03-31,183.71,NSF,Quillstone Community Bank,Dylan Miller,Lisa Hensley
+R-008554,2026-03-25,2026-04-09,1411.35,Closed account,Stonemere State Bank,Monica Herrera,Lisa Hensley
+R-008562,2026-03-20,2026-04-01,139.97,NSF,Pinecrest Credit Union,Michele Williams,Monica Herrera
+R-008622,2026-03-24,2026-04-03,176.04,NSF,Marlow Ridge Credit Union,Monica Herrera,Jamie Arnold
+R-008627,2026-03-23,2026-04-07,402.13,NSF,Marlow Ridge Credit Union,Michele Williams,Monica Herrera
+R-008753,2026-03-25,2026-04-06,268.24,Refer to maker,Silverbrook Trust Company,Michele Williams,Michele Williams
+R-008755,2026-03-25,2026-03-27,153.44,,Quillstone Community Bank,,Monica Herrera
+R-008771,2026-03-27,2026-04-02,712.07,Refer to maker,Harbor Savings Bank,Jamie Arnold,Monica Herrera
+R-008892,2026-03-25,2026-03-31,197.08,Signature missing,Pinecrest Credit Union,Michele Williams,Michele Williams
+R-008902,2026-03-23,2026-04-06,3497.79,Uncollected funds hold,Wrenfield Savings Bank,Lisa Hensley,Lisa Hensley
+R-008919,2026-03-23,2026-04-13,131.16,NSF,Saltmarsh Credit Union,Lisa Hensley,Lisa Hensley
+R-008920,2026-03-23,2026-03-31,286.99,Stop payment,Willowmere Credit Union,Lisa Hensley,Jamie Arnold
+R-008962,2026-03-25,2026-04-14,329.77,Unable to locate account,Copper Hollow State Bank,Monica Herrera,Jamie Arnold
+R-009066,2026-03-26,2026-04-01,78.73,NSF,Silverbrook Trust Company,Monica Herrera,Monica Herrera
+R-009067,2026-03-24,2026-04-08,2428.63,Unable to locate account,Bramblewood Trust Company,Jamie Arnold,Jamie Arnold
+R-009168,2026-03-27,2026-04-17,963.27,Unable to locate account,Kestrel Point State Bank,Jamie Arnold,Jamie Arnold
+R-009263,2026-04-01,2026-04-03,854.79,Closed account,Larkspur Savings Bank,Monica Herrera,Lisa Hensley
+R-009324,2026-04-01,2026-04-07,667.41,Stop payment,Silverbrook Trust Company,Monica Herrera,Michele Williams
+R-009466,2026-04-07,2026-04-24,622.04,Uncollected funds hold,Harbor State Bank,Lisa Hensley,Dylan Miller
+R-009835,2026-04-07,2026-04-27,1596.67,Stop payment,Brackenridge Trust Company,Lisa Hensley,Dylan Miller
+R-009845,2026-04-02,2026-04-17,654.54,Signature missing,Glenhaven Community Bank,Michele Williams,Lisa Hensley
+R-009865,2026-04-06,2026-04-16,69.73,Unable to locate account,Ashgrove Savings Bank,Jamie Arnold,Michele Williams
+R-009866,2026-04-03,2026-04-15,164.02,NSF,Pinecrest Credit Union,Dylan Miller,Monica Herrera
+R-009894,2026-03-31,2026-04-10,1301.84,NSF,Cobble Creek Savings Bank,Lisa Hensley,Michele Williams
+R-009934,2026-04-01,2026-04-08,725.15,Forgery,Redfern Community Bank,Jamie Arnold,Lisa Hensley
+R-009959,2026-04-08,2026-04-21,1474.31,Forgery,Wrenfield State Bank,Monica Herrera,Jamie Arnold
+R-009974,2026-04-02,2026-04-22,126.95,Closed account,Thistlewood Credit Union,Monica Herrera,Jamie Arnold
+R-009990,2026-04-01,2026-04-13,1063.98,Stop payment,Thistlewood Credit Union,Jamie Arnold,Dylan Miller
+R-010028,2026-04-01,2026-04-10,799.23,NSF,Pinecrest Credit Union,Lisa Hensley,Lisa Hensley
+R-010033,2026-04-03,2026-04-23,789.89,NSF,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-010043,2026-04-07,2026-04-20,1030.02,Stop payment,Thistlewood Credit Union,Jamie Arnold,Monica Herrera
+R-010057,2026-04-08,2026-04-21,188.31,NSF,Marlow Ridge Credit Union,Lisa Hensley,Dylan Miller
+R-010181,2026-04-10,2026-04-20,456.46,,Harbor State Bank,,Dylan Miller
+R-010201,2026-04-07,2026-04-17,996.41,Uncollected funds hold,Wrenfield State Bank,Monica Herrera,Dylan Miller
+R-010253,2026-04-10,2026-05-01,587.29,Duplicate presentment,Kestrel Point State Bank,Monica Herrera,Monica Herrera
+R-010445,2026-04-10,2026-04-30,2109.73,Uncollected funds hold,Fernwick Trust Company,Lisa Hensley,Michele Williams
+R-010505,2026-04-10,2026-04-17,868.97,NSF,Fernwick Trust Company,Lisa Hensley,Jamie Arnold
+R-010510,2026-04-15,2026-04-23,1146.17,Stop payment,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-010517,2026-04-06,2026-04-27,645.45,NSF,Quillstone Community Bank,Monica Herrera,Lisa Hensley
+R-010540,2026-04-13,2026-04-22,353.99,NSF,Silverbrook Trust Company,Michele Williams,Monica Herrera
+R-010542,2026-04-10,2026-04-21,176.43,Refer to maker,Brackenridge Savings Bank,Lisa Hensley,Monica Herrera
+R-010577,2026-04-15,2026-04-24,1032.53,Unable to locate account,Marlow Ridge Community Bank,Jamie Arnold,Monica Herrera
+R-010583,2026-04-08,2026-04-14,185.95,NSF,Ashgrove Trust Company,Jamie Arnold,Jamie Arnold
+R-010612,2026-04-08,2026-04-20,1457.80,Uncollected funds hold,Fernwick Trust Company,Michele Williams,Dylan Miller
+R-010618,2026-04-13,2026-04-16,231.03,Stop payment,Stonemere State Bank,Jamie Arnold,Monica Herrera
+R-010685,2026-04-09,2026-04-24,97.18,NSF,Redfern Community Bank,Lisa Hensley,Jamie Arnold
+R-010731,2026-04-07,2026-04-22,263.89,Refer to maker,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-010758,2026-04-14,2026-04-29,503.94,NSF,Pinecrest Credit Union,Michele Williams,Lisa Hensley
+R-010761,2026-04-13,2026-04-16,239.60,NSF,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-010806,2026-04-17,2026-05-05,1514.79,NSF,Quillstone Community Bank,Lisa Hensley,Jamie Arnold
+R-010821,2026-04-14,2026-04-21,521.09,Uncollected funds hold,Marlow Ridge Community Bank,Monica Herrera,Lisa Hensley
+R-010831,2026-04-10,2026-04-21,860.49,Closed account,Copper Hollow Community Bank,Monica Herrera,Jamie Arnold
+R-010887,2026-04-10,2026-04-30,969.63,NSF,Ambergate State Bank,Lisa Hensley,Dylan Miller
+R-011016,2026-04-13,2026-04-20,1203.83,NSF,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-011040,2026-04-09,2026-04-14,94.09,Stop payment,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-011045,2026-04-16,2026-05-07,43.90,Refer to maker,Ambergate Savings Bank,Lisa Hensley,Lisa Hensley
+R-011085,2026-04-10,2026-04-24,180.33,Closed account,Ambergate State Bank,Dylan Miller,Monica Herrera
+R-011088,2026-04-10,2026-04-22,449.95,Refer to maker,Harbor State Bank,Lisa Hensley,Lisa Hensley
+R-011114,2026-04-14,2026-04-29,323.66,NSF,Ambergate Savings Bank,Jamie Arnold,Monica Herrera
+R-011254,2026-04-20,2026-04-23,767.22,Unable to locate account,Harbor Savings Bank,Lisa Hensley,Jamie Arnold
+R-011314,2026-04-16,2026-04-22,415.84,Forgery,Harbor State Bank,Jamie Arnold,Monica Herrera
+R-011400,2026-04-20,2026-04-23,666.88,Uncollected funds hold,Pinecrest Credit Union,Monica Herrera,Monica Herrera
+R-011441,2026-04-17,2026-05-08,234.35,Signature missing,Harbor State Bank,Dylan Miller,Lisa Hensley
+R-011448,2026-04-13,2026-04-15,390.48,Duplicate presentment,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-011502,2026-04-20,2026-05-04,163.41,Stop payment,Brackenridge Savings Bank,Monica Herrera,Dylan Miller
+R-011546,2026-04-17,2026-04-30,66.02,Forgery,Saltmarsh Trust Company,Dylan Miller,Michele Williams
+R-011576,2026-04-14,2026-04-24,137.44,Refer to maker,Harbor State Bank,Monica Herrera,Dylan Miller
+R-011588,2026-04-15,2026-04-27,104.96,Altered/fictitious item,Harbor State Bank,Monica Herrera,Monica Herrera
+R-011603,2026-04-17,2026-05-06,237.91,Stop payment,Harbor State Bank,Monica Herrera,Monica Herrera
+R-011631,2026-04-17,2026-05-05,198.28,Closed account,Harbor State Bank,Dylan Miller,Michele Williams
+R-011711,2026-04-24,2026-05-08,527.29,Uncollected funds hold,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-011715,2026-04-16,2026-05-01,1267.83,Unable to locate account,Kestrel Point Community Bank,Lisa Hensley,Monica Herrera
+R-011729,2026-04-20,2026-05-08,69.44,NSF,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-011891,2026-04-24,2026-05-07,50.30,Stop payment,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-011940,2026-04-17,2026-05-05,404.62,NSF,Larkspur Savings Bank,Monica Herrera,Lisa Hensley
+R-011966,2026-04-17,2026-05-04,549.98,NSF,Copper Hollow Community Bank,Dylan Miller,Michele Williams
+R-012014,2026-04-24,2026-05-08,224.33,Refer to maker,Harbor State Bank,Lisa Hensley,Monica Herrera
+R-012099,2026-05-01,2026-05-21,366.94,Stop payment,Pinecrest Credit Union,Jamie Arnold,Lisa Hensley
+R-012205,2026-04-24,2026-05-06,179.43,NSF,Thistlewood Credit Union,Monica Herrera,Monica Herrera
+R-012216,2026-04-24,2026-05-05,1346.25,Closed account,Ambergate State Bank,Jamie Arnold,Dylan Miller
+R-012244,2026-04-21,2026-05-08,459.76,Stop payment,Pinecrest Credit Union,Monica Herrera,Monica Herrera
+R-012247,2026-04-21,2026-04-24,349.59,Stop payment,Thistlewood Credit Union,Jamie Arnold,Monica Herrera
+R-012271,2026-04-27,2026-05-04,117.70,Stop payment,Ashgrove Savings Bank,Dylan Miller,Monica Herrera
+R-012328,2026-04-27,2026-05-01,97.68,Signature missing,Brackenridge Savings Bank,Jamie Arnold,Michele Williams
+R-012353,2026-04-29,2026-05-04,159.69,Stop payment,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-012400,2026-04-30,2026-05-07,1225.02,Stop payment,Fernwick Credit Union,Monica Herrera,Dylan Miller
+R-012413,2026-04-22,2026-05-06,643.19,NSF,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-012463,2026-04-24,2026-04-30,1416.91,NSF,Thistlewood Community Bank,Jamie Arnold,Dylan Miller
+R-012491,2026-04-23,2026-04-27,209.24,Refer to maker,Kestrel Point State Bank,Lisa Hensley,Jamie Arnold
+R-012514,2026-04-27,2026-05-06,191.38,Closed account,Pinecrest Credit Union,Monica Herrera,Michele Williams
+R-012520,2026-04-27,2026-05-15,437.44,Duplicate presentment,Copper Hollow Community Bank,Jamie Arnold,Dylan Miller
+R-012527,2026-04-23,2026-05-06,134.86,Stop payment,Pinecrest Credit Union,Jamie Arnold,Lisa Hensley
+R-012583,2026-04-24,2026-05-06,74.42,Uncollected funds hold,Harbor State Bank,Lisa Hensley,Dylan Miller
+R-012661,2026-04-24,2026-04-28,456.03,Duplicate presentment,Harbor Savings Bank,Jamie Arnold,Lisa Hensley
+R-012667,2026-04-24,2026-04-30,277.48,NSF,Wrenfield State Bank,Lisa Hensley,Dylan Miller
+R-012710,2026-04-24,2026-05-07,195.05,NSF,Harbor State Bank,Dylan Miller,Dylan Miller
+R-012712,2026-04-24,2026-04-30,424.18,Uncollected funds hold,Redfern Community Bank,Monica Herrera,Monica Herrera
+R-012717,2026-04-28,2026-05-12,317.44,NSF,Stonemere State Bank,Lisa Hensley,Lisa Hensley
+R-012737,2026-04-27,2026-05-12,709.75,Altered/fictitious item,Brackenridge Savings Bank,Monica Herrera,Jamie Arnold
+R-012794,2026-04-27,2026-05-18,196.61,Refer to maker,Harbor State Bank,Monica Herrera,Michele Williams
+R-012797,2026-05-01,2026-05-11,518.51,Closed account,Oakhurst Valley Community Bank,Monica Herrera,Michele Williams
+R-012858,2026-04-27,2026-05-08,109.55,Closed account,Kestrel Point State Bank,Michele Williams,Dylan Miller
+R-012872,2026-05-04,2026-05-19,61.40,Stop payment,Bramblewood Trust Company,Monica Herrera,Michele Williams
+R-012875,2026-04-29,2026-05-01,252.25,Unable to locate account,Ambergate State Bank,Michele Williams,Jamie Arnold
+R-012923,2026-04-29,2026-05-05,305.77,Stop payment,Oakhurst Valley Community Bank,Monica Herrera,Dylan Miller
+R-012925,2026-04-29,2026-05-04,179.48,Closed account,Copper Hollow Community Bank,Monica Herrera,Lisa Hensley
+R-012945,2026-05-01,2026-05-22,518.25,Uncollected funds hold,Silverbrook Trust Company,Jamie Arnold,Michele Williams
+R-012977,2026-05-01,2026-05-06,626.95,Stop payment,Stonemere Savings Bank,Lisa Hensley,Lisa Hensley
+R-012990,2026-04-29,2026-05-06,2123.11,NSF,Harbor Savings Bank,Monica Herrera,Dylan Miller
+R-013105,2026-05-04,2026-05-06,236.06,Uncollected funds hold,Pinecrest Credit Union,Jamie Arnold,Michele Williams
+R-013170,2026-05-05,2026-05-13,1398.71,Uncollected funds hold,Quillstone Community Bank,Lisa Hensley,Jamie Arnold
+R-013268,2026-05-06,2026-05-19,204.20,Stop payment,Juniper Flats Savings Bank,Lisa Hensley,Monica Herrera
+R-013284,2026-05-07,2026-05-19,169.82,,Oakhurst Valley State Bank,,Monica Herrera
+R-013285,2026-05-06,2026-05-08,376.49,Refer to maker,Quillstone Community Bank,Lisa Hensley,Jamie Arnold
+R-013289,2026-05-06,2026-05-19,337.84,NSF,Larkspur Savings Bank,Monica Herrera,Dylan Miller
+R-013297,2026-05-01,2026-05-15,76.14,Closed account,Silverbrook Trust Company,Michele Williams,Lisa Hensley
+R-013427,2026-05-07,2026-05-12,100.72,NSF,Heron Bay State Bank,Dylan Miller,Monica Herrera
+R-013452,2026-04-30,2026-05-08,277.89,Unable to locate account,Harbor State Bank,Lisa Hensley,Lisa Hensley
+R-013531,2026-05-01,2026-05-08,954.59,Altered/fictitious item,Fernwick Trust Company,Jamie Arnold,Dylan Miller
+R-013534,2026-05-04,2026-05-20,259.31,NSF,Silverbrook Trust Company,Monica Herrera,Michele Williams
+R-013603,2026-05-06,2026-05-22,881.92,Refer to maker,Willowmere Credit Union,Lisa Hensley,Jamie Arnold
+R-013623,2026-05-06,2026-05-11,339.91,Refer to maker,Larkspur Savings Bank,Jamie Arnold,Jamie Arnold
+R-013859,2026-05-05,2026-05-27,2142.38,NSF,Pinecrest Community Bank,Jamie Arnold,Dylan Miller
+R-013901,2026-05-07,2026-05-29,80.38,NSF,Juniper Flats Savings Bank,Lisa Hensley,Monica Herrera
+R-013969,2026-05-08,2026-05-29,780.77,Uncollected funds hold,Ashgrove Savings Bank,Michele Williams,Lisa Hensley
+R-013991,2026-05-12,2026-05-28,142.40,Stop payment,Quillstone Community Bank,Michele Williams,Michele Williams
+R-014020,2026-05-15,2026-05-28,3093.70,NSF,Silverbrook Trust Company,Lisa Hensley,Dylan Miller
+R-014041,2026-05-12,2026-06-02,614.28,,Larkspur Trust Company,,Lisa Hensley
+R-014199,2026-05-11,2026-05-18,329.81,Refer to maker,Copper Hollow Community Bank,Lisa Hensley,Michele Williams
+R-014216,2026-05-08,2026-05-21,44.70,NSF,Willowmere Credit Union,Dylan Miller,Monica Herrera
+R-014253,2026-05-15,2026-05-19,239.47,NSF,Thistlewood Community Bank,Jamie Arnold,Dylan Miller
+R-014349,2026-05-15,2026-05-28,497.67,NSF,Brackenridge Savings Bank,Dylan Miller,Monica Herrera
+R-014386,2026-05-14,2026-05-22,702.29,Duplicate presentment,Copper Hollow Community Bank,Monica Herrera,Jamie Arnold
+R-014392,2026-05-13,2026-05-22,244.86,Uncollected funds hold,Glenhaven Community Bank,Jamie Arnold,Lisa Hensley
+R-014537,2026-05-11,2026-05-13,1158.91,Unable to locate account,Fernwick Trust Company,Lisa Hensley,Lisa Hensley
+R-014568,2026-05-11,2026-05-28,1103.18,Stop payment,Larkspur Trust Company,Lisa Hensley,Monica Herrera
+R-014577,2026-05-13,2026-05-29,726.24,NSF,Harbor State Bank,Monica Herrera,Michele Williams
+R-014612,2026-05-14,2026-06-05,143.79,Altered/fictitious item,Larkspur Trust Company,Lisa Hensley,Lisa Hensley
+R-014664,2026-05-12,2026-06-01,553.12,Forgery,Marlow Ridge Credit Union,Monica Herrera,Dylan Miller
+R-014695,2026-05-18,2026-06-04,135.44,Uncollected funds hold,Harbor State Bank,Jamie Arnold,Michele Williams
+R-014781,2026-05-13,2026-06-03,1016.77,Closed account,Larkspur Savings Bank,Lisa Hensley,Monica Herrera
+R-014904,2026-05-19,2026-06-10,1008.52,Closed account,Brackenridge Savings Bank,Jamie Arnold,Jamie Arnold
+R-014959,2026-05-18,2026-05-21,504.86,Unable to locate account,Copper Hollow Community Bank,Jamie Arnold,Michele Williams
+R-014992,2026-05-21,2026-06-10,1037.05,Stop payment,Juniper Flats Savings Bank,Monica Herrera,Monica Herrera
+R-015136,2026-05-21,2026-06-02,686.72,NSF,Pinecrest Credit Union,Jamie Arnold,Jamie Arnold
+R-015222,2026-05-27,2026-06-08,2366.36,Stop payment,Pinecrest Credit Union,Jamie Arnold,Dylan Miller
+R-015409,2026-05-26,2026-06-11,772.18,Forgery,Stonemere Savings Bank,Jamie Arnold,Michele Williams
+R-015418,2026-05-20,2026-06-03,257.47,NSF,Fernwick Trust Company,Monica Herrera,Monica Herrera
+R-015471,2026-05-26,2026-06-09,272.26,Refer to maker,Harbor State Bank,Michele Williams,Lisa Hensley
+R-015525,2026-05-22,2026-06-09,335.93,,Harbor Savings Bank,,Lisa Hensley
+R-015528,2026-05-19,2026-05-28,159.01,NSF,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-015530,2026-05-19,2026-05-29,498.39,NSF,Willowmere Credit Union,Monica Herrera,Michele Williams
+R-015531,2026-05-21,2026-06-05,722.25,Closed account,Stonemere State Bank,Monica Herrera,Dylan Miller
+R-015532,2026-05-28,2026-06-17,762.63,Closed account,Harbor State Bank,Monica Herrera,Monica Herrera
+R-015534,2026-05-19,2026-05-21,766.98,NSF,Glenhaven Credit Union,Monica Herrera,Monica Herrera
+R-015546,2026-05-19,2026-06-05,261.27,Uncollected funds hold,Pinecrest Credit Union,Monica Herrera,Dylan Miller
+R-015549,2026-05-19,2026-05-26,829.89,NSF,Pinecrest Credit Union,Lisa Hensley,Michele Williams
+R-015611,2026-05-22,2026-06-12,205.33,Unable to locate account,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-015735,2026-05-21,2026-06-11,1867.47,Uncollected funds hold,Kestrel Point Community Bank,Jamie Arnold,Lisa Hensley
+R-015736,2026-05-28,2026-06-12,113.26,Stop payment,Saltmarsh Trust Company,Michele Williams,Monica Herrera
+R-015827,2026-05-27,2026-05-29,435.10,Refer to maker,Brackenridge Savings Bank,Dylan Miller,Jamie Arnold
+R-015945,2026-05-21,2026-06-04,326.72,Stop payment,Thistlewood Credit Union,Jamie Arnold,Monica Herrera
+R-015947,2026-05-21,2026-05-28,253.30,NSF,Pinecrest Credit Union,Jamie Arnold,Monica Herrera
+R-016031,2026-05-27,2026-06-17,360.15,Stop payment,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-016043,2026-05-22,2026-06-15,974.92,Unable to locate account,Quillstone State Bank,Jamie Arnold,Monica Herrera
+R-016068,2026-05-22,2026-06-05,321.19,NSF,Ashgrove Savings Bank,Monica Herrera,Dylan Miller
+R-016071,2026-05-29,2026-06-12,473.40,NSF,Fernwick Trust Company,Lisa Hensley,Dylan Miller
+R-016087,2026-05-27,2026-06-01,457.37,Unable to locate account,Ashgrove Savings Bank,Dylan Miller,Dylan Miller
+R-016187,2026-05-26,2026-06-12,570.82,Altered/fictitious item,Harbor State Bank,Monica Herrera,Dylan Miller
+R-016190,2026-05-26,2026-06-08,134.87,Stop payment,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-016242,2026-06-01,2026-06-17,711.45,NSF,Cobble Creek Savings Bank,Jamie Arnold,Lisa Hensley
+R-016268,2026-05-26,2026-06-02,359.05,Refer to maker,Larkspur Trust Company,Jamie Arnold,Jamie Arnold
+R-016298,2026-06-02,2026-06-24,68.44,Forgery,Quillstone Community Bank,Lisa Hensley,Lisa Hensley
+R-016377,2026-05-28,2026-06-02,59.45,Closed account,Fernwick Trust Company,Lisa Hensley,Michele Williams
+R-016379,2026-06-02,2026-06-17,253.52,NSF,Harbor State Bank,Monica Herrera,Michele Williams
+R-016423,2026-06-02,2026-06-11,201.57,Altered/fictitious item,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-016472,2026-06-01,2026-06-16,52.47,Closed account,Pinecrest Community Bank,Monica Herrera,Lisa Hensley
+R-016568,2026-05-29,2026-06-04,626.89,NSF,Fernwick Credit Union,Jamie Arnold,Monica Herrera
+R-016622,2026-05-28,2026-06-11,90.23,NSF,Copper Hollow Community Bank,Monica Herrera,Monica Herrera
+R-016650,2026-06-01,2026-06-10,376.60,NSF,Quillstone Community Bank,Monica Herrera,Dylan Miller
+R-016669,2026-06-04,2026-06-25,273.95,Refer to maker,Pinecrest Credit Union,Jamie Arnold,Lisa Hensley
+R-016675,2026-06-05,2026-06-16,160.47,Altered/fictitious item,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-016744,2026-06-03,2026-06-17,150.10,NSF,Harbor State Bank,Monica Herrera,Dylan Miller
+R-017037,2026-06-10,2026-06-29,163.25,Uncollected funds hold,Harbor State Bank,Monica Herrera,Monica Herrera
+R-017111,2026-06-02,2026-06-24,214.96,Duplicate presentment,Stonemere State Bank,Lisa Hensley,Lisa Hensley
+R-017121,2026-06-09,2026-06-18,86.18,NSF,Marlow Ridge Credit Union,Monica Herrera,Michele Williams
+R-017207,2026-06-08,2026-06-11,446.48,Duplicate presentment,Larkspur Savings Bank,Michele Williams,Jamie Arnold
+R-017222,2026-06-05,2026-06-25,530.58,NSF,Pinecrest Credit Union,Jamie Arnold,Michele Williams
+R-017229,2026-06-09,2026-07-01,1592.45,Signature missing,Ashgrove Savings Bank,Michele Williams,Monica Herrera
+R-017253,2026-06-10,2026-06-16,882.05,Stop payment,Redfern Community Bank,Monica Herrera,Michele Williams
+R-017255,2026-06-08,2026-06-18,65.66,Refer to maker,Thistlewood Credit Union,Jamie Arnold,Jamie Arnold
+R-017287,2026-06-02,2026-06-10,131.12,NSF,Thistlewood Credit Union,Monica Herrera,Lisa Hensley
+R-017498,2026-06-09,2026-06-26,1768.94,NSF,Copper Hollow State Bank,Michele Williams,Michele Williams
+R-017548,2026-06-04,2026-06-26,115.43,Closed account,Thistlewood Credit Union,Monica Herrera,Lisa Hensley
+R-017554,2026-06-08,2026-06-24,402.84,Stop payment,Willowmere Credit Union,Michele Williams,Jamie Arnold
+R-017561,2026-06-08,2026-06-16,107.19,Duplicate presentment,Brackenridge Trust Company,Monica Herrera,Monica Herrera
+R-017567,2026-06-04,2026-06-25,367.73,Refer to maker,Larkspur Savings Bank,Jamie Arnold,Dylan Miller
+R-017580,2026-06-09,2026-06-25,119.66,Altered/fictitious item,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-017640,2026-06-05,2026-06-26,90.26,Uncollected funds hold,Larkspur Savings Bank,Lisa Hensley,Jamie Arnold
+R-017641,2026-06-12,2026-07-01,1754.20,Stop payment,Marlow Ridge Credit Union,Michele Williams,Dylan Miller
+R-017692,2026-06-05,2026-06-22,322.43,Uncollected funds hold,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-017721,2026-06-15,2026-07-02,1796.07,Stop payment,Copper Hollow Community Bank,Jamie Arnold,Monica Herrera
+R-017737,2026-06-11,2026-06-26,88.69,Unable to locate account,Harbor State Bank,Michele Williams,Monica Herrera
+R-017752,2026-06-15,2026-07-06,130.15,NSF,Larkspur Savings Bank,Jamie Arnold,Monica Herrera
+R-017760,2026-06-11,2026-07-01,306.12,Closed account,Thistlewood Credit Union,Michele Williams,Lisa Hensley
+R-017789,2026-06-16,2026-07-08,590.82,NSF,Harbor State Bank,Dylan Miller,Michele Williams
+R-017803,2026-06-15,2026-07-01,194.93,NSF,Kestrel Point Community Bank,Lisa Hensley,Dylan Miller
+R-017831,2026-06-08,2026-06-22,1524.58,NSF,Larkspur Savings Bank,Dylan Miller,Jamie Arnold
+R-017860,2026-06-16,2026-07-09,529.39,Stop payment,Bramblewood Trust Company,Jamie Arnold,Lisa Hensley
+R-017904,2026-06-16,2026-07-01,294.30,NSF,Quillstone Community Bank,Lisa Hensley,Monica Herrera
+R-017959,2026-06-11,2026-06-18,1004.89,Altered/fictitious item,Pinecrest Credit Union,Dylan Miller,Monica Herrera
+R-018011,2026-06-16,2026-07-09,432.78,NSF,Harbor State Bank,Michele Williams,Dylan Miller
+R-018022,2026-06-08,2026-06-17,318.39,Stop payment,Bramblewood Credit Union,Lisa Hensley,Lisa Hensley
+R-018044,2026-06-17,2026-07-02,262.33,Stop payment,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-018097,2026-06-15,2026-07-01,579.55,Unable to locate account,Fernwick Trust Company,Monica Herrera,Dylan Miller
+R-018196,2026-06-17,2026-06-29,60.97,NSF,Ambergate State Bank,Lisa Hensley,Jamie Arnold
+R-018220,2026-06-11,2026-06-25,2663.06,Refer to maker,Ambergate State Bank,Lisa Hensley,Monica Herrera
+R-018258,2026-06-17,2026-06-26,821.81,Closed account,Kestrel Point Community Bank,Lisa Hensley,Michele Williams
+R-018261,2026-06-10,2026-07-01,228.21,Duplicate presentment,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-018295,2026-06-12,2026-07-06,596.89,Stop payment,Harbor State Bank,Jamie Arnold,Monica Herrera
+R-018307,2026-06-10,2026-06-16,99.94,NSF,Larkspur Savings Bank,Monica Herrera,Lisa Hensley
+R-018320,2026-06-15,2026-06-26,3130.35,Closed account,Fernwick Trust Company,Lisa Hensley,Monica Herrera
+R-018369,2026-06-11,2026-06-26,277.36,Altered/fictitious item,Silverbrook Trust Company,Michele Williams,Michele Williams
+R-018401,2026-06-11,2026-06-29,315.37,Stop payment,Harbor State Bank,Monica Herrera,Monica Herrera
+R-018402,2026-06-15,2026-06-25,265.52,Duplicate presentment,Copper Hollow Community Bank,Jamie Arnold,Jamie Arnold
+R-018635,2026-06-15,2026-06-29,822.61,Uncollected funds hold,Larkspur Savings Bank,Monica Herrera,Dylan Miller
+R-018671,2026-06-17,2026-06-22,402.30,NSF,Fernwick Trust Company,Jamie Arnold,Michele Williams
+R-018766,2026-06-17,2026-06-24,86.07,Altered/fictitious item,Pinecrest Credit Union,Lisa Hensley,Jamie Arnold
+R-018797,2026-06-24,2026-07-07,219.67,Refer to maker,Wrenfield State Bank,Michele Williams,Lisa Hensley
+R-018876,2026-06-17,2026-06-30,1153.40,NSF,Saltmarsh Credit Union,Dylan Miller,Lisa Hensley
+R-018914,2026-06-15,2026-07-08,566.17,NSF,Harbor State Bank,Jamie Arnold,Michele Williams
+R-018926,2026-06-24,2026-07-16,256.95,Stop payment,Glenhaven Credit Union,Michele Williams,Michele Williams
+R-019029,2026-06-25,2026-07-08,134.03,Signature missing,Pinecrest Credit Union,Monica Herrera,Dylan Miller
+R-019058,2026-06-24,2026-07-16,266.13,Uncollected funds hold,Stonemere State Bank,Lisa Hensley,Lisa Hensley
+R-019156,2026-06-22,2026-06-29,285.11,Unable to locate account,Bramblewood Trust Company,Monica Herrera,Monica Herrera
+R-019562,2026-06-26,2026-06-30,1268.84,Altered/fictitious item,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-019564,2026-06-29,2026-07-16,869.87,Signature missing,Silverbrook Credit Union,Monica Herrera,Jamie Arnold
+R-019621,2026-06-26,2026-07-01,1158.92,,Wrenfield State Bank,,Jamie Arnold
+R-019637,2026-06-24,2026-07-10,148.51,NSF,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-019745,2026-06-23,2026-06-26,163.86,NSF,Harbor State Bank,Jamie Arnold,Michele Williams
+R-019783,2026-06-23,2026-06-25,319.39,Uncollected funds hold,Fernwick Trust Company,Monica Herrera,Dylan Miller
+R-019794,2026-06-30,2026-07-07,324.02,,Harbor State Bank,,Lisa Hensley
+R-019825,2026-06-30,2026-07-17,342.20,NSF,Kestrel Point Community Bank,Monica Herrera,Monica Herrera
+R-019996,2026-06-30,2026-07-09,218.69,Refer to maker,Ambergate Savings Bank,Jamie Arnold,Lisa Hensley
+R-020044,2026-07-02,2026-07-08,381.75,Altered/fictitious item,Fernwick Trust Company,Jamie Arnold,Monica Herrera
+R-020080,2026-06-26,2026-07-08,428.28,Altered/fictitious item,Thistlewood Credit Union,Monica Herrera,Lisa Hensley
+R-020100,2026-07-02,2026-07-07,505.15,Refer to maker,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-020114,2026-07-06,2026-07-14,635.83,NSF,Quillstone Community Bank,Lisa Hensley,Jamie Arnold
+R-020122,2026-06-26,2026-07-08,166.97,Duplicate presentment,Harbor State Bank,Michele Williams,Jamie Arnold
+R-020324,2026-06-30,2026-07-16,2844.87,Closed account,Thistlewood Credit Union,Jamie Arnold,Jamie Arnold
+R-020379,2026-07-01,2026-07-06,138.88,Altered/fictitious item,Harbor State Bank,Monica Herrera,Michele Williams
+R-020453,2026-06-29,2026-07-02,625.19,Uncollected funds hold,Larkspur Savings Bank,Monica Herrera,Monica Herrera
+R-020458,2026-06-29,2026-07-16,334.66,Unable to locate account,Pinecrest Credit Union,Lisa Hensley,Michele Williams
+R-020463,2026-07-07,2026-07-21,1847.78,Closed account,Kestrel Point Community Bank,Michele Williams,Michele Williams
+R-020489,2026-07-07,2026-07-21,413.49,Stop payment,Pinecrest Credit Union,Monica Herrera,Lisa Hensley
+R-020529,2026-07-01,2026-07-13,223.46,NSF,Pinecrest Credit Union,Lisa Hensley,Dylan Miller
+R-020548,2026-07-08,2026-07-16,66.77,NSF,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-020556,2026-07-08,2026-07-21,963.19,NSF,Harbor State Bank,Lisa Hensley,Dylan Miller
+R-020608,2026-07-09,2026-07-22,423.31,NSF,Quillstone Community Bank,Lisa Hensley,Michele Williams
+R-020615,2026-07-06,2026-07-27,171.40,NSF,Quillstone State Bank,Lisa Hensley,Monica Herrera
+R-020657,2026-07-08,2026-07-23,309.95,,Larkspur Savings Bank,,Michele Williams
+R-020786,2026-07-10,2026-07-27,1084.67,Forgery,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-020802,2026-07-02,2026-07-22,202.64,Uncollected funds hold,Silverbrook Trust Company,Michele Williams,Monica Herrera
+R-020921,2026-07-13,2026-07-24,178.72,NSF,Quillstone Community Bank,Lisa Hensley,Monica Herrera
+R-020969,2026-07-21,2026-08-06,888.41,NSF,Pinecrest Credit Union,Lisa Hensley,Dylan Miller
+R-021038,2026-07-06,2026-07-24,668.39,Unable to locate account,Glenhaven Community Bank,Monica Herrera,Monica Herrera
+R-021045,2026-07-07,2026-07-14,255.91,Signature missing,Copper Hollow Community Bank,Jamie Arnold,Monica Herrera
+R-021501,2026-07-13,2026-07-30,218.14,NSF,Ambergate Savings Bank,Jamie Arnold,Michele Williams
+R-021563,2026-07-15,2026-08-04,1134.97,NSF,Larkspur Savings Bank,Monica Herrera,Michele Williams
+R-021577,2026-07-13,2026-07-31,267.57,NSF,Fernwick Trust Company,Monica Herrera,Dylan Miller
+R-021590,2026-07-13,2026-07-15,1149.57,NSF,Oakhurst Valley Community Bank,Jamie Arnold,Monica Herrera
+R-021595,2026-07-14,2026-07-23,65.89,NSF,Quillstone Community Bank,Lisa Hensley,Michele Williams
+R-021744,2026-07-14,2026-08-04,1022.87,NSF,Larkspur Savings Bank,Michele Williams,Lisa Hensley
+R-021817,2026-07-13,2026-07-31,3557.91,Forgery,Kestrel Point Community Bank,Monica Herrera,Lisa Hensley
+R-021875,2026-07-17,2026-07-27,259.27,Forgery,Copper Hollow State Bank,Dylan Miller,Monica Herrera
+R-021902,2026-07-15,2026-08-05,447.36,Refer to maker,Harbor State Bank,Lisa Hensley,Lisa Hensley
+R-021928,2026-07-17,2026-07-29,911.87,Uncollected funds hold,Harbor State Bank,Dylan Miller,Michele Williams
+R-021991,2026-07-16,2026-07-29,692.87,Refer to maker,Redfern Community Bank,Lisa Hensley,Michele Williams
+R-022080,2026-07-16,2026-07-28,158.94,NSF,Fernwick Trust Company,Monica Herrera,Monica Herrera
+R-022230,2026-07-15,2026-08-03,2252.03,Closed account,Quillstone Community Bank,Monica Herrera,Jamie Arnold
+R-022259,2026-07-15,2026-07-24,1020.05,NSF,Thistlewood Credit Union,Lisa Hensley,Monica Herrera
+R-022288,2026-07-16,2026-08-06,153.88,NSF,Harbor State Bank,Lisa Hensley,Monica Herrera
+R-022324,2026-07-15,2026-07-20,245.84,NSF,Cobble Creek Savings Bank,Monica Herrera,Dylan Miller
+R-022385,2026-07-23,2026-08-11,516.95,Signature missing,Quillstone Community Bank,Monica Herrera,Monica Herrera
+R-022386,2026-07-22,2026-08-07,192.37,NSF,Harbor State Bank,Monica Herrera,Dylan Miller
+R-022495,2026-07-20,2026-08-04,469.76,Uncollected funds hold,Redfern Community Bank,Lisa Hensley,Monica Herrera
+R-022655,2026-07-27,2026-08-10,663.98,Stop payment,Redfern Community Bank,Dylan Miller,Michele Williams
+R-022704,2026-07-22,2026-08-10,216.18,Closed account,Glenhaven Credit Union,Lisa Hensley,Jamie Arnold
+R-022741,2026-07-28,2026-07-31,108.60,Unable to locate account,Larkspur Savings Bank,Jamie Arnold,Monica Herrera
+R-022746,2026-07-27,2026-08-03,868.37,Duplicate presentment,Harbor State Bank,Lisa Hensley,Monica Herrera
+R-022795,2026-07-22,2026-08-03,613.59,Stop payment,Marlow Ridge Credit Union,Monica Herrera,Monica Herrera
+R-022820,2026-07-22,2026-08-04,1758.34,NSF,Thistlewood Credit Union,Monica Herrera,Monica Herrera
+R-022902,2026-07-24,2026-08-03,2273.52,Refer to maker,Ashgrove Savings Bank,Michele Williams,Michele Williams
+R-022928,2026-07-23,2026-08-03,601.22,NSF,Redfern Community Bank,Lisa Hensley,Michele Williams
+R-022931,2026-07-28,2026-08-10,495.53,Refer to maker,Juniper Flats Trust Company,Monica Herrera,Jamie Arnold
+R-023084,2026-07-22,2026-07-28,318.27,NSF,Pinecrest Credit Union,Lisa Hensley,Michele Williams
+R-023120,2026-07-22,2026-08-04,110.83,NSF,Pinecrest Credit Union,Jamie Arnold,Dylan Miller
+R-023136,2026-07-22,2026-08-05,169.14,Closed account,Harbor Savings Bank,Dylan Miller,Lisa Hensley
+R-023358,2026-07-30,2026-08-03,545.74,NSF,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-023475,2026-08-05,2026-08-10,2123.41,NSF,Harbor State Bank,Monica Herrera,Michele Williams
+R-023520,2026-07-29,2026-08-04,113.88,Uncollected funds hold,Fernwick Trust Company,Jamie Arnold,Jamie Arnold
+R-023641,2026-07-27,2026-08-11,476.84,NSF,Ambergate Savings Bank,Michele Williams,Michele Williams
+R-023786,2026-08-04,2026-08-24,1144.96,Uncollected funds hold,Lanternhill Trust Company,Michele Williams,Jamie Arnold
+R-023818,2026-08-05,2026-08-17,1841.51,Stop payment,Pinecrest Credit Union,Lisa Hensley,Michele Williams
+R-023912,2026-07-28,2026-07-31,244.06,Stop payment,Harbor State Bank,Monica Herrera,Monica Herrera
+R-023954,2026-08-03,2026-08-14,599.86,NSF,Wrenfield State Bank,Jamie Arnold,Dylan Miller
+R-024050,2026-08-03,2026-08-21,318.56,Unable to locate account,Brackenridge Savings Bank,Monica Herrera,Michele Williams
+R-024168,2026-08-05,2026-08-10,245.19,Stop payment,Pinecrest Credit Union,Monica Herrera,Monica Herrera
+R-024260,2026-08-03,2026-08-10,177.52,Refer to maker,Stonemere Savings Bank,Lisa Hensley,Jamie Arnold
+R-024291,2026-08-06,2026-08-20,64.59,Uncollected funds hold,Fernwick Trust Company,Jamie Arnold,Monica Herrera
+R-024293,2026-07-31,2026-08-18,270.02,Uncollected funds hold,Brackenridge Savings Bank,Jamie Arnold,Monica Herrera
+R-024379,2026-08-03,2026-08-17,306.75,Refer to maker,Larkspur Trust Company,Dylan Miller,Jamie Arnold
+R-024397,2026-08-03,2026-08-12,301.04,Forgery,Pinecrest Credit Union,Jamie Arnold,Monica Herrera
+R-024442,2026-08-05,2026-08-19,1299.24,NSF,Willowmere Credit Union,Lisa Hensley,Monica Herrera
+R-024453,2026-08-04,2026-08-19,219.74,Unable to locate account,Larkspur Savings Bank,Lisa Hensley,Monica Herrera
+R-024471,2026-08-04,2026-08-06,40.67,NSF,Harbor State Bank,Lisa Hensley,Michele Williams
+R-024591,2026-08-06,2026-08-25,304.08,NSF,Oakhurst Valley Community Bank,Monica Herrera,Dylan Miller
+R-024616,2026-08-04,2026-08-20,459.58,Closed account,Stonemere State Bank,Jamie Arnold,Dylan Miller
+R-024644,2026-08-07,2026-08-24,268.49,Closed account,Copper Hollow Community Bank,Dylan Miller,Jamie Arnold
+R-024647,2026-08-07,2026-08-17,103.80,Closed account,Larkspur Savings Bank,Monica Herrera,Monica Herrera
+R-024686,2026-08-05,2026-08-19,621.91,Refer to maker,Quillstone Community Bank,Michele Williams,Dylan Miller
+R-024693,2026-08-07,2026-08-12,423.34,Duplicate presentment,Harbor State Bank,Lisa Hensley,Dylan Miller
+R-024705,2026-08-05,2026-08-12,475.50,Forgery,Pinecrest Credit Union,Monica Herrera,Michele Williams
+R-024783,2026-08-10,2026-08-28,51.91,NSF,Glenhaven Credit Union,Jamie Arnold,Lisa Hensley
+R-024826,2026-08-12,2026-09-01,323.14,NSF,Silverbrook Credit Union,Michele Williams,Dylan Miller
+R-024855,2026-08-13,2026-09-01,241.33,Stop payment,Fernwick Trust Company,Jamie Arnold,Lisa Hensley
+R-024882,2026-08-07,2026-08-26,285.88,Stop payment,Pinecrest Community Bank,Michele Williams,Michele Williams
+R-024896,2026-08-24,2026-09-02,96.07,NSF,Larkspur Savings Bank,Monica Herrera,Lisa Hensley
+R-024921,2026-08-07,2026-08-26,233.90,Duplicate presentment,Stonemere Savings Bank,Monica Herrera,Michele Williams
+R-024922,2026-08-11,2026-08-28,89.94,Altered/fictitious item,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-024945,2026-08-13,2026-08-20,644.60,Forgery,Larkspur Savings Bank,Monica Herrera,Jamie Arnold
+R-024999,2026-08-12,2026-08-20,854.80,Forgery,Saltmarsh Trust Company,Jamie Arnold,Monica Herrera
+R-025063,2026-08-14,2026-08-31,236.06,Closed account,Larkspur Savings Bank,Lisa Hensley,Monica Herrera
+R-025090,2026-08-13,2026-09-03,160.90,NSF,Pinecrest Credit Union,Monica Herrera,Jamie Arnold
+R-025091,2026-08-12,2026-08-25,1494.07,Unable to locate account,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-025105,2026-08-11,2026-08-28,257.11,Stop payment,Wrenfield State Bank,Michele Williams,Jamie Arnold
+R-025279,2026-08-12,2026-08-20,272.80,NSF,Harbor State Bank,Michele Williams,Dylan Miller
+R-025285,2026-08-11,2026-08-25,774.05,Stop payment,Pinecrest Credit Union,Monica Herrera,Jamie Arnold
+R-025306,2026-08-19,2026-08-28,329.21,,Harbor State Bank,,Lisa Hensley
+R-025396,2026-08-12,2026-08-28,457.86,Unable to locate account,Lanternhill Trust Company,Michele Williams,Jamie Arnold
+R-025504,2026-08-20,2026-08-25,290.86,Altered/fictitious item,Willowmere Credit Union,Jamie Arnold,Lisa Hensley
+R-025537,2026-08-20,2026-08-25,157.84,Closed account,Larkspur Savings Bank,Jamie Arnold,Monica Herrera
+R-025579,2026-08-18,2026-08-25,258.80,Altered/fictitious item,Pinecrest Credit Union,Jamie Arnold,Jamie Arnold
+R-025615,2026-08-14,2026-08-27,254.30,NSF,Quillstone Community Bank,Michele Williams,Michele Williams
+R-025672,2026-08-24,2026-09-10,283.36,Uncollected funds hold,Lanternhill Trust Company,Monica Herrera,Michele Williams
+R-025683,2026-08-19,2026-09-04,676.72,NSF,Glenhaven Credit Union,Monica Herrera,Jamie Arnold
+R-025687,2026-08-17,2026-08-27,179.19,Duplicate presentment,Brackenridge Savings Bank,Monica Herrera,Jamie Arnold
+R-025693,2026-08-19,2026-09-04,887.18,NSF,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-025834,2026-08-21,2026-09-09,1863.00,Stop payment,Pinecrest Credit Union,Lisa Hensley,Monica Herrera
+R-025908,2026-08-25,2026-09-04,259.64,Altered/fictitious item,Oakhurst Valley Community Bank,Lisa Hensley,Monica Herrera
+R-025933,2026-08-18,2026-08-27,568.04,NSF,Saltmarsh Credit Union,Jamie Arnold,Michele Williams
+R-026010,2026-08-19,2026-09-04,509.18,NSF,Kestrel Point Community Bank,Michele Williams,Lisa Hensley
+R-026015,2026-08-21,2026-08-26,731.02,Uncollected funds hold,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-026047,2026-08-27,2026-09-15,1099.56,Unable to locate account,Kestrel Point Community Bank,Monica Herrera,Jamie Arnold
+R-026064,2026-08-24,2026-08-27,172.09,NSF,Marlow Ridge Credit Union,Lisa Hensley,Lisa Hensley
+R-026067,2026-08-21,2026-09-09,584.64,Forgery,Pinecrest Credit Union,Dylan Miller,Jamie Arnold
+R-026086,2026-08-27,2026-09-04,351.26,NSF,Pinecrest Credit Union,Michele Williams,Michele Williams
+R-026098,2026-08-21,2026-08-26,2641.96,Duplicate presentment,Fernwick Trust Company,Monica Herrera,Jamie Arnold
+R-026178,2026-08-26,2026-09-14,1780.86,Stop payment,Pinecrest Credit Union,Jamie Arnold,Monica Herrera
+R-026194,2026-08-28,2026-09-01,214.36,Stop payment,Cobble Creek Savings Bank,Michele Williams,Jamie Arnold
+R-026216,2026-08-21,2026-09-01,176.95,,Harbor State Bank,,Monica Herrera
+R-026255,2026-09-04,2026-09-24,320.02,Refer to maker,Quillstone Community Bank,Monica Herrera,Michele Williams
+R-026273,2026-08-28,2026-09-09,125.54,Forgery,Juniper Flats Trust Company,Jamie Arnold,Monica Herrera
+R-026493,2026-08-31,2026-09-04,645.37,NSF,Thistlewood Credit Union,Dylan Miller,Jamie Arnold
+R-026521,2026-08-28,2026-09-21,913.85,NSF,Larkspur Savings Bank,Jamie Arnold,Monica Herrera
+R-026534,2026-08-27,2026-08-31,481.02,NSF,Quillstone Community Bank,Monica Herrera,Dylan Miller
+R-026548,2026-08-26,2026-09-17,386.46,Uncollected funds hold,Bramblewood Trust Company,Michele Williams,Jamie Arnold
+R-026572,2026-08-25,2026-09-09,3056.04,Closed account,Fernwick Trust Company,Dylan Miller,Michele Williams
+R-026591,2026-08-27,2026-09-15,589.94,,Saltmarsh Trust Company,,Michele Williams
+R-026597,2026-08-25,2026-09-03,835.86,Stop payment,Glenhaven Community Bank,Monica Herrera,Michele Williams
+R-026608,2026-09-01,2026-09-21,613.92,NSF,Larkspur Savings Bank,Jamie Arnold,Michele Williams
+R-026610,2026-08-25,2026-08-28,1177.18,Duplicate presentment,Fernwick Trust Company,Lisa Hensley,Monica Herrera
+R-026620,2026-08-28,2026-09-14,441.36,NSF,Larkspur Savings Bank,Monica Herrera,Lisa Hensley
+R-026759,2026-09-02,2026-09-17,533.62,NSF,Pinecrest Credit Union,Monica Herrera,Dylan Miller
+R-026792,2026-08-27,2026-09-18,360.04,NSF,Thistlewood Credit Union,Jamie Arnold,Monica Herrera
+R-026844,2026-09-01,2026-09-21,1207.68,NSF,Pinecrest Credit Union,Monica Herrera,Dylan Miller
+R-026855,2026-09-02,2026-09-10,199.64,NSF,Harbor State Bank,Dylan Miller,Jamie Arnold
+R-026908,2026-09-03,2026-09-24,161.21,Unable to locate account,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-026946,2026-09-03,2026-09-09,115.17,Duplicate presentment,Harbor Savings Bank,Lisa Hensley,Michele Williams
+R-026951,2026-08-28,2026-09-09,352.13,Forgery,Thistlewood Community Bank,Jamie Arnold,Lisa Hensley
+R-026996,2026-09-03,2026-09-08,129.27,NSF,Thistlewood Credit Union,Monica Herrera,Monica Herrera
+R-027027,2026-08-31,2026-09-09,729.75,Unable to locate account,Oakhurst Valley State Bank,Dylan Miller,Lisa Hensley
+R-027034,2026-08-31,2026-09-15,215.02,NSF,Copper Hollow Community Bank,Monica Herrera,Monica Herrera
+R-027062,2026-09-02,2026-09-23,279.63,NSF,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-027111,2026-09-04,2026-09-15,2136.71,Stop payment,Wrenfield Savings Bank,Monica Herrera,Jamie Arnold
+R-027142,2026-08-31,2026-09-14,1260.92,Stop payment,Harbor State Bank,Monica Herrera,Michele Williams
+R-027147,2026-09-04,2026-09-11,124.01,Stop payment,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-027154,2026-09-02,2026-09-08,812.35,Closed account,Quillstone Community Bank,Jamie Arnold,Monica Herrera
+R-027192,2026-08-31,2026-09-21,1449.35,NSF,Ambergate Savings Bank,Lisa Hensley,Michele Williams
+R-027220,2026-08-31,2026-09-18,3025.10,Closed account,Silverbrook Trust Company,Monica Herrera,Jamie Arnold
+R-027285,2026-09-01,2026-09-10,620.50,Refer to maker,Ashgrove Savings Bank,Jamie Arnold,Dylan Miller
+R-027377,2026-09-02,2026-09-09,97.49,Unable to locate account,Fernwick Trust Company,Michele Williams,Dylan Miller
+R-027409,2026-09-08,2026-09-29,164.70,,Saltmarsh Trust Company,,Michele Williams
+R-027450,2026-09-04,2026-09-18,503.76,NSF,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-027457,2026-09-02,2026-09-18,566.29,Stop payment,Harbor State Bank,Monica Herrera,Dylan Miller
+R-027469,2026-09-03,2026-09-18,517.13,Stop payment,Quillstone Community Bank,Monica Herrera,Dylan Miller
+R-027471,2026-09-09,2026-09-25,315.19,NSF,Stonemere State Bank,Lisa Hensley,Michele Williams
+R-027478,2026-09-02,2026-09-24,1072.67,Stop payment,Juniper Flats Savings Bank,Michele Williams,Jamie Arnold
+R-027517,2026-09-03,2026-09-09,712.67,Unable to locate account,Ambergate State Bank,Monica Herrera,Monica Herrera
+R-027558,2026-09-08,2026-09-16,124.83,Closed account,Harbor State Bank,Monica Herrera,Dylan Miller
+R-027622,2026-09-08,2026-09-15,447.53,NSF,Heron Bay State Bank,Monica Herrera,Monica Herrera
+R-027645,2026-09-10,2026-09-21,226.98,Stop payment,Glenhaven Credit Union,Monica Herrera,Monica Herrera
+R-027765,2026-09-04,2026-09-11,403.81,NSF,Harbor State Bank,Michele Williams,Monica Herrera
+R-027781,2026-09-08,2026-09-10,460.51,NSF,Ambergate State Bank,Jamie Arnold,Jamie Arnold
+R-027813,2026-09-08,2026-09-11,849.84,Refer to maker,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-027863,2026-09-10,2026-09-23,74.39,Uncollected funds hold,Brackenridge Savings Bank,Monica Herrera,Dylan Miller
+R-027895,2026-09-11,2026-10-02,808.49,Stop payment,Harbor State Bank,Jamie Arnold,Monica Herrera
+R-027954,2026-09-08,2026-09-21,172.33,Refer to maker,Marlow Ridge Credit Union,Jamie Arnold,Michele Williams
+R-028041,2026-09-16,2026-09-22,4123.20,Altered/fictitious item,Larkspur Savings Bank,Dylan Miller,Dylan Miller
+R-028076,2026-09-10,2026-09-22,842.14,Closed account,Saltmarsh Trust Company,Jamie Arnold,Monica Herrera
+R-028186,2026-09-14,2026-10-01,1223.59,Duplicate presentment,Ambergate State Bank,Jamie Arnold,Monica Herrera
+R-028245,2026-09-10,2026-09-30,510.56,Forgery,Pinecrest Credit Union,Michele Williams,Michele Williams
+R-028256,2026-09-10,2026-09-14,202.53,Refer to maker,Thistlewood Credit Union,Jamie Arnold,Dylan Miller
+R-028310,2026-09-10,2026-09-30,240.90,Stop payment,Quillstone Community Bank,Michele Williams,Lisa Hensley
+R-028331,2026-09-15,2026-09-22,230.57,Closed account,Quillstone State Bank,Lisa Hensley,Lisa Hensley
+R-028445,2026-09-18,2026-09-24,149.66,Altered/fictitious item,Harbor State Bank,Monica Herrera,Dylan Miller
+R-028463,2026-09-16,2026-10-06,141.38,Unable to locate account,Pinecrest Credit Union,Monica Herrera,Dylan Miller
+R-028470,2026-09-18,2026-09-23,131.90,NSF,Kestrel Point Community Bank,Lisa Hensley,Michele Williams
+R-028488,2026-09-11,2026-09-21,100.47,Closed account,Kestrel Point State Bank,Jamie Arnold,Dylan Miller
+R-028520,2026-09-17,2026-10-08,171.50,Refer to maker,Harbor State Bank,Lisa Hensley,Lisa Hensley
+R-028558,2026-09-21,2026-10-13,96.01,Forgery,Fernwick Trust Company,Monica Herrera,Jamie Arnold
+R-028579,2026-09-15,2026-09-28,818.97,Stop payment,Harbor State Bank,Monica Herrera,Monica Herrera
+R-028630,2026-09-14,2026-09-23,247.04,Duplicate presentment,Pinecrest Credit Union,Jamie Arnold,Jamie Arnold
+R-028733,2026-09-16,2026-10-07,126.85,NSF,Silverbrook Credit Union,Monica Herrera,Jamie Arnold
+R-028757,2026-09-22,2026-10-02,824.02,NSF,Kestrel Point Community Bank,Lisa Hensley,Dylan Miller
+R-028765,2026-09-14,2026-09-16,95.78,Altered/fictitious item,Larkspur Savings Bank,Lisa Hensley,Lisa Hensley
+R-028843,2026-09-22,2026-10-07,1193.10,NSF,Quillstone Community Bank,Dylan Miller,Michele Williams
+R-028981,2026-09-24,2026-10-02,719.05,,Fernwick Trust Company,,Monica Herrera
+R-028982,2026-09-23,2026-10-15,82.55,Closed account,Fernwick Trust Company,Lisa Hensley,Monica Herrera
+R-028986,2026-09-21,2026-10-07,91.07,Stop payment,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-029024,2026-09-24,2026-10-01,128.38,Unable to locate account,Pinecrest Credit Union,Jamie Arnold,Lisa Hensley
+R-029029,2026-09-16,2026-10-02,319.20,Stop payment,Marlow Ridge Credit Union,Jamie Arnold,Jamie Arnold
+R-029037,2026-09-17,2026-10-07,98.25,Closed account,Harbor State Bank,Dylan Miller,Lisa Hensley
+R-029222,2026-09-18,2026-10-02,333.76,,Ashgrove Trust Company,,Lisa Hensley
+R-029245,2026-09-28,2026-10-16,93.01,Uncollected funds hold,Fernwick Trust Company,Jamie Arnold,Lisa Hensley
+R-029364,2026-09-21,2026-10-02,1028.83,Closed account,Juniper Flats Savings Bank,Jamie Arnold,Jamie Arnold
+R-029483,2026-09-24,2026-10-09,272.33,Uncollected funds hold,Harbor State Bank,Jamie Arnold,Jamie Arnold
+R-029505,2026-09-24,2026-10-14,949.93,Duplicate presentment,Glenhaven Credit Union,Monica Herrera,Michele Williams
+R-029543,2026-09-28,2026-09-30,3355.52,Uncollected funds hold,Larkspur Savings Bank,Lisa Hensley,Jamie Arnold
+R-029552,2026-09-28,2026-10-05,466.09,Uncollected funds hold,Harbor State Bank,Lisa Hensley,Lisa Hensley
+R-029561,2026-09-23,2026-09-30,641.79,Closed account,Fernwick Trust Company,Monica Herrera,Jamie Arnold
+R-029581,2026-09-22,2026-09-24,1721.07,NSF,Glenhaven Credit Union,Lisa Hensley,Dylan Miller
+R-029597,2026-09-22,2026-10-02,85.22,Altered/fictitious item,Quillstone Community Bank,Michele Williams,Monica Herrera
+R-029606,2026-09-28,2026-10-20,862.92,Altered/fictitious item,Marlow Ridge Community Bank,Monica Herrera,Dylan Miller
+R-029640,2026-09-30,2026-10-20,370.48,NSF,Thistlewood Credit Union,Monica Herrera,Lisa Hensley
+R-029710,2026-09-23,2026-10-15,90.00,NSF,Heron Bay State Bank,Monica Herrera,Lisa Hensley
+R-029800,2026-09-25,2026-10-13,786.32,NSF,Ambergate State Bank,Jamie Arnold,Jamie Arnold
+R-029826,2026-09-29,2026-10-21,183.97,Closed account,Copper Hollow Community Bank,Lisa Hensley,Jamie Arnold
+R-029827,2026-09-24,2026-09-29,591.32,NSF,Wrenfield State Bank,Monica Herrera,Dylan Miller
+R-029847,2026-09-25,2026-10-05,508.51,Closed account,Ashgrove Savings Bank,Jamie Arnold,Michele Williams
+R-029907,2026-09-30,2026-10-07,67.22,Stop payment,Silverbrook Trust Company,Monica Herrera,Jamie Arnold
+R-029915,2026-10-01,2026-10-19,284.14,Closed account,Larkspur Savings Bank,Dylan Miller,Lisa Hensley
+R-029970,2026-10-05,2026-10-14,877.56,NSF,Harbor State Bank,Lisa Hensley,Michele Williams
+R-030054,2026-09-25,2026-10-13,209.46,Altered/fictitious item,Wrenfield State Bank,Monica Herrera,Dylan Miller
+R-030101,2026-10-01,2026-10-13,33.20,Forgery,Harbor State Bank,Monica Herrera,Monica Herrera
+R-030113,2026-10-02,2026-10-06,242.67,NSF,Larkspur Savings Bank,Monica Herrera,Dylan Miller
+R-030114,2026-09-29,2026-10-09,821.37,NSF,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-030171,2026-09-28,2026-10-20,1592.25,Unable to locate account,Ashgrove Savings Bank,Michele Williams,Michele Williams
+R-030293,2026-10-05,2026-10-23,128.03,Refer to maker,Ashgrove Trust Company,Jamie Arnold,Lisa Hensley
+R-030297,2026-09-30,2026-10-07,333.86,Stop payment,Brackenridge Savings Bank,Lisa Hensley,Monica Herrera
+R-030345,2026-09-28,2026-09-30,394.78,Refer to maker,Harbor State Bank,Jamie Arnold,Monica Herrera
+R-030368,2026-10-02,2026-10-19,480.37,Stop payment,Silverbrook Trust Company,Jamie Arnold,Monica Herrera
+R-030386,2026-10-02,2026-10-16,636.82,,Harbor State Bank,,Monica Herrera
+R-030446,2026-09-29,2026-10-14,1470.36,Refer to maker,Pinecrest Credit Union,Dylan Miller,Michele Williams
+R-030552,2026-10-02,2026-10-23,219.19,Altered/fictitious item,Fernwick Trust Company,Michele Williams,Dylan Miller
+R-030689,2026-10-09,2026-10-22,1092.25,NSF,Larkspur Trust Company,Lisa Hensley,Monica Herrera
+R-030716,2026-10-01,2026-10-23,339.72,Stop payment,Harbor State Bank,Michele Williams,Monica Herrera
+R-030810,2026-10-07,2026-10-26,3465.20,Unable to locate account,Bramblewood Trust Company,Monica Herrera,Monica Herrera
+R-030845,2026-10-05,2026-10-21,507.34,Closed account,Wrenfield State Bank,Monica Herrera,Monica Herrera
+R-030926,2026-10-09,2026-10-15,973.52,NSF,Fernwick Trust Company,Jamie Arnold,Dylan Miller
+R-030965,2026-10-14,2026-11-03,94.21,NSF,Silverbrook Trust Company,Monica Herrera,Lisa Hensley
+R-031018,2026-10-09,2026-10-28,75.84,Stop payment,Pinecrest Credit Union,Jamie Arnold,Jamie Arnold
+R-031069,2026-10-07,2026-10-22,1038.42,NSF,Wrenfield State Bank,Jamie Arnold,Dylan Miller
+R-031095,2026-10-09,2026-10-20,1225.91,Altered/fictitious item,Harbor State Bank,Lisa Hensley,Dylan Miller
+R-031254,2026-10-07,2026-10-28,149.46,Stop payment,Marlow Ridge Credit Union,Jamie Arnold,Jamie Arnold
+R-031258,2026-10-15,2026-11-03,173.88,NSF,Juniper Flats Savings Bank,Lisa Hensley,Monica Herrera
+R-031283,2026-10-14,2026-10-23,145.46,Uncollected funds hold,Fernwick Trust Company,Lisa Hensley,Jamie Arnold
+R-031313,2026-10-14,2026-10-30,75.15,Uncollected funds hold,Thistlewood Community Bank,Dylan Miller,Michele Williams
+R-031354,2026-10-14,2026-10-29,797.83,Stop payment,Larkspur Savings Bank,Lisa Hensley,Michele Williams
+R-031399,2026-10-13,2026-10-28,1158.95,Refer to maker,Quillstone Community Bank,Jamie Arnold,Lisa Hensley
+R-031495,2026-10-14,2026-11-02,184.92,NSF,Pinecrest Credit Union,Lisa Hensley,Monica Herrera
+R-031692,2026-10-21,2026-11-06,284.85,NSF,Harbor Savings Bank,Monica Herrera,Lisa Hensley
+R-031748,2026-10-21,2026-11-04,470.21,Refer to maker,Brackenridge Savings Bank,Monica Herrera,Jamie Arnold
+R-031761,2026-10-21,2026-11-10,216.41,NSF,Harbor State Bank,Monica Herrera,Lisa Hensley
+R-031787,2026-10-14,2026-11-03,425.98,NSF,Pinecrest Credit Union,Monica Herrera,Lisa Hensley
+R-031792,2026-10-15,2026-10-20,1452.48,Stop payment,Pinecrest Community Bank,Michele Williams,Michele Williams
+R-031820,2026-10-14,2026-10-22,3227.63,Stop payment,Silverbrook Credit Union,Lisa Hensley,Dylan Miller
+R-031837,2026-10-13,2026-10-20,876.39,NSF,Willowmere Credit Union,Jamie Arnold,Michele Williams
+R-031898,2026-10-21,2026-10-23,101.08,NSF,Pinecrest Credit Union,Jamie Arnold,Michele Williams
+R-032202,2026-10-22,2026-11-13,863.76,NSF,Harbor State Bank,Dylan Miller,Michele Williams
+R-032229,2026-10-19,2026-10-29,135.34,Unable to locate account,Bramblewood Credit Union,Jamie Arnold,Lisa Hensley
+R-032249,2026-10-23,2026-10-30,372.39,Unable to locate account,Juniper Flats Trust Company,Monica Herrera,Michele Williams
+R-032310,2026-10-26,2026-11-04,153.66,Stop payment,Oakhurst Valley Community Bank,Lisa Hensley,Lisa Hensley
+R-032381,2026-10-19,2026-11-06,379.15,Stop payment,Silverbrook Credit Union,Jamie Arnold,Dylan Miller
+R-032443,2026-10-27,2026-10-30,412.40,Refer to maker,Oakhurst Valley Community Bank,Monica Herrera,Dylan Miller
+R-032450,2026-10-28,2026-11-18,142.94,Stop payment,Marlow Ridge Credit Union,Lisa Hensley,Lisa Hensley
+R-032480,2026-10-28,2026-11-02,314.24,Closed account,Pinecrest Credit Union,Jamie Arnold,Monica Herrera
+R-032622,2026-10-23,2026-11-16,103.14,NSF,Thistlewood Credit Union,Michele Williams,Monica Herrera
+R-032631,2026-10-26,2026-11-02,135.94,Refer to maker,Pinecrest Credit Union,Monica Herrera,Dylan Miller
+R-032661,2026-10-22,2026-10-26,237.34,Uncollected funds hold,Oakhurst Valley State Bank,Monica Herrera,Michele Williams
+R-032753,2026-10-23,2026-11-12,444.51,Unable to locate account,Harbor State Bank,Lisa Hensley,Dylan Miller
+R-032945,2026-10-28,2026-11-03,723.68,Stop payment,Ambergate State Bank,Dylan Miller,Monica Herrera
+R-033062,2026-10-28,2026-11-02,829.41,NSF,Harbor State Bank,Lisa Hensley,Jamie Arnold
+R-033069,2026-10-26,2026-11-02,338.12,Altered/fictitious item,Harbor Savings Bank,Monica Herrera,Michele Williams
+R-033079,2026-11-03,2026-11-17,484.10,NSF,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-033119,2026-10-26,2026-11-12,340.08,Stop payment,Glenhaven Credit Union,Lisa Hensley,Dylan Miller
+R-033120,2026-11-02,2026-11-18,177.87,Altered/fictitious item,Fernwick Trust Company,Monica Herrera,Lisa Hensley
+R-033232,2026-11-03,2026-11-10,275.77,Unable to locate account,Marlow Ridge Credit Union,Jamie Arnold,Jamie Arnold
+R-033261,2026-10-28,2026-11-06,317.94,Forgery,Glenhaven Credit Union,Monica Herrera,Michele Williams
+R-033340,2026-11-06,2026-11-18,198.30,Altered/fictitious item,Ambergate State Bank,Lisa Hensley,Michele Williams
+R-033386,2026-10-30,2026-11-12,162.99,NSF,Harbor State Bank,Lisa Hensley,Dylan Miller
+R-033402,2026-10-29,2026-11-20,248.52,Stop payment,Silverbrook Trust Company,Lisa Hensley,Monica Herrera
+R-033410,2026-11-04,2026-11-18,93.30,Duplicate presentment,Kestrel Point Community Bank,Jamie Arnold,Michele Williams
+R-033425,2026-10-29,2026-11-09,629.10,Closed account,Silverbrook Trust Company,Jamie Arnold,Jamie Arnold
+R-033593,2026-11-03,2026-11-06,194.50,Closed account,Redfern Community Bank,Monica Herrera,Michele Williams
+R-033678,2026-11-02,2026-11-04,132.13,NSF,Pinecrest Credit Union,Jamie Arnold,Monica Herrera
+R-033771,2026-11-09,2026-11-20,315.05,Uncollected funds hold,Marlow Ridge Credit Union,Monica Herrera,Monica Herrera
+R-033797,2026-11-02,2026-11-10,1300.24,Closed account,Fernwick Trust Company,Lisa Hensley,Monica Herrera
+R-033805,2026-11-02,2026-11-06,1338.34,Uncollected funds hold,Pinecrest Credit Union,Jamie Arnold,Michele Williams
+R-033816,2026-11-05,2026-11-13,324.02,Unable to locate account,Harbor State Bank,Jamie Arnold,Lisa Hensley
+R-033851,2026-11-10,2026-11-18,163.66,NSF,Harbor Savings Bank,Jamie Arnold,Monica Herrera
+R-033853,2026-11-03,2026-11-23,231.04,Stop payment,Ambergate State Bank,Monica Herrera,Dylan Miller
+R-033952,2026-11-10,2026-11-19,571.96,Altered/fictitious item,Stonemere State Bank,Monica Herrera,Jamie Arnold
+R-034018,2026-11-13,2026-11-23,2316.44,Refer to maker,Larkspur Savings Bank,Lisa Hensley,Michele Williams
+R-034053,2026-11-06,2026-11-23,1996.90,Stop payment,Kestrel Point Community Bank,Jamie Arnold,Jamie Arnold
+R-034075,2026-11-10,2026-11-19,187.47,Stop payment,Cobble Creek Savings Bank,Michele Williams,Michele Williams
+R-034101,2026-11-10,2026-11-16,35.57,Unable to locate account,Bramblewood Credit Union,Michele Williams,Lisa Hensley
+R-034110,2026-11-04,2026-11-18,351.88,Uncollected funds hold,Quillstone Community Bank,Michele Williams,Jamie Arnold
+R-034205,2026-11-10,2026-11-13,509.91,NSF,Bramblewood Trust Company,Monica Herrera,Lisa Hensley
+R-034221,2026-11-05,2026-11-12,71.84,Refer to maker,Ashgrove Savings Bank,Monica Herrera,Jamie Arnold
+R-034410,2026-11-06,2026-11-16,85.02,NSF,Copper Hollow Community Bank,Jamie Arnold,Monica Herrera
+R-034482,2026-11-16,2026-11-18,87.48,Stop payment,Quillstone Community Bank,Monica Herrera,Lisa Hensley
+R-034559,2026-11-09,2026-11-19,746.62,Refer to maker,Harbor State Bank,Michele Williams,Monica Herrera
+R-034797,2026-11-13,2026-11-17,199.07,NSF,Juniper Flats Savings Bank,Lisa Hensley,Monica Herrera
+R-034810,2026-11-17,2026-11-20,176.53,Altered/fictitious item,Ashgrove Savings Bank,Lisa Hensley,Monica Herrera
+R-034811,2026-11-10,2026-11-19,48.03,Closed account,Quillstone State Bank,Jamie Arnold,Lisa Hensley
+R-034834,2026-11-12,2026-11-19,139.44,Closed account,Oakhurst Valley Community Bank,Dylan Miller,Dylan Miller
+R-034835,2026-11-12,2026-11-19,38.14,Uncollected funds hold,Harbor State Bank,Monica Herrera,Jamie Arnold
+R-035322,2026-11-16,2026-11-23,139.40,Forgery,Quillstone Community Bank,Lisa Hensley,Michele Williams
+R-035370,2026-11-16,2026-11-20,352.55,Duplicate presentment,Harbor State Bank,Monica Herrera,Monica Herrera
+R-035748,2026-11-19,2026-11-23,368.48,Stop payment,Harbor State Bank,Lisa Hensley,Lisa Hensley

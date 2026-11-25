@@ -19,7 +19,7 @@
         <p class="role">Data Analyst · Banking &amp; Financial Services · Charlotte, NC</p>
         <nav class="links" aria-label="Profiles">
           <a href="https://www.linkedin.com/in/gerardomiron95">LinkedIn</a>
-          <a href="https://github.com/gerardomiron95">GitHub</a>
+          <a href="https://github.com/gerardomiron95/personal-portfolio">GitHub</a>
         </nav>
       </div>
     </div>
@@ -81,6 +81,48 @@
             Built one pipeline and dashboard that follows every claim from intake to chargeback recovery,
             measures each step against Reg E deadlines and monthly targets, and defines every metric in a
             shared data dictionary.
+          </dd>
+        </dl>
+      </dialog>
+
+      <article class="project">
+        <div>
+          <h3>Weekly Operations Performance Review</h3>
+          <p>
+            A weekly review deck for a bank's operations team, built on generated sample data. It covers check
+            deposits, ACH early pay and card reissues, compares like-for-like windows, and tests every change for
+            significance before calling it a move.
+          </p>
+          <p class="tags">Python · Statistics · HTML · SVG</p>
+        </div>
+        <div class="project-actions">
+          <a class="button" href="banking-operations-review/">View deck</a>
+          <a class="button ghost" href="https://github.com/gerardomiron95/personal-portfolio/tree/main/banking-operations-review">Code</a>
+          <button type="button" class="button ghost" data-about="about-banking-ops">About</button>
+        </div>
+      </article>
+
+      <dialog class="about" id="about-banking-ops" aria-labelledby="about-banking-ops-title">
+        <div class="about-head">
+          <h3 id="about-banking-ops-title">Weekly Operations Performance Review</h3>
+          <button type="button" class="about-close" aria-label="Close">×</button>
+        </div>
+        <dl>
+          <dt>Problem</dt>
+          <dd>
+            The weekly metrics meeting ran off a site of embedded dashboards and reports. The VP often wasn't sure
+            what he was looking at, and presenters weren't sure what to call out.
+          </dd>
+          <dt>Insight</dt>
+          <dd>
+            The dashboards had the data but no story. Nothing said which metrics mattered, what to compare them
+            against, or which changes were worth flagging.
+          </dd>
+          <dt>Initiative</dt>
+          <dd>
+            Built two Claude tools: an intake form where teams log each dashboard, its metrics and look-back
+            windows, and a slide deck that refreshes before every meeting, finds what changed, and tells that
+            story.
           </dd>
         </dl>
       </dialog>

@@ -59,9 +59,12 @@ h3 { margin: 0; color: var(--ink); font-size: 1.05rem; font-weight: 600; }
   display: flex; gap: 24px; align-items: flex-end; justify-content: space-between;
   background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px;
 }
+.project ~ .project { margin-top: 16px; }
 .project p { margin: 8px 0 0; }
 .tags { color: var(--muted); font-size: 0.88rem; }
-.project-actions { display: flex; flex-direction: column; gap: 8px; flex: none; }
+/* Fixed column so every card's buttons share one width and height, whatever the labels say. */
+.project-actions { display: flex; flex-direction: column; gap: 8px; flex: none; width: 160px; }
+.project-actions .button { display: block; width: 100%; height: 40px; padding: 0 12px; line-height: 38px; }
 .button {
   display: inline-block; text-align: center; text-decoration: none; font-weight: 600; font-size: 0.9rem;
   padding: 9px 18px; border-radius: 8px; background: var(--primary); color: #fff; border: 1px solid var(--primary);
@@ -114,6 +117,7 @@ button.button { font-family: inherit; cursor: pointer; line-height: inherit; }
   .headshot { width: 140px; height: 140px; }
   .hero h1 { font-size: 2rem; }
   .project { flex-direction: column; align-items: stretch; }
+  .project-actions { width: 100%; }
   .job-head { flex-direction: column; gap: 0; }
   .skills { grid-template-columns: 1fr; gap: 2px; }
   .skills dd { margin-bottom: 10px; }

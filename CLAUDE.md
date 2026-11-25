@@ -16,6 +16,14 @@ Any project added to the portfolio must have, on its card in the Projects sectio
 - No "I" statements. Start the Initiative with a past-tense verb ("Built…", "Automated…").
 - Describe the real-world work the project mirrors. The data is sample data, but the problem and the work are real.
 
+### Buttons
+
+- Every project button is the same width and height, on every card. `.project-actions` in
+  `assets/site.css` sets this (a fixed 160px column of 40px-tall buttons; on phones, a full-width
+  stack). Never size a button to its label, and never override these sizes per card.
+- Keep labels short enough to fit: "View dashboard", "View deck", "Code", "About".
+- Cards are spaced apart automatically (`.project ~ .project`); don't add spacing per card.
+
 ### Markup
 
 Copy this pattern. The `data-about` value on the button must match the `<dialog>` id, and the ids must be unique per project. Do not change the classes: `assets/site.css` styles the pop-up (bold headings, spacing and dividers between sections), and the script at the bottom of `index.html` opens and closes every pop-up (× button, Esc, or a click outside).

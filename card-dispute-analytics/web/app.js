@@ -9,7 +9,7 @@
   const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
   const DEFAULT_METRICS = ['claim_rate', 'on_time_resolution_rate', 'pc_timeliness_rate',
-    'customer_win_rate', 'chargeback_win_rate', 'withdrawal_rate'];
+    'customer_win_rate', 'chargeback_win_rate', 'loss_rate'];
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const REASONS = ['Total', 'Unauthorized', 'Merchant dispute', 'Processing error'];
   const TABLE_TABS = ['counts', 'dollars'];

@@ -14,7 +14,7 @@ recovery, measured against the public Reg E error-resolution timelines.
 
 | Tab | Question it answers |
 |---|---|
-| **Rate trends** | Are claim volume, on-time resolution, provisional-credit timeliness and chargeback wins moving the right way? Each chart has a dashed line at Northwind's monthly target, and an option to hide immature months. |
+| **Rate trends** | Are claim volume, on-time resolution, provisional-credit timeliness, customer wins, chargeback wins and losses moving the right way? Each chart has a dashed line at Northwind's monthly target, and an option to hide immature months. |
 | **Claims funnel** | How many claims and disputed transactions moved through intake, provisional credit, resolution and chargebacks each month or week? Rates are shaded green when they meet Northwind's monthly target and red when they miss it. |
 | **Dollars funnel** | The same flow in dollars: credited to customers, recovered from merchants' banks, written off. |
 | **Resolution timing** | How quickly does each month's group of claims close? A heatmap by reason, with outcome breakdowns on hover, plus a year-over-year claim-rate chart. |

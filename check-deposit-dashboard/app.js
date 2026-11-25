@@ -9,8 +9,6 @@
   // The Overview tab (date range + trend charts) is switched off for now; the page opens on the
   // latest month. Set to true to bring it back.
   const SHOW_OVERVIEW = false;
-  const SEGMENTS = [['all', 'All'], ['direct_deposit', 'Direct deposit'],
-    ['no_direct_deposit', 'No direct deposit'], ['unknown', 'Unknown']];
   const QUEUES = [['fast_track', 'Fast-track queue'], ['standard', 'Standard review'], ['high_risk', 'High-risk review']];
   const QUEUE_NAME = Object.fromEntries(QUEUES);
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -201,9 +199,7 @@
       + ` class="${cur === id ? 'active' : ''}" aria-pressed="${cur === id}">${label}</button>`).join('');
     let html = `
       <div class="control"><span class="control-label">Show</span>
-        <div class="segmented" role="group" aria-label="Measure">${seg([['count', 'Count'], ['amount', 'Amount ($)']], 'measure', state.measure)}</div></div>
-      <div class="control"><span class="control-label">Segment</span>
-        <div class="segmented" role="group" aria-label="Member segment">${seg(SEGMENTS, 'segment', state.segment)}</div></div>`;
+        <div class="segmented" role="group" aria-label="Measure">${seg([['count', 'Count'], ['amount', 'Amount ($)']], 'measure', state.measure)}</div></div>`;
     if (state.tab === 'overview') {
       const full = state.from === D.first && state.to === D.last;
       html += `

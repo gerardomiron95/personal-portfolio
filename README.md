@@ -8,6 +8,7 @@ its own README.
 | Project | What it is | Tools | Live |
 |---|---|---|---|
 | [Card Dispute Operations Analytics](card-dispute-analytics/) | A data pipeline and dashboard, built on generated sample data, tracking card disputes from intake to chargeback recovery, measured against the public Reg E error-resolution timelines. | Python, pandas, Parquet, Chart.js | [Dashboard](https://gerardomiron95.github.io/personal-portfolio/card-dispute-analytics/web/) |
+| [Weekly Operations Performance Review](banking-operations-review/) | A weekly review deck for a bank's operations team, built on generated sample data, covering check deposits, ACH early pay and card reissues, with like-for-like windows and significance tests. | Python, statistics, HTML, SVG | [Deck](https://gerardomiron95.github.io/personal-portfolio/banking-operations-review/) |
 
 ## Site layout
 

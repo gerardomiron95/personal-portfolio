@@ -87,12 +87,10 @@ button.button { font-family: inherit; cursor: pointer; line-height: inherit; }
   cursor: pointer; padding: 0 4px;
 }
 .about-close:hover { color: var(--ink); }
-.about dl { margin: 0; padding: 8px 24px 24px; }
-.about dt {
-  margin-top: 16px; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--primary);
-}
-.about dd { margin: 4px 0 0; }
+.about dl { margin: 0; padding: 20px 24px 26px; }
+.about dt { font-size: 1rem; font-weight: 700; color: var(--ink); }
+.about dt + dd { margin: 4px 0 0; line-height: 1.65; }
+.about dd + dt { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
 
 /* ---------- experience & education */
 .job { padding: 0 0 22px; margin-bottom: 22px; border-bottom: 1px solid var(--border); }

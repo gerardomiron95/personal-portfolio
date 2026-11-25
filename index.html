@@ -56,8 +56,34 @@
         <div class="project-actions">
           <a class="button" href="card-dispute-analytics/web/">View dashboard</a>
           <a class="button ghost" href="https://github.com/gerardomiron95/personal-portfolio/tree/main/card-dispute-analytics">Code</a>
+          <button type="button" class="button ghost" data-about="about-card-disputes">About</button>
         </div>
       </article>
+
+      <dialog class="about" id="about-card-disputes" aria-labelledby="about-card-disputes-title">
+        <div class="about-head">
+          <h3 id="about-card-disputes-title">Card Dispute Operations Analytics</h3>
+          <button type="button" class="about-close" aria-label="Close">×</button>
+        </div>
+        <dl>
+          <dt>Problem</dt>
+          <dd>
+            Leaders had no single view of card disputes. Questions about volume, Reg E deadlines and losses
+            meant manual data pulls, so answers came too late to act on.
+          </dd>
+          <dt>Insight</dt>
+          <dd>
+            The data existed but was split across claims, credits and chargebacks, and metrics were defined
+            differently from report to report. No one could see where claims stalled or where money was lost.
+          </dd>
+          <dt>Initiative</dt>
+          <dd>
+            Built one pipeline and dashboard that follows every claim from intake to chargeback recovery,
+            measures each step against Reg E deadlines and monthly targets, and defines every metric in a
+            shared data dictionary.
+          </dd>
+        </dl>
+      </dialog>
     </section>
 
     <section id="experience">
@@ -168,5 +194,15 @@
   </main>
 
   <footer class="wrap footer">© 2026 Gerardo Miron</footer>
+
+  <script>
+    // "About" buttons open their project's pop-up; close with ×, Esc, or a click outside the box.
+    document.querySelectorAll('[data-about]').forEach((btn) => {
+      const dialog = document.getElementById(btn.dataset.about);
+      btn.addEventListener('click', () => dialog.showModal());
+      dialog.querySelector('.about-close').addEventListener('click', () => dialog.close());
+      dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    });
+  </script>
 </body>
 </html>

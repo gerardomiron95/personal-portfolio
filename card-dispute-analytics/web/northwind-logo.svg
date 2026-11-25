@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Northwind Bank">
+  <!-- Northwind Bank mark, matching the Weekly Operations Performance Review deck. Invented for this portfolio. -->
+  <rect width="40" height="40" rx="10" fill="#1e6b4f"/>
+  <polygon points="20,7 20,25 11,32" fill="#ffffff"/>
+  <polygon points="20,7 29,32 20,25" fill="#a8e0c0"/>
+</svg>

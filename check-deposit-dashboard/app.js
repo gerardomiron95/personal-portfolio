@@ -68,6 +68,8 @@
   const iso = (dt) => `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`;
   const dayLabel = (s, year = true) => { const d = parse(s); return `${MONTHS[d.getMonth()]} ${d.getDate()}${year ? `, ${d.getFullYear()}` : ''}`; };
   const monthLabel = (ym) => `${MONTHS[Number(ym.slice(5)) - 1]} ${ym.slice(0, 4)}`;
+  const weekLabel = (a, b) => (a === b ? dayLabel(a, false)
+    : parse(a).getMonth() === parse(b).getMonth() ? `${dayLabel(a, false)}–${parse(b).getDate()}` : `${dayLabel(a, false)} – ${dayLabel(b, false)}`);
   const mondayOf = (s) => { const d = parse(s); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return iso(d); };
 
   const fmtN = (n) => Math.round(n).toLocaleString('en-US');
@@ -354,7 +356,8 @@
     `<button type="button" role="tab" data-${attr}="${id}" class="${cur === id ? 'active' : ''}" aria-selected="${cur === id}">${label}</button>`).join('')}</div>`;
 
   function reviewerSection(p, queue) {
-    const rows = D.rej.filter((r) => (!queue || r.queue === queue) && r.week_end >= p.from && r.week_start <= p.to);
+    // Review weeks are cut at month boundaries, so a month's weeks match its Rejected boxes exactly.
+    const rows = D.rej.filter((r) => (!queue || r.queue === queue) && r.week_start >= p.from && r.week_start <= p.to);
     const weeks = [...new Set(rows.map((r) => r.week_start))].sort();
     if (state.week !== 'all' && !weeks.includes(state.week)) state.week = 'all';
     const inWeek = state.week === 'all' ? rows : rows.filter((r) => r.week_start === state.week);
@@ -367,7 +370,7 @@
     const total = [...byReviewer.values()].reduce((s, x) => s + x, 0);
     const reasonTotal = [...byReason.values()].reduce((s, x) => s + x, 0);
     const weekTabs = `<div class="weeks" role="tablist" aria-label="Review week">`
-      + [['all', 'All weeks'], ...weeks.map((w) => [w, `Week of ${dayLabel(w, false)}`])].map(([k, label]) =>
+      + [['all', 'All weeks'], ...weeks.map((w) => [w, weekLabel(w, rows.find((r) => r.week_start === w).week_end)])].map(([k, label]) =>
         `<button type="button" role="tab" data-week="${k}" class="${state.week === k ? 'active' : ''}" aria-selected="${state.week === k}">${label}</button>`).join('')
       + '</div>';
     const count = (x) => fmtN(x);
@@ -376,8 +379,8 @@
         ${bars([...byReviewer].map(([k, v]) => ({ key: k, label: k, value: v })), total, { attr: 'reviewer', selected: state.reviewer, fmt: count })}</div>
       <div><h4>Rejection reasons${state.reviewer ? ` · ${esc(state.reviewer)}` : ''}</h4>
         ${bars([...byReason].map(([k, v]) => ({ key: k, label: k, value: v })), reasonTotal, { fmt: count, color: COLOR.rejected })}</div>
-    </div><p class="panel-note">Weeks run Monday to Sunday by decision date, so the first and last weeks can reach outside the selected dates.
-      Counts of checks across all segments: the reviewer file has no segment or dollar amount.</p>`;
+    </div><p class="panel-note">Weeks run Monday to Sunday by the date the check was received, cut at the start and end of the
+      month so they add up to the Rejected boxes. Counts of checks across all segments: the reviewer file has no segment or dollar amount.</p>`;
   }
 
   function daysSection(p, queue) {

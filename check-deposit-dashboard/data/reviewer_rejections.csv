@@ -1,991 +1,1002 @@
 week_start,week_end,reviewer,reason,queue,count
-2025-12-29,2026-01-04,Cristian Santos,Amount mismatch,fast_track,3
-2025-12-29,2026-01-04,Cristian Santos,Endorsement missing,fast_track,1
-2025-12-29,2026-01-04,Cristian Santos,Restrictive endorsement missing,fast_track,2
-2025-12-29,2026-01-04,Gabrielle Davis,Endorsement missing,standard,5
-2025-12-29,2026-01-04,Gabrielle Davis,Image unreadable,standard,2
-2025-12-29,2026-01-04,Ryan Munoz,Endorsement missing,fast_track,1
+2026-01-01,2026-01-04,Allison Hill,Restrictive endorsement missing,high_risk,1
+2026-01-01,2026-01-04,Angie Henderson,Endorsement missing,standard,1
+2026-01-01,2026-01-04,Angie Henderson,Image unreadable,standard,1
+2026-01-01,2026-01-04,Connie Lawrence,Amount mismatch,fast_track,1
+2026-01-01,2026-01-04,Connie Lawrence,Endorsement missing,fast_track,1
+2026-01-01,2026-01-04,Daniel Wagner,Amount mismatch,standard,2
+2026-01-01,2026-01-04,Daniel Wagner,Endorsement missing,standard,8
+2026-01-01,2026-01-04,Daniel Wagner,Image unreadable,standard,8
+2026-01-01,2026-01-04,Daniel Wagner,Payee name mismatch,standard,1
+2026-01-01,2026-01-04,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-01-01,2026-01-04,Daniel Wagner,Stale-dated,standard,1
+2026-01-01,2026-01-04,Gina Moore,Amount mismatch,fast_track,2
+2026-01-01,2026-01-04,Gina Moore,Endorsement missing,fast_track,4
+2026-01-01,2026-01-04,Gina Moore,Image unreadable,fast_track,1
+2026-01-01,2026-01-04,Gina Moore,Payee name mismatch,fast_track,1
+2026-01-01,2026-01-04,Gina Moore,Post-dated,fast_track,1
+2026-01-01,2026-01-04,Gina Moore,Restrictive endorsement missing,fast_track,2
+2026-01-01,2026-01-04,Noah Rhodes,Stale-dated,high_risk,1
+2026-01-01,2026-01-04,Ryan Munoz,Post-dated,fast_track,1
 2026-01-05,2026-01-11,Allison Hill,Endorsement does not match payee,high_risk,1
 2026-01-05,2026-01-11,Allison Hill,Post-dated,high_risk,1
 2026-01-05,2026-01-11,Allison Hill,Suspected counterfeit,high_risk,3
 2026-01-05,2026-01-11,Angie Henderson,Amount mismatch,standard,1
-2026-01-05,2026-01-11,Angie Henderson,Duplicate of earlier deposit,standard,1
-2026-01-05,2026-01-11,Angie Henderson,Endorsement missing,standard,3
+2026-01-05,2026-01-11,Angie Henderson,Endorsement missing,standard,1
 2026-01-05,2026-01-11,Angie Henderson,Image unreadable,standard,4
 2026-01-05,2026-01-11,Angie Henderson,Restrictive endorsement missing,standard,1
-2026-01-05,2026-01-11,Connie Lawrence,Endorsement missing,fast_track,2
-2026-01-05,2026-01-11,Daniel Wagner,Amount mismatch,standard,8
-2026-01-05,2026-01-11,Daniel Wagner,Duplicate of earlier deposit,standard,2
-2026-01-05,2026-01-11,Daniel Wagner,Endorsement missing,standard,11
-2026-01-05,2026-01-11,Daniel Wagner,Image unreadable,standard,10
-2026-01-05,2026-01-11,Daniel Wagner,Payee name mismatch,standard,3
-2026-01-05,2026-01-11,Daniel Wagner,Post-dated,standard,1
-2026-01-05,2026-01-11,Daniel Wagner,Restrictive endorsement missing,standard,3
-2026-01-05,2026-01-11,Gina Moore,Amount mismatch,fast_track,1
-2026-01-05,2026-01-11,Gina Moore,Endorsement missing,fast_track,7
-2026-01-05,2026-01-11,Gina Moore,Image unreadable,fast_track,8
-2026-01-05,2026-01-11,Gina Moore,Payee name mismatch,fast_track,1
-2026-01-05,2026-01-11,Gina Moore,Post-dated,fast_track,1
-2026-01-05,2026-01-11,Gina Moore,Restrictive endorsement missing,fast_track,1
-2026-01-05,2026-01-11,Noah Rhodes,Stale-dated,high_risk,1
-2026-01-05,2026-01-11,Ryan Munoz,Post-dated,fast_track,1
-2026-01-05,2026-01-11,Ryan Munoz,Restrictive endorsement missing,fast_track,1
+2026-01-05,2026-01-11,Angie Henderson,Stale-dated,standard,1
+2026-01-05,2026-01-11,Connie Lawrence,Amount mismatch,fast_track,3
+2026-01-05,2026-01-11,Connie Lawrence,Endorsement missing,fast_track,9
+2026-01-05,2026-01-11,Connie Lawrence,Image unreadable,fast_track,8
+2026-01-05,2026-01-11,Connie Lawrence,Restrictive endorsement missing,fast_track,1
+2026-01-05,2026-01-11,Daniel Wagner,Endorsement missing,fast_track,2
+2026-01-05,2026-01-11,Daniel Wagner,Image unreadable,fast_track,1
+2026-01-05,2026-01-11,Gina Moore,Image unreadable,fast_track,1
+2026-01-05,2026-01-11,Ryan Munoz,Amount mismatch,standard,5
+2026-01-05,2026-01-11,Ryan Munoz,Endorsement missing,standard,16
+2026-01-05,2026-01-11,Ryan Munoz,Image unreadable,standard,7
+2026-01-05,2026-01-11,Ryan Munoz,Post-dated,standard,1
+2026-01-05,2026-01-11,Ryan Munoz,Restrictive endorsement missing,standard,5
+2026-01-12,2026-01-18,Abigail Shaffer,Amount mismatch,standard,1
 2026-01-12,2026-01-18,Abigail Shaffer,Endorsement missing,standard,1
-2026-01-12,2026-01-18,Abigail Shaffer,Image unreadable,standard,2
-2026-01-12,2026-01-18,Abigail Shaffer,Payee name mismatch,standard,1
-2026-01-12,2026-01-18,Abigail Shaffer,Restrictive endorsement missing,standard,1
-2026-01-12,2026-01-18,Allison Hill,Altered item,high_risk,1
+2026-01-12,2026-01-18,Abigail Shaffer,Image unreadable,standard,1
+2026-01-12,2026-01-18,Allison Hill,Amount mismatch,high_risk,1
+2026-01-12,2026-01-18,Allison Hill,Image unreadable,high_risk,1
+2026-01-12,2026-01-18,Allison Hill,Stale-dated,high_risk,1
 2026-01-12,2026-01-18,Allison Hill,Suspected counterfeit,high_risk,1
-2026-01-12,2026-01-18,Angie Henderson,Amount mismatch,fast_track,3
-2026-01-12,2026-01-18,Angie Henderson,Endorsement missing,fast_track,9
-2026-01-12,2026-01-18,Angie Henderson,Image unreadable,fast_track,8
-2026-01-12,2026-01-18,Connie Lawrence,Endorsement missing,fast_track,1
-2026-01-12,2026-01-18,Connie Lawrence,Image unreadable,fast_track,2
-2026-01-12,2026-01-18,Daniel Wagner,Image unreadable,standard,2
-2026-01-12,2026-01-18,Daniel Wagner,Restrictive endorsement missing,standard,1
-2026-01-12,2026-01-18,Gina Moore,Amount mismatch,fast_track,1
-2026-01-12,2026-01-18,Gina Moore,Endorsement missing,fast_track,3
-2026-01-12,2026-01-18,Gina Moore,Image unreadable,fast_track,1
-2026-01-12,2026-01-18,Ryan Munoz,Amount mismatch,standard,1
-2026-01-12,2026-01-18,Ryan Munoz,Duplicate of earlier deposit,standard,1
-2026-01-12,2026-01-18,Ryan Munoz,Endorsement missing,standard,15
-2026-01-12,2026-01-18,Ryan Munoz,Image unreadable,standard,8
-2026-01-12,2026-01-18,Ryan Munoz,Payee name mismatch,standard,3
-2026-01-12,2026-01-18,Ryan Munoz,Restrictive endorsement missing,standard,7
-2026-01-12,2026-01-18,Ryan Munoz,Stale-dated,standard,2
-2026-01-19,2026-01-25,Abigail Shaffer,Amount mismatch,standard,2
-2026-01-19,2026-01-25,Abigail Shaffer,Endorsement missing,standard,5
-2026-01-19,2026-01-25,Abigail Shaffer,Image unreadable,standard,2
-2026-01-19,2026-01-25,Abigail Shaffer,Restrictive endorsement missing,standard,1
-2026-01-19,2026-01-25,Allison Hill,Amount mismatch,high_risk,1
-2026-01-19,2026-01-25,Allison Hill,Image unreadable,high_risk,1
-2026-01-19,2026-01-25,Angie Henderson,Amount mismatch,standard,5
-2026-01-19,2026-01-25,Angie Henderson,Endorsement missing,standard,18
-2026-01-19,2026-01-25,Angie Henderson,Image unreadable,standard,7
+2026-01-12,2026-01-18,Angie Henderson,Endorsement missing,fast_track,1
+2026-01-12,2026-01-18,Daniel Wagner,Amount mismatch,standard,4
+2026-01-12,2026-01-18,Daniel Wagner,Endorsement missing,standard,18
+2026-01-12,2026-01-18,Daniel Wagner,Image unreadable,standard,9
+2026-01-12,2026-01-18,Daniel Wagner,Payee name mismatch,standard,3
+2026-01-12,2026-01-18,Daniel Wagner,Restrictive endorsement missing,standard,6
+2026-01-12,2026-01-18,Daniel Wagner,Stale-dated,standard,2
+2026-01-12,2026-01-18,Gabrielle Davis,Endorsement missing,standard,2
+2026-01-12,2026-01-18,Gabrielle Davis,Image unreadable,standard,2
+2026-01-12,2026-01-18,Gabrielle Davis,Payee name mismatch,standard,1
+2026-01-12,2026-01-18,Noah Rhodes,Suspected counterfeit,high_risk,1
+2026-01-12,2026-01-18,Ryan Munoz,Amount mismatch,fast_track,2
+2026-01-12,2026-01-18,Ryan Munoz,Endorsement missing,fast_track,10
+2026-01-12,2026-01-18,Ryan Munoz,Image unreadable,fast_track,11
+2026-01-19,2026-01-25,Abigail Shaffer,Amount mismatch,fast_track,1
+2026-01-19,2026-01-25,Abigail Shaffer,Endorsement missing,fast_track,10
+2026-01-19,2026-01-25,Abigail Shaffer,Image unreadable,fast_track,5
+2026-01-19,2026-01-25,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
+2026-01-19,2026-01-25,Allison Hill,Altered item,high_risk,2
+2026-01-19,2026-01-25,Angie Henderson,Amount mismatch,standard,6
+2026-01-19,2026-01-25,Angie Henderson,Endorsement missing,standard,19
+2026-01-19,2026-01-25,Angie Henderson,Image unreadable,standard,5
 2026-01-19,2026-01-25,Angie Henderson,Post-dated,standard,1
-2026-01-19,2026-01-25,Angie Henderson,Restrictive endorsement missing,standard,3
-2026-01-19,2026-01-25,Connie Lawrence,Endorsement missing,fast_track,3
-2026-01-19,2026-01-25,Daniel Wagner,Amount mismatch,fast_track,1
-2026-01-19,2026-01-25,Daniel Wagner,Endorsement missing,fast_track,5
-2026-01-19,2026-01-25,Daniel Wagner,Image unreadable,fast_track,3
+2026-01-19,2026-01-25,Angie Henderson,Restrictive endorsement missing,standard,5
+2026-01-19,2026-01-25,Cristian Santos,Endorsement missing,fast_track,2
+2026-01-19,2026-01-25,Cristian Santos,Image unreadable,fast_track,1
+2026-01-19,2026-01-25,Cristian Santos,Restrictive endorsement missing,fast_track,1
 2026-01-19,2026-01-25,Daniel Wagner,Post-dated,fast_track,1
-2026-01-19,2026-01-25,Daniel Wagner,Restrictive endorsement missing,fast_track,3
-2026-01-19,2026-01-25,Gabrielle Davis,Endorsement missing,standard,1
-2026-01-19,2026-01-25,Gabrielle Davis,Post-dated,standard,1
+2026-01-19,2026-01-25,Daniel Wagner,Restrictive endorsement missing,fast_track,1
+2026-01-19,2026-01-25,Gina Moore,Amount mismatch,standard,1
+2026-01-19,2026-01-25,Gina Moore,Endorsement missing,standard,1
+2026-01-19,2026-01-25,Gina Moore,Image unreadable,standard,2
+2026-01-19,2026-01-25,Gina Moore,Payee name mismatch,standard,1
+2026-01-19,2026-01-25,Gina Moore,Post-dated,standard,2
+2026-01-19,2026-01-25,Gina Moore,Restrictive endorsement missing,standard,1
 2026-01-19,2026-01-25,Noah Rhodes,Payee name mismatch,high_risk,1
-2026-01-19,2026-01-25,Noah Rhodes,Suspected counterfeit,high_risk,2
-2026-01-19,2026-01-25,Ryan Munoz,Endorsement missing,fast_track,2
-2026-01-19,2026-01-25,Ryan Munoz,Image unreadable,fast_track,2
-2026-01-26,2026-02-01,Allison Hill,Altered item,high_risk,1
-2026-01-26,2026-02-01,Allison Hill,Suspected counterfeit,high_risk,2
-2026-01-26,2026-02-01,Connie Lawrence,Endorsement missing,fast_track,1
-2026-01-26,2026-02-01,Cristian Santos,Amount mismatch,standard,1
-2026-01-26,2026-02-01,Cristian Santos,Endorsement missing,standard,1
-2026-01-26,2026-02-01,Cristian Santos,Image unreadable,standard,2
-2026-01-26,2026-02-01,Cristian Santos,Payee name mismatch,standard,2
-2026-01-26,2026-02-01,Gabrielle Davis,Amount mismatch,fast_track,2
-2026-01-26,2026-02-01,Gabrielle Davis,Endorsement missing,fast_track,8
-2026-01-26,2026-02-01,Gabrielle Davis,Image unreadable,fast_track,12
-2026-01-26,2026-02-01,Gabrielle Davis,Restrictive endorsement missing,fast_track,1
-2026-01-26,2026-02-01,Gina Moore,Endorsement missing,fast_track,4
-2026-01-26,2026-02-01,Gina Moore,Image unreadable,fast_track,2
-2026-01-26,2026-02-01,Noah Rhodes,Endorsement does not match payee,high_risk,1
-2026-01-26,2026-02-01,Noah Rhodes,Restrictive endorsement missing,high_risk,1
-2026-01-26,2026-02-01,Ryan Munoz,Amount mismatch,standard,7
-2026-01-26,2026-02-01,Ryan Munoz,Endorsement missing,standard,16
-2026-01-26,2026-02-01,Ryan Munoz,Image unreadable,standard,4
-2026-01-26,2026-02-01,Ryan Munoz,Payee name mismatch,standard,3
-2026-01-26,2026-02-01,Ryan Munoz,Post-dated,standard,1
-2026-01-26,2026-02-01,Ryan Munoz,Restrictive endorsement missing,standard,5
-2026-01-26,2026-02-01,Ryan Munoz,Signature missing,standard,1
-2026-01-26,2026-02-01,Ryan Munoz,Stale-dated,standard,1
-2026-02-02,2026-02-08,Connie Lawrence,Endorsement missing,fast_track,6
-2026-02-02,2026-02-08,Connie Lawrence,Image unreadable,fast_track,3
-2026-02-02,2026-02-08,Connie Lawrence,Payee name mismatch,fast_track,1
-2026-02-02,2026-02-08,Daniel Wagner,Amount mismatch,standard,4
-2026-02-02,2026-02-08,Daniel Wagner,Endorsement missing,standard,16
-2026-02-02,2026-02-08,Daniel Wagner,Image unreadable,standard,9
-2026-02-02,2026-02-08,Daniel Wagner,Payee name mismatch,standard,3
-2026-02-02,2026-02-08,Daniel Wagner,Post-dated,standard,2
-2026-02-02,2026-02-08,Daniel Wagner,Restrictive endorsement missing,standard,4
-2026-02-02,2026-02-08,Gabrielle Davis,Endorsement missing,fast_track,1
-2026-02-02,2026-02-08,Gabrielle Davis,Image unreadable,fast_track,3
-2026-02-02,2026-02-08,Gina Moore,Amount mismatch,standard,1
-2026-02-02,2026-02-08,Gina Moore,Endorsement missing,standard,4
-2026-02-02,2026-02-08,Gina Moore,Image unreadable,standard,4
-2026-02-02,2026-02-08,Gina Moore,Restrictive endorsement missing,standard,1
-2026-02-02,2026-02-08,Noah Rhodes,Altered item,high_risk,1
-2026-02-09,2026-02-15,Connie Lawrence,Image unreadable,fast_track,1
-2026-02-09,2026-02-15,Connie Lawrence,Restrictive endorsement missing,fast_track,1
-2026-02-09,2026-02-15,Cristian Santos,Amount mismatch,fast_track,3
-2026-02-09,2026-02-15,Cristian Santos,Endorsement missing,fast_track,1
-2026-02-09,2026-02-15,Cristian Santos,Image unreadable,fast_track,2
-2026-02-09,2026-02-15,Gabrielle Davis,Amount mismatch,standard,1
-2026-02-09,2026-02-15,Gabrielle Davis,Duplicate of earlier deposit,standard,1
-2026-02-09,2026-02-15,Gabrielle Davis,Endorsement missing,standard,2
-2026-02-09,2026-02-15,Gabrielle Davis,Image unreadable,standard,2
-2026-02-09,2026-02-15,Gabrielle Davis,Restrictive endorsement missing,standard,1
-2026-02-09,2026-02-15,Gina Moore,Amount mismatch,standard,4
-2026-02-09,2026-02-15,Gina Moore,Endorsement missing,standard,9
-2026-02-09,2026-02-15,Gina Moore,Image unreadable,standard,6
-2026-02-09,2026-02-15,Gina Moore,Payee name mismatch,standard,4
-2026-02-09,2026-02-15,Gina Moore,Restrictive endorsement missing,standard,5
-2026-02-09,2026-02-15,Ryan Munoz,Amount mismatch,fast_track,6
-2026-02-09,2026-02-15,Ryan Munoz,Endorsement missing,fast_track,8
-2026-02-09,2026-02-15,Ryan Munoz,Image unreadable,fast_track,3
+2026-01-19,2026-01-25,Noah Rhodes,Suspected counterfeit,high_risk,1
+2026-01-26,2026-01-31,Allison Hill,Endorsement missing,high_risk,1
+2026-01-26,2026-01-31,Allison Hill,Suspected counterfeit,high_risk,3
+2026-01-26,2026-01-31,Connie Lawrence,Amount mismatch,standard,8
+2026-01-26,2026-01-31,Connie Lawrence,Endorsement missing,standard,11
+2026-01-26,2026-01-31,Connie Lawrence,Image unreadable,standard,9
+2026-01-26,2026-01-31,Connie Lawrence,Payee name mismatch,standard,4
+2026-01-26,2026-01-31,Connie Lawrence,Restrictive endorsement missing,standard,5
+2026-01-26,2026-01-31,Connie Lawrence,Stale-dated,standard,1
+2026-01-26,2026-01-31,Daniel Wagner,Endorsement missing,fast_track,2
+2026-01-26,2026-01-31,Gabrielle Davis,Amount mismatch,fast_track,3
+2026-01-26,2026-01-31,Gabrielle Davis,Endorsement missing,fast_track,9
+2026-01-26,2026-01-31,Gabrielle Davis,Image unreadable,fast_track,12
+2026-01-26,2026-01-31,Gabrielle Davis,Restrictive endorsement missing,fast_track,1
+2026-01-26,2026-01-31,Gina Moore,Endorsement missing,standard,4
+2026-01-26,2026-01-31,Gina Moore,Image unreadable,standard,1
+2026-01-26,2026-01-31,Gina Moore,Payee name mismatch,standard,1
+2026-01-26,2026-01-31,Noah Rhodes,Endorsement does not match payee,high_risk,1
+2026-01-26,2026-01-31,Noah Rhodes,Restrictive endorsement missing,high_risk,1
+2026-02-01,2026-02-01,Gabrielle Davis,Image unreadable,fast_track,1
+2026-02-01,2026-02-01,Noah Rhodes,Altered item,high_risk,1
+2026-02-02,2026-02-08,Abigail Shaffer,Amount mismatch,standard,1
+2026-02-02,2026-02-08,Abigail Shaffer,Endorsement missing,standard,2
+2026-02-02,2026-02-08,Abigail Shaffer,Image unreadable,standard,2
+2026-02-02,2026-02-08,Abigail Shaffer,Restrictive endorsement missing,standard,2
+2026-02-02,2026-02-08,Abigail Shaffer,Stale-dated,standard,1
+2026-02-02,2026-02-08,Connie Lawrence,Amount mismatch,standard,5
+2026-02-02,2026-02-08,Connie Lawrence,Endorsement missing,standard,13
+2026-02-02,2026-02-08,Connie Lawrence,Image unreadable,standard,11
+2026-02-02,2026-02-08,Connie Lawrence,Payee name mismatch,standard,1
+2026-02-02,2026-02-08,Connie Lawrence,Post-dated,standard,1
+2026-02-02,2026-02-08,Connie Lawrence,Restrictive endorsement missing,standard,5
+2026-02-02,2026-02-08,Cristian Santos,Amount mismatch,fast_track,1
+2026-02-02,2026-02-08,Cristian Santos,Endorsement missing,fast_track,6
+2026-02-02,2026-02-08,Cristian Santos,Image unreadable,fast_track,2
+2026-02-02,2026-02-08,Cristian Santos,Payee name mismatch,fast_track,1
+2026-02-02,2026-02-08,Cristian Santos,Restrictive endorsement missing,fast_track,1
+2026-02-02,2026-02-08,Gina Moore,Endorsement missing,fast_track,2
+2026-02-02,2026-02-08,Gina Moore,Image unreadable,fast_track,1
+2026-02-09,2026-02-15,Abigail Shaffer,Endorsement missing,standard,2
+2026-02-09,2026-02-15,Abigail Shaffer,Image unreadable,standard,1
+2026-02-09,2026-02-15,Abigail Shaffer,Payee name mismatch,standard,1
+2026-02-09,2026-02-15,Abigail Shaffer,Restrictive endorsement missing,standard,2
+2026-02-09,2026-02-15,Angie Henderson,Amount mismatch,fast_track,1
+2026-02-09,2026-02-15,Daniel Wagner,Amount mismatch,fast_track,2
+2026-02-09,2026-02-15,Daniel Wagner,Endorsement missing,fast_track,1
+2026-02-09,2026-02-15,Daniel Wagner,Image unreadable,fast_track,1
+2026-02-09,2026-02-15,Gabrielle Davis,Amount mismatch,standard,2
+2026-02-09,2026-02-15,Gabrielle Davis,Endorsement missing,standard,6
+2026-02-09,2026-02-15,Gabrielle Davis,Image unreadable,standard,9
+2026-02-09,2026-02-15,Gabrielle Davis,Payee name mismatch,standard,1
+2026-02-09,2026-02-15,Gabrielle Davis,Post-dated,standard,2
+2026-02-09,2026-02-15,Gabrielle Davis,Restrictive endorsement missing,standard,6
+2026-02-09,2026-02-15,Gina Moore,Amount mismatch,fast_track,4
+2026-02-09,2026-02-15,Gina Moore,Endorsement missing,fast_track,11
+2026-02-09,2026-02-15,Gina Moore,Image unreadable,fast_track,3
+2026-02-09,2026-02-15,Gina Moore,Restrictive endorsement missing,fast_track,2
+2026-02-16,2026-02-22,Abigail Shaffer,Amount mismatch,fast_track,2
+2026-02-16,2026-02-22,Abigail Shaffer,Endorsement missing,fast_track,5
+2026-02-16,2026-02-22,Abigail Shaffer,Image unreadable,fast_track,3
+2026-02-16,2026-02-22,Abigail Shaffer,Stale-dated,fast_track,1
 2026-02-16,2026-02-22,Allison Hill,Altered item,high_risk,2
 2026-02-16,2026-02-22,Allison Hill,Endorsement does not match payee,high_risk,1
 2026-02-16,2026-02-22,Allison Hill,Suspected counterfeit,high_risk,1
-2026-02-16,2026-02-22,Angie Henderson,Endorsement missing,fast_track,1
-2026-02-16,2026-02-22,Angie Henderson,Image unreadable,fast_track,1
-2026-02-16,2026-02-22,Connie Lawrence,Amount mismatch,fast_track,3
-2026-02-16,2026-02-22,Connie Lawrence,Endorsement missing,fast_track,6
-2026-02-16,2026-02-22,Connie Lawrence,Image unreadable,fast_track,2
-2026-02-16,2026-02-22,Connie Lawrence,Restrictive endorsement missing,fast_track,2
-2026-02-16,2026-02-22,Connie Lawrence,Stale-dated,fast_track,1
-2026-02-16,2026-02-22,Cristian Santos,Amount mismatch,standard,2
-2026-02-16,2026-02-22,Cristian Santos,Endorsement missing,standard,9
-2026-02-16,2026-02-22,Cristian Santos,Image unreadable,standard,8
-2026-02-16,2026-02-22,Cristian Santos,Payee name mismatch,standard,1
-2026-02-16,2026-02-22,Cristian Santos,Restrictive endorsement missing,standard,3
-2026-02-16,2026-02-22,Cristian Santos,Stale-dated,standard,1
-2026-02-16,2026-02-22,Gabrielle Davis,Amount mismatch,standard,1
-2026-02-16,2026-02-22,Gabrielle Davis,Image unreadable,standard,1
-2026-02-16,2026-02-22,Gabrielle Davis,Post-dated,standard,1
-2026-02-16,2026-02-22,Ryan Munoz,Amount mismatch,standard,2
-2026-02-16,2026-02-22,Ryan Munoz,Endorsement missing,standard,2
-2026-02-16,2026-02-22,Ryan Munoz,Payee name mismatch,standard,1
-2026-02-16,2026-02-22,Ryan Munoz,Restrictive endorsement missing,standard,1
-2026-02-16,2026-02-22,Ryan Munoz,Signature missing,standard,1
-2026-02-23,2026-03-01,Angie Henderson,Endorsement missing,standard,2
-2026-02-23,2026-03-01,Angie Henderson,Image unreadable,standard,5
-2026-02-23,2026-03-01,Angie Henderson,Payee name mismatch,standard,3
-2026-02-23,2026-03-01,Angie Henderson,Post-dated,standard,1
-2026-02-23,2026-03-01,Angie Henderson,Restrictive endorsement missing,standard,1
-2026-02-23,2026-03-01,Connie Lawrence,Amount mismatch,standard,5
-2026-02-23,2026-03-01,Connie Lawrence,Endorsement missing,standard,9
-2026-02-23,2026-03-01,Connie Lawrence,Image unreadable,standard,5
-2026-02-23,2026-03-01,Connie Lawrence,Payee name mismatch,standard,3
-2026-02-23,2026-03-01,Connie Lawrence,Restrictive endorsement missing,standard,2
-2026-02-23,2026-03-01,Connie Lawrence,Stale-dated,standard,1
-2026-02-23,2026-03-01,Cristian Santos,Endorsement missing,fast_track,1
-2026-02-23,2026-03-01,Cristian Santos,Image unreadable,fast_track,1
-2026-02-23,2026-03-01,Daniel Wagner,Amount mismatch,fast_track,1
-2026-02-23,2026-03-01,Daniel Wagner,Endorsement missing,fast_track,4
-2026-02-23,2026-03-01,Daniel Wagner,Image unreadable,fast_track,5
-2026-02-23,2026-03-01,Daniel Wagner,Stale-dated,fast_track,1
-2026-02-23,2026-03-01,Ryan Munoz,Restrictive endorsement missing,standard,2
-2026-03-02,2026-03-08,Abigail Shaffer,Endorsement missing,fast_track,1
-2026-03-02,2026-03-08,Abigail Shaffer,Image unreadable,fast_track,1
-2026-03-02,2026-03-08,Allison Hill,Altered item,high_risk,1
-2026-03-02,2026-03-08,Allison Hill,Endorsement missing,high_risk,1
-2026-03-02,2026-03-08,Angie Henderson,Amount mismatch,fast_track,2
-2026-03-02,2026-03-08,Angie Henderson,Endorsement missing,fast_track,7
-2026-03-02,2026-03-08,Angie Henderson,Image unreadable,fast_track,7
-2026-03-02,2026-03-08,Angie Henderson,Restrictive endorsement missing,fast_track,1
-2026-03-02,2026-03-08,Cristian Santos,Amount mismatch,standard,3
-2026-03-02,2026-03-08,Cristian Santos,Endorsement missing,standard,5
-2026-03-02,2026-03-08,Cristian Santos,Image unreadable,standard,3
-2026-03-02,2026-03-08,Cristian Santos,Restrictive endorsement missing,standard,1
-2026-03-02,2026-03-08,Cristian Santos,Stale-dated,standard,1
-2026-03-02,2026-03-08,Daniel Wagner,Amount mismatch,standard,10
-2026-03-02,2026-03-08,Daniel Wagner,Endorsement missing,standard,21
-2026-03-02,2026-03-08,Daniel Wagner,Image unreadable,standard,4
-2026-03-02,2026-03-08,Daniel Wagner,Payee name mismatch,standard,3
-2026-03-02,2026-03-08,Daniel Wagner,Restrictive endorsement missing,standard,2
+2026-02-16,2026-02-22,Daniel Wagner,Endorsement missing,standard,1
+2026-02-16,2026-02-22,Daniel Wagner,Image unreadable,standard,4
+2026-02-16,2026-02-22,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-02-16,2026-02-22,Gabrielle Davis,Amount mismatch,standard,6
+2026-02-16,2026-02-22,Gabrielle Davis,Endorsement missing,standard,7
+2026-02-16,2026-02-22,Gabrielle Davis,Image unreadable,standard,8
+2026-02-16,2026-02-22,Gabrielle Davis,Payee name mismatch,standard,2
+2026-02-16,2026-02-22,Gabrielle Davis,Restrictive endorsement missing,standard,4
+2026-02-16,2026-02-22,Gabrielle Davis,Stale-dated,standard,1
+2026-02-16,2026-02-22,Noah Rhodes,Endorsement missing,high_risk,1
+2026-02-16,2026-02-22,Noah Rhodes,Signature missing,high_risk,1
+2026-02-16,2026-02-22,Ryan Munoz,Amount mismatch,fast_track,1
+2026-02-16,2026-02-22,Ryan Munoz,Image unreadable,fast_track,1
+2026-02-16,2026-02-22,Ryan Munoz,Restrictive endorsement missing,fast_track,1
+2026-02-23,2026-02-28,Abigail Shaffer,Endorsement missing,standard,1
+2026-02-23,2026-02-28,Abigail Shaffer,Image unreadable,standard,1
+2026-02-23,2026-02-28,Abigail Shaffer,Restrictive endorsement missing,standard,1
+2026-02-23,2026-02-28,Allison Hill,Endorsement missing,high_risk,1
+2026-02-23,2026-02-28,Cristian Santos,Amount mismatch,fast_track,1
+2026-02-23,2026-02-28,Cristian Santos,Endorsement missing,fast_track,2
+2026-02-23,2026-02-28,Cristian Santos,Image unreadable,fast_track,3
+2026-02-23,2026-02-28,Cristian Santos,Stale-dated,fast_track,1
+2026-02-23,2026-02-28,Daniel Wagner,Amount mismatch,standard,5
+2026-02-23,2026-02-28,Daniel Wagner,Endorsement missing,standard,12
+2026-02-23,2026-02-28,Daniel Wagner,Image unreadable,standard,5
+2026-02-23,2026-02-28,Daniel Wagner,Payee name mismatch,standard,4
+2026-02-23,2026-02-28,Daniel Wagner,Post-dated,standard,1
+2026-02-23,2026-02-28,Daniel Wagner,Restrictive endorsement missing,standard,3
+2026-02-23,2026-02-28,Gabrielle Davis,Amount mismatch,fast_track,1
+2026-02-23,2026-02-28,Gabrielle Davis,Endorsement missing,fast_track,3
+2026-02-23,2026-02-28,Gabrielle Davis,Image unreadable,fast_track,5
+2026-02-23,2026-02-28,Noah Rhodes,Suspected counterfeit,high_risk,1
+2026-03-01,2026-03-01,Cristian Santos,Image unreadable,fast_track,1
+2026-03-01,2026-03-01,Daniel Wagner,Amount mismatch,standard,1
+2026-03-01,2026-03-01,Daniel Wagner,Endorsement missing,standard,2
+2026-03-01,2026-03-01,Daniel Wagner,Image unreadable,standard,1
+2026-03-01,2026-03-01,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-03-01,2026-03-01,Gabrielle Davis,Endorsement missing,fast_track,1
+2026-03-02,2026-03-08,Allison Hill,Altered item,high_risk,2
+2026-03-02,2026-03-08,Angie Henderson,Endorsement missing,fast_track,2
+2026-03-02,2026-03-08,Angie Henderson,Image unreadable,fast_track,1
+2026-03-02,2026-03-08,Cristian Santos,Endorsement missing,standard,3
+2026-03-02,2026-03-08,Cristian Santos,Image unreadable,standard,1
+2026-03-02,2026-03-08,Cristian Santos,Post-dated,standard,1
+2026-03-02,2026-03-08,Daniel Wagner,Amount mismatch,standard,11
+2026-03-02,2026-03-08,Daniel Wagner,Endorsement missing,standard,24
+2026-03-02,2026-03-08,Daniel Wagner,Image unreadable,standard,6
+2026-03-02,2026-03-08,Daniel Wagner,Payee name mismatch,standard,2
+2026-03-02,2026-03-08,Daniel Wagner,Post-dated,standard,1
+2026-03-02,2026-03-08,Daniel Wagner,Restrictive endorsement missing,standard,4
+2026-03-02,2026-03-08,Daniel Wagner,Stale-dated,standard,1
+2026-03-02,2026-03-08,Gabrielle Davis,Amount mismatch,fast_track,1
+2026-03-02,2026-03-08,Gabrielle Davis,Endorsement missing,fast_track,8
+2026-03-02,2026-03-08,Gabrielle Davis,Image unreadable,fast_track,5
+2026-03-02,2026-03-08,Gabrielle Davis,Restrictive endorsement missing,fast_track,1
 2026-03-02,2026-03-08,Noah Rhodes,Image unreadable,high_risk,1
 2026-03-02,2026-03-08,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-03-09,2026-03-15,Abigail Shaffer,Endorsement missing,standard,1
-2026-03-09,2026-03-15,Abigail Shaffer,Image unreadable,standard,6
-2026-03-09,2026-03-15,Allison Hill,Altered item,high_risk,2
-2026-03-09,2026-03-15,Angie Henderson,Endorsement missing,fast_track,3
-2026-03-09,2026-03-15,Angie Henderson,Image unreadable,fast_track,4
-2026-03-09,2026-03-15,Connie Lawrence,Endorsement missing,fast_track,3
-2026-03-09,2026-03-15,Connie Lawrence,Image unreadable,fast_track,1
-2026-03-09,2026-03-15,Cristian Santos,Amount mismatch,standard,4
-2026-03-09,2026-03-15,Cristian Santos,Duplicate of earlier deposit,standard,1
-2026-03-09,2026-03-15,Cristian Santos,Endorsement missing,standard,12
-2026-03-09,2026-03-15,Cristian Santos,Image unreadable,standard,8
-2026-03-09,2026-03-15,Cristian Santos,Payee name mismatch,standard,1
-2026-03-09,2026-03-15,Cristian Santos,Post-dated,standard,2
-2026-03-09,2026-03-15,Cristian Santos,Restrictive endorsement missing,standard,2
-2026-03-09,2026-03-15,Noah Rhodes,Suspected counterfeit,high_risk,2
-2026-03-09,2026-03-15,Ryan Munoz,Image unreadable,fast_track,1
-2026-03-09,2026-03-15,Ryan Munoz,Payee name mismatch,fast_track,1
+2026-03-09,2026-03-15,Abigail Shaffer,Endorsement missing,fast_track,5
+2026-03-09,2026-03-15,Abigail Shaffer,Image unreadable,fast_track,4
+2026-03-09,2026-03-15,Abigail Shaffer,Payee name mismatch,fast_track,1
+2026-03-09,2026-03-15,Allison Hill,Altered item,high_risk,1
+2026-03-09,2026-03-15,Allison Hill,Endorsement does not match payee,high_risk,1
+2026-03-09,2026-03-15,Angie Henderson,Amount mismatch,standard,3
+2026-03-09,2026-03-15,Angie Henderson,Endorsement missing,standard,15
+2026-03-09,2026-03-15,Angie Henderson,Image unreadable,standard,10
+2026-03-09,2026-03-15,Angie Henderson,Payee name mismatch,standard,2
+2026-03-09,2026-03-15,Angie Henderson,Post-dated,standard,1
+2026-03-09,2026-03-15,Cristian Santos,Endorsement missing,fast_track,4
+2026-03-09,2026-03-15,Cristian Santos,Image unreadable,fast_track,1
+2026-03-09,2026-03-15,Cristian Santos,Payee name mismatch,fast_track,1
+2026-03-09,2026-03-15,Gabrielle Davis,Image unreadable,standard,4
+2026-03-09,2026-03-15,Noah Rhodes,Suspected counterfeit,high_risk,1
+2026-03-16,2026-03-22,Abigail Shaffer,Amount mismatch,standard,1
+2026-03-16,2026-03-22,Abigail Shaffer,Image unreadable,standard,1
 2026-03-16,2026-03-22,Allison Hill,Altered item,high_risk,1
-2026-03-16,2026-03-22,Allison Hill,Endorsement does not match payee,high_risk,1
 2026-03-16,2026-03-22,Allison Hill,Post-dated,high_risk,1
-2026-03-16,2026-03-22,Angie Henderson,Endorsement missing,fast_track,3
-2026-03-16,2026-03-22,Angie Henderson,Image unreadable,fast_track,1
-2026-03-16,2026-03-22,Angie Henderson,Payee name mismatch,fast_track,2
-2026-03-16,2026-03-22,Connie Lawrence,Endorsement missing,standard,2
-2026-03-16,2026-03-22,Connie Lawrence,Image unreadable,standard,2
-2026-03-16,2026-03-22,Gabrielle Davis,Amount mismatch,fast_track,1
-2026-03-16,2026-03-22,Gabrielle Davis,Endorsement missing,fast_track,4
-2026-03-16,2026-03-22,Gabrielle Davis,Image unreadable,fast_track,4
-2026-03-16,2026-03-22,Gina Moore,Amount mismatch,standard,3
-2026-03-16,2026-03-22,Gina Moore,Endorsement missing,standard,9
-2026-03-16,2026-03-22,Gina Moore,Image unreadable,standard,4
-2026-03-16,2026-03-22,Gina Moore,Payee name mismatch,standard,3
-2026-03-16,2026-03-22,Gina Moore,Post-dated,standard,1
-2026-03-16,2026-03-22,Gina Moore,Restrictive endorsement missing,standard,1
-2026-03-16,2026-03-22,Gina Moore,Signature missing,standard,1
+2026-03-16,2026-03-22,Angie Henderson,Endorsement missing,standard,2
+2026-03-16,2026-03-22,Cristian Santos,Amount mismatch,standard,8
+2026-03-16,2026-03-22,Cristian Santos,Endorsement missing,standard,8
+2026-03-16,2026-03-22,Cristian Santos,Image unreadable,standard,4
+2026-03-16,2026-03-22,Cristian Santos,Payee name mismatch,standard,2
+2026-03-16,2026-03-22,Cristian Santos,Restrictive endorsement missing,standard,4
+2026-03-16,2026-03-22,Cristian Santos,Stale-dated,standard,1
+2026-03-16,2026-03-22,Daniel Wagner,Image unreadable,fast_track,1
+2026-03-16,2026-03-22,Gina Moore,Payee name mismatch,fast_track,1
 2026-03-16,2026-03-22,Noah Rhodes,Altered item,high_risk,1
-2026-03-16,2026-03-22,Ryan Munoz,Amount mismatch,standard,2
-2026-03-16,2026-03-22,Ryan Munoz,Image unreadable,standard,1
+2026-03-16,2026-03-22,Ryan Munoz,Endorsement missing,fast_track,4
+2026-03-16,2026-03-22,Ryan Munoz,Image unreadable,fast_track,5
+2026-03-16,2026-03-22,Ryan Munoz,Post-dated,fast_track,1
+2026-03-16,2026-03-22,Ryan Munoz,Restrictive endorsement missing,fast_track,1
 2026-03-23,2026-03-29,Abigail Shaffer,Amount mismatch,fast_track,1
-2026-03-23,2026-03-29,Abigail Shaffer,Endorsement missing,fast_track,10
-2026-03-23,2026-03-29,Abigail Shaffer,Image unreadable,fast_track,3
-2026-03-23,2026-03-29,Abigail Shaffer,Payee name mismatch,fast_track,3
-2026-03-23,2026-03-29,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
-2026-03-23,2026-03-29,Abigail Shaffer,Stale-dated,fast_track,1
 2026-03-23,2026-03-29,Allison Hill,Altered item,high_risk,1
-2026-03-23,2026-03-29,Allison Hill,Endorsement missing,high_risk,1
-2026-03-23,2026-03-29,Connie Lawrence,Endorsement missing,standard,2
-2026-03-23,2026-03-29,Connie Lawrence,Image unreadable,standard,1
+2026-03-23,2026-03-29,Allison Hill,Endorsement does not match payee,high_risk,1
+2026-03-23,2026-03-29,Allison Hill,Endorsement missing,high_risk,2
+2026-03-23,2026-03-29,Allison Hill,Suspected counterfeit,high_risk,1
+2026-03-23,2026-03-29,Angie Henderson,Amount mismatch,standard,6
+2026-03-23,2026-03-29,Angie Henderson,Endorsement missing,standard,14
+2026-03-23,2026-03-29,Angie Henderson,Image unreadable,standard,9
+2026-03-23,2026-03-29,Angie Henderson,Payee name mismatch,standard,1
+2026-03-23,2026-03-29,Angie Henderson,Restrictive endorsement missing,standard,1
+2026-03-23,2026-03-29,Connie Lawrence,Endorsement missing,standard,5
 2026-03-23,2026-03-29,Connie Lawrence,Stale-dated,standard,1
-2026-03-23,2026-03-29,Cristian Santos,Amount mismatch,fast_track,1
-2026-03-23,2026-03-29,Cristian Santos,Image unreadable,fast_track,2
-2026-03-23,2026-03-29,Daniel Wagner,Endorsement missing,standard,1
-2026-03-23,2026-03-29,Daniel Wagner,Image unreadable,standard,1
-2026-03-23,2026-03-29,Gina Moore,Image unreadable,fast_track,2
-2026-03-23,2026-03-29,Gina Moore,Payee name mismatch,fast_track,1
-2026-03-23,2026-03-29,Gina Moore,Restrictive endorsement missing,fast_track,1
-2026-03-23,2026-03-29,Noah Rhodes,Altered item,high_risk,2
-2026-03-23,2026-03-29,Ryan Munoz,Amount mismatch,standard,11
-2026-03-23,2026-03-29,Ryan Munoz,Endorsement missing,standard,16
-2026-03-23,2026-03-29,Ryan Munoz,Image unreadable,standard,6
-2026-03-23,2026-03-29,Ryan Munoz,Payee name mismatch,standard,2
-2026-03-23,2026-03-29,Ryan Munoz,Restrictive endorsement missing,standard,3
-2026-03-30,2026-04-05,Allison Hill,Suspected counterfeit,high_risk,1
-2026-03-30,2026-04-05,Angie Henderson,Amount mismatch,standard,1
-2026-03-30,2026-04-05,Angie Henderson,Endorsement missing,standard,1
-2026-03-30,2026-04-05,Angie Henderson,Payee name mismatch,standard,1
-2026-03-30,2026-04-05,Cristian Santos,Amount mismatch,fast_track,4
-2026-03-30,2026-04-05,Cristian Santos,Endorsement missing,fast_track,7
-2026-03-30,2026-04-05,Cristian Santos,Image unreadable,fast_track,3
-2026-03-30,2026-04-05,Cristian Santos,Payee name mismatch,fast_track,1
-2026-03-30,2026-04-05,Cristian Santos,Restrictive endorsement missing,fast_track,2
-2026-03-30,2026-04-05,Daniel Wagner,Amount mismatch,standard,6
-2026-03-30,2026-04-05,Daniel Wagner,Duplicate of earlier deposit,standard,1
-2026-03-30,2026-04-05,Daniel Wagner,Endorsement missing,standard,10
-2026-03-30,2026-04-05,Daniel Wagner,Image unreadable,standard,10
-2026-03-30,2026-04-05,Daniel Wagner,Payee name mismatch,standard,2
-2026-03-30,2026-04-05,Daniel Wagner,Post-dated,standard,1
-2026-03-30,2026-04-05,Daniel Wagner,Restrictive endorsement missing,standard,4
-2026-03-30,2026-04-05,Daniel Wagner,Signature missing,standard,1
-2026-03-30,2026-04-05,Gabrielle Davis,Amount mismatch,fast_track,1
-2026-03-30,2026-04-05,Gabrielle Davis,Endorsement missing,fast_track,2
-2026-03-30,2026-04-05,Gabrielle Davis,Image unreadable,fast_track,1
-2026-04-06,2026-04-12,Abigail Shaffer,Endorsement missing,fast_track,5
-2026-04-06,2026-04-12,Abigail Shaffer,Image unreadable,fast_track,3
+2026-03-23,2026-03-29,Daniel Wagner,Amount mismatch,standard,2
+2026-03-23,2026-03-29,Daniel Wagner,Endorsement missing,standard,2
+2026-03-23,2026-03-29,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-03-23,2026-03-29,Gabrielle Davis,Amount mismatch,fast_track,1
+2026-03-23,2026-03-29,Gabrielle Davis,Endorsement missing,fast_track,8
+2026-03-23,2026-03-29,Gabrielle Davis,Image unreadable,fast_track,3
+2026-03-23,2026-03-29,Gabrielle Davis,Payee name mismatch,fast_track,4
+2026-03-23,2026-03-29,Gabrielle Davis,Restrictive endorsement missing,fast_track,3
+2026-03-23,2026-03-29,Gina Moore,Endorsement missing,fast_track,1
+2026-03-23,2026-03-29,Noah Rhodes,Altered item,high_risk,1
+2026-03-30,2026-03-31,Connie Lawrence,Image unreadable,standard,1
+2026-03-30,2026-03-31,Cristian Santos,Amount mismatch,fast_track,1
+2026-03-30,2026-03-31,Cristian Santos,Endorsement missing,fast_track,2
+2026-03-30,2026-03-31,Cristian Santos,Restrictive endorsement missing,fast_track,1
+2026-03-30,2026-03-31,Daniel Wagner,Amount mismatch,standard,1
+2026-03-30,2026-03-31,Daniel Wagner,Endorsement missing,standard,3
+2026-03-30,2026-03-31,Daniel Wagner,Image unreadable,standard,2
+2026-03-30,2026-03-31,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-03-30,2026-03-31,Daniel Wagner,Stale-dated,standard,1
+2026-03-30,2026-03-31,Gabrielle Davis,Endorsement missing,fast_track,1
+2026-04-01,2026-04-05,Connie Lawrence,Endorsement missing,standard,4
+2026-04-01,2026-04-05,Connie Lawrence,Image unreadable,standard,3
+2026-04-01,2026-04-05,Connie Lawrence,Payee name mismatch,standard,1
+2026-04-01,2026-04-05,Connie Lawrence,Restrictive endorsement missing,standard,2
+2026-04-01,2026-04-05,Cristian Santos,Amount mismatch,fast_track,3
+2026-04-01,2026-04-05,Cristian Santos,Endorsement missing,fast_track,5
+2026-04-01,2026-04-05,Cristian Santos,Image unreadable,fast_track,8
+2026-04-01,2026-04-05,Cristian Santos,Payee name mismatch,fast_track,2
+2026-04-01,2026-04-05,Cristian Santos,Restrictive endorsement missing,fast_track,1
+2026-04-01,2026-04-05,Daniel Wagner,Amount mismatch,standard,8
+2026-04-01,2026-04-05,Daniel Wagner,Endorsement missing,standard,10
+2026-04-01,2026-04-05,Daniel Wagner,Image unreadable,standard,4
+2026-04-01,2026-04-05,Daniel Wagner,Payee name mismatch,standard,3
+2026-04-01,2026-04-05,Daniel Wagner,Post-dated,standard,2
+2026-04-01,2026-04-05,Noah Rhodes,Suspected counterfeit,high_risk,1
+2026-04-01,2026-04-05,Ryan Munoz,Amount mismatch,fast_track,1
+2026-04-01,2026-04-05,Ryan Munoz,Endorsement missing,fast_track,2
+2026-04-01,2026-04-05,Ryan Munoz,Image unreadable,fast_track,1
+2026-04-06,2026-04-12,Abigail Shaffer,Amount mismatch,fast_track,1
+2026-04-06,2026-04-12,Abigail Shaffer,Endorsement missing,fast_track,15
+2026-04-06,2026-04-12,Abigail Shaffer,Image unreadable,fast_track,8
+2026-04-06,2026-04-12,Abigail Shaffer,Post-dated,fast_track,2
+2026-04-06,2026-04-12,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
+2026-04-06,2026-04-12,Abigail Shaffer,Stale-dated,fast_track,1
+2026-04-06,2026-04-12,Allison Hill,Altered item,high_risk,1
 2026-04-06,2026-04-12,Allison Hill,Duplicate of earlier deposit,high_risk,1
-2026-04-06,2026-04-12,Angie Henderson,Amount mismatch,standard,3
-2026-04-06,2026-04-12,Angie Henderson,Endorsement missing,standard,6
-2026-04-06,2026-04-12,Angie Henderson,Image unreadable,standard,3
-2026-04-06,2026-04-12,Angie Henderson,Payee name mismatch,standard,2
-2026-04-06,2026-04-12,Angie Henderson,Restrictive endorsement missing,standard,1
-2026-04-06,2026-04-12,Angie Henderson,Stale-dated,standard,1
-2026-04-06,2026-04-12,Daniel Wagner,Amount mismatch,fast_track,1
-2026-04-06,2026-04-12,Daniel Wagner,Endorsement missing,fast_track,4
-2026-04-06,2026-04-12,Daniel Wagner,Image unreadable,fast_track,1
-2026-04-06,2026-04-12,Daniel Wagner,Restrictive endorsement missing,fast_track,1
-2026-04-06,2026-04-12,Daniel Wagner,Stale-dated,fast_track,1
-2026-04-06,2026-04-12,Gina Moore,Amount mismatch,standard,7
-2026-04-06,2026-04-12,Gina Moore,Endorsement missing,standard,16
-2026-04-06,2026-04-12,Gina Moore,Image unreadable,standard,8
-2026-04-06,2026-04-12,Gina Moore,Payee name mismatch,standard,3
-2026-04-06,2026-04-12,Gina Moore,Post-dated,standard,2
-2026-04-06,2026-04-12,Gina Moore,Signature missing,standard,1
-2026-04-06,2026-04-12,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-04-06,2026-04-12,Ryan Munoz,Amount mismatch,fast_track,1
-2026-04-06,2026-04-12,Ryan Munoz,Endorsement missing,fast_track,8
-2026-04-06,2026-04-12,Ryan Munoz,Image unreadable,fast_track,10
-2026-04-06,2026-04-12,Ryan Munoz,Payee name mismatch,fast_track,1
-2026-04-06,2026-04-12,Ryan Munoz,Post-dated,fast_track,3
-2026-04-06,2026-04-12,Ryan Munoz,Restrictive endorsement missing,fast_track,1
-2026-04-13,2026-04-19,Abigail Shaffer,Endorsement missing,fast_track,3
-2026-04-13,2026-04-19,Allison Hill,Altered item,high_risk,2
+2026-04-06,2026-04-12,Connie Lawrence,Amount mismatch,standard,4
+2026-04-06,2026-04-12,Connie Lawrence,Endorsement missing,standard,17
+2026-04-06,2026-04-12,Connie Lawrence,Image unreadable,standard,9
+2026-04-06,2026-04-12,Connie Lawrence,Payee name mismatch,standard,4
+2026-04-06,2026-04-12,Connie Lawrence,Restrictive endorsement missing,standard,2
+2026-04-06,2026-04-12,Connie Lawrence,Stale-dated,standard,1
+2026-04-06,2026-04-12,Daniel Wagner,Amount mismatch,standard,1
+2026-04-06,2026-04-12,Daniel Wagner,Endorsement missing,standard,6
+2026-04-06,2026-04-12,Daniel Wagner,Image unreadable,standard,2
+2026-04-06,2026-04-12,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-04-06,2026-04-12,Gina Moore,Endorsement missing,fast_track,2
+2026-04-06,2026-04-12,Gina Moore,Image unreadable,fast_track,3
+2026-04-06,2026-04-12,Gina Moore,Post-dated,fast_track,1
+2026-04-06,2026-04-12,Ryan Munoz,Endorsement missing,standard,1
+2026-04-06,2026-04-12,Ryan Munoz,Payee name mismatch,standard,1
+2026-04-13,2026-04-19,Allison Hill,Endorsement missing,high_risk,1
+2026-04-13,2026-04-19,Allison Hill,Stale-dated,high_risk,2
 2026-04-13,2026-04-19,Allison Hill,Suspected counterfeit,high_risk,1
-2026-04-13,2026-04-19,Daniel Wagner,Amount mismatch,fast_track,1
-2026-04-13,2026-04-19,Gabrielle Davis,Amount mismatch,standard,7
-2026-04-13,2026-04-19,Gabrielle Davis,Duplicate of earlier deposit,standard,1
-2026-04-13,2026-04-19,Gabrielle Davis,Endorsement missing,standard,17
-2026-04-13,2026-04-19,Gabrielle Davis,Image unreadable,standard,14
-2026-04-13,2026-04-19,Gabrielle Davis,Payee name mismatch,standard,1
-2026-04-13,2026-04-19,Gabrielle Davis,Post-dated,standard,2
-2026-04-13,2026-04-19,Gabrielle Davis,Restrictive endorsement missing,standard,5
+2026-04-13,2026-04-19,Cristian Santos,Amount mismatch,fast_track,1
+2026-04-13,2026-04-19,Cristian Santos,Endorsement missing,fast_track,1
+2026-04-13,2026-04-19,Cristian Santos,Image unreadable,fast_track,1
+2026-04-13,2026-04-19,Cristian Santos,Payee name mismatch,fast_track,1
+2026-04-13,2026-04-19,Daniel Wagner,Amount mismatch,standard,7
+2026-04-13,2026-04-19,Daniel Wagner,Endorsement missing,standard,24
+2026-04-13,2026-04-19,Daniel Wagner,Image unreadable,standard,14
+2026-04-13,2026-04-19,Daniel Wagner,Payee name mismatch,standard,1
+2026-04-13,2026-04-19,Daniel Wagner,Post-dated,standard,1
+2026-04-13,2026-04-19,Daniel Wagner,Restrictive endorsement missing,standard,4
+2026-04-13,2026-04-19,Daniel Wagner,Stale-dated,standard,1
 2026-04-13,2026-04-19,Gina Moore,Amount mismatch,fast_track,3
-2026-04-13,2026-04-19,Gina Moore,Endorsement missing,fast_track,13
-2026-04-13,2026-04-19,Gina Moore,Image unreadable,fast_track,6
+2026-04-13,2026-04-19,Gina Moore,Endorsement missing,fast_track,15
+2026-04-13,2026-04-19,Gina Moore,Image unreadable,fast_track,8
+2026-04-13,2026-04-19,Gina Moore,Payee name mismatch,fast_track,1
+2026-04-13,2026-04-19,Gina Moore,Post-dated,fast_track,1
+2026-04-13,2026-04-19,Gina Moore,Restrictive endorsement missing,fast_track,3
+2026-04-13,2026-04-19,Noah Rhodes,Altered item,high_risk,1
 2026-04-13,2026-04-19,Noah Rhodes,Endorsement does not match payee,high_risk,1
 2026-04-13,2026-04-19,Noah Rhodes,Post-dated,high_risk,1
 2026-04-13,2026-04-19,Noah Rhodes,Stale-dated,high_risk,1
 2026-04-13,2026-04-19,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-04-13,2026-04-19,Ryan Munoz,Amount mismatch,standard,2
-2026-04-13,2026-04-19,Ryan Munoz,Endorsement missing,standard,6
-2026-04-13,2026-04-19,Ryan Munoz,Restrictive endorsement missing,standard,1
-2026-04-20,2026-04-26,Abigail Shaffer,Amount mismatch,standard,1
-2026-04-20,2026-04-26,Abigail Shaffer,Endorsement missing,standard,9
-2026-04-20,2026-04-26,Abigail Shaffer,Image unreadable,standard,1
-2026-04-20,2026-04-26,Abigail Shaffer,Payee name mismatch,standard,1
-2026-04-20,2026-04-26,Allison Hill,Endorsement missing,high_risk,2
-2026-04-20,2026-04-26,Allison Hill,Stale-dated,high_risk,2
-2026-04-20,2026-04-26,Angie Henderson,Image unreadable,fast_track,1
-2026-04-20,2026-04-26,Angie Henderson,Payee name mismatch,fast_track,1
-2026-04-20,2026-04-26,Gabrielle Davis,Amount mismatch,fast_track,3
-2026-04-20,2026-04-26,Gabrielle Davis,Endorsement missing,fast_track,12
-2026-04-20,2026-04-26,Gabrielle Davis,Image unreadable,fast_track,7
+2026-04-13,2026-04-19,Ryan Munoz,Amount mismatch,standard,3
+2026-04-13,2026-04-19,Ryan Munoz,Endorsement missing,standard,3
+2026-04-13,2026-04-19,Ryan Munoz,Payee name mismatch,standard,1
+2026-04-20,2026-04-26,Allison Hill,Altered item,high_risk,1
+2026-04-20,2026-04-26,Allison Hill,Endorsement missing,high_risk,1
+2026-04-20,2026-04-26,Connie Lawrence,Endorsement missing,fast_track,2
+2026-04-20,2026-04-26,Gabrielle Davis,Amount mismatch,fast_track,4
+2026-04-20,2026-04-26,Gabrielle Davis,Endorsement missing,fast_track,9
+2026-04-20,2026-04-26,Gabrielle Davis,Image unreadable,fast_track,5
 2026-04-20,2026-04-26,Gabrielle Davis,Payee name mismatch,fast_track,1
-2026-04-20,2026-04-26,Gabrielle Davis,Post-dated,fast_track,1
-2026-04-20,2026-04-26,Gabrielle Davis,Restrictive endorsement missing,fast_track,2
-2026-04-20,2026-04-26,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-04-20,2026-04-26,Ryan Munoz,Amount mismatch,standard,5
-2026-04-20,2026-04-26,Ryan Munoz,Duplicate of earlier deposit,standard,1
-2026-04-20,2026-04-26,Ryan Munoz,Endorsement missing,standard,13
-2026-04-20,2026-04-26,Ryan Munoz,Image unreadable,standard,3
-2026-04-20,2026-04-26,Ryan Munoz,Payee name mismatch,standard,1
-2026-04-20,2026-04-26,Ryan Munoz,Post-dated,standard,2
-2026-04-20,2026-04-26,Ryan Munoz,Restrictive endorsement missing,standard,3
-2026-04-27,2026-05-03,Abigail Shaffer,Amount mismatch,standard,3
-2026-04-27,2026-05-03,Abigail Shaffer,Endorsement missing,standard,12
-2026-04-27,2026-05-03,Abigail Shaffer,Image unreadable,standard,8
-2026-04-27,2026-05-03,Abigail Shaffer,Payee name mismatch,standard,1
-2026-04-27,2026-05-03,Abigail Shaffer,Restrictive endorsement missing,standard,1
-2026-04-27,2026-05-03,Angie Henderson,Amount mismatch,fast_track,1
-2026-04-27,2026-05-03,Angie Henderson,Endorsement missing,fast_track,5
-2026-04-27,2026-05-03,Cristian Santos,Endorsement missing,standard,5
-2026-04-27,2026-05-03,Cristian Santos,Image unreadable,standard,1
-2026-04-27,2026-05-03,Cristian Santos,Post-dated,standard,1
-2026-04-27,2026-05-03,Gabrielle Davis,Amount mismatch,fast_track,4
-2026-04-27,2026-05-03,Gabrielle Davis,Endorsement missing,fast_track,17
-2026-04-27,2026-05-03,Gabrielle Davis,Image unreadable,fast_track,6
-2026-04-27,2026-05-03,Gabrielle Davis,Payee name mismatch,fast_track,3
-2026-04-27,2026-05-03,Gabrielle Davis,Restrictive endorsement missing,fast_track,4
-2026-04-27,2026-05-03,Gabrielle Davis,Stale-dated,fast_track,1
-2026-04-27,2026-05-03,Gina Moore,Endorsement missing,standard,1
-2026-04-27,2026-05-03,Gina Moore,Image unreadable,standard,1
-2026-04-27,2026-05-03,Noah Rhodes,Altered item,high_risk,1
-2026-04-27,2026-05-03,Noah Rhodes,Endorsement does not match payee,high_risk,1
-2026-05-04,2026-05-10,Abigail Shaffer,Endorsement missing,fast_track,5
-2026-05-04,2026-05-10,Abigail Shaffer,Image unreadable,fast_track,2
-2026-05-04,2026-05-10,Abigail Shaffer,Restrictive endorsement missing,fast_track,3
+2026-04-20,2026-04-26,Gabrielle Davis,Restrictive endorsement missing,fast_track,3
+2026-04-20,2026-04-26,Gabrielle Davis,Stale-dated,fast_track,1
+2026-04-20,2026-04-26,Gina Moore,Amount mismatch,standard,4
+2026-04-20,2026-04-26,Gina Moore,Endorsement missing,standard,11
+2026-04-20,2026-04-26,Gina Moore,Image unreadable,standard,8
+2026-04-20,2026-04-26,Gina Moore,Payee name mismatch,standard,1
+2026-04-20,2026-04-26,Gina Moore,Restrictive endorsement missing,standard,1
+2026-04-20,2026-04-26,Noah Rhodes,Altered item,high_risk,1
+2026-04-20,2026-04-26,Noah Rhodes,Endorsement does not match payee,high_risk,1
+2026-04-20,2026-04-26,Ryan Munoz,Endorsement missing,standard,2
+2026-04-20,2026-04-26,Ryan Munoz,Image unreadable,standard,1
+2026-04-27,2026-04-30,Angie Henderson,Endorsement missing,standard,2
+2026-04-27,2026-04-30,Connie Lawrence,Amount mismatch,fast_track,2
+2026-04-27,2026-04-30,Connie Lawrence,Endorsement missing,fast_track,16
+2026-04-27,2026-04-30,Connie Lawrence,Image unreadable,fast_track,4
+2026-04-27,2026-04-30,Connie Lawrence,Payee name mismatch,fast_track,1
+2026-04-27,2026-04-30,Gina Moore,Amount mismatch,fast_track,1
+2026-04-27,2026-04-30,Gina Moore,Endorsement missing,fast_track,3
+2026-04-27,2026-04-30,Gina Moore,Image unreadable,fast_track,1
+2026-04-27,2026-04-30,Gina Moore,Restrictive endorsement missing,fast_track,1
+2026-04-27,2026-04-30,Ryan Munoz,Amount mismatch,standard,1
+2026-04-27,2026-04-30,Ryan Munoz,Endorsement missing,standard,11
+2026-04-27,2026-04-30,Ryan Munoz,Image unreadable,standard,5
+2026-04-27,2026-04-30,Ryan Munoz,Payee name mismatch,standard,1
+2026-04-27,2026-04-30,Ryan Munoz,Restrictive endorsement missing,standard,1
+2026-05-01,2026-05-03,Allison Hill,Amount mismatch,high_risk,1
+2026-05-01,2026-05-03,Connie Lawrence,Amount mismatch,fast_track,2
+2026-05-01,2026-05-03,Connie Lawrence,Endorsement missing,fast_track,3
+2026-05-01,2026-05-03,Connie Lawrence,Image unreadable,fast_track,2
+2026-05-01,2026-05-03,Connie Lawrence,Restrictive endorsement missing,fast_track,2
+2026-05-01,2026-05-03,Gina Moore,Endorsement missing,fast_track,2
+2026-05-01,2026-05-03,Noah Rhodes,Altered item,high_risk,1
+2026-05-01,2026-05-03,Ryan Munoz,Amount mismatch,standard,1
+2026-05-01,2026-05-03,Ryan Munoz,Endorsement missing,standard,4
+2026-05-01,2026-05-03,Ryan Munoz,Image unreadable,standard,4
+2026-05-01,2026-05-03,Ryan Munoz,Payee name mismatch,standard,1
+2026-05-01,2026-05-03,Ryan Munoz,Post-dated,standard,1
+2026-05-01,2026-05-03,Ryan Munoz,Restrictive endorsement missing,standard,1
+2026-05-04,2026-05-10,Abigail Shaffer,Endorsement missing,standard,1
+2026-05-04,2026-05-10,Abigail Shaffer,Image unreadable,standard,1
+2026-05-04,2026-05-10,Abigail Shaffer,Post-dated,standard,2
 2026-05-04,2026-05-10,Allison Hill,Altered item,high_risk,1
-2026-05-04,2026-05-10,Allison Hill,Amount mismatch,high_risk,1
+2026-05-04,2026-05-10,Allison Hill,Endorsement does not match payee,high_risk,1
 2026-05-04,2026-05-10,Allison Hill,Suspected counterfeit,high_risk,1
-2026-05-04,2026-05-10,Angie Henderson,Endorsement missing,fast_track,4
-2026-05-04,2026-05-10,Angie Henderson,Image unreadable,fast_track,1
-2026-05-04,2026-05-10,Angie Henderson,Restrictive endorsement missing,fast_track,1
-2026-05-04,2026-05-10,Cristian Santos,Amount mismatch,standard,1
-2026-05-04,2026-05-10,Cristian Santos,Endorsement missing,standard,11
-2026-05-04,2026-05-10,Cristian Santos,Image unreadable,standard,7
-2026-05-04,2026-05-10,Cristian Santos,Restrictive endorsement missing,standard,2
-2026-05-04,2026-05-10,Gabrielle Davis,Amount mismatch,standard,1
-2026-05-04,2026-05-10,Gabrielle Davis,Endorsement missing,standard,3
-2026-05-04,2026-05-10,Gabrielle Davis,Image unreadable,standard,1
-2026-05-04,2026-05-10,Gabrielle Davis,Post-dated,standard,2
-2026-05-04,2026-05-10,Gabrielle Davis,Restrictive endorsement missing,standard,1
-2026-05-04,2026-05-10,Gina Moore,Amount mismatch,standard,1
-2026-05-04,2026-05-10,Gina Moore,Image unreadable,standard,2
-2026-05-04,2026-05-10,Noah Rhodes,Altered item,high_risk,2
-2026-05-11,2026-05-17,Abigail Shaffer,Endorsement missing,fast_track,16
-2026-05-11,2026-05-17,Abigail Shaffer,Image unreadable,fast_track,4
-2026-05-11,2026-05-17,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
-2026-05-11,2026-05-17,Cristian Santos,Endorsement missing,fast_track,1
-2026-05-11,2026-05-17,Daniel Wagner,Endorsement missing,fast_track,3
-2026-05-11,2026-05-17,Gabrielle Davis,Amount mismatch,standard,4
-2026-05-11,2026-05-17,Gabrielle Davis,Endorsement missing,standard,12
-2026-05-11,2026-05-17,Gabrielle Davis,Image unreadable,standard,9
-2026-05-11,2026-05-17,Gabrielle Davis,Payee name mismatch,standard,2
-2026-05-11,2026-05-17,Gabrielle Davis,Restrictive endorsement missing,standard,5
-2026-05-11,2026-05-17,Gabrielle Davis,Stale-dated,standard,1
-2026-05-11,2026-05-17,Gina Moore,Endorsement missing,standard,4
-2026-05-11,2026-05-17,Ryan Munoz,Endorsement missing,standard,2
-2026-05-11,2026-05-17,Ryan Munoz,Image unreadable,standard,2
-2026-05-11,2026-05-17,Ryan Munoz,Stale-dated,standard,1
-2026-05-18,2026-05-24,Abigail Shaffer,Amount mismatch,standard,4
-2026-05-18,2026-05-24,Abigail Shaffer,Endorsement missing,standard,16
-2026-05-18,2026-05-24,Abigail Shaffer,Image unreadable,standard,7
-2026-05-18,2026-05-24,Abigail Shaffer,Payee name mismatch,standard,1
-2026-05-18,2026-05-24,Abigail Shaffer,Post-dated,standard,2
-2026-05-18,2026-05-24,Abigail Shaffer,Restrictive endorsement missing,standard,5
-2026-05-18,2026-05-24,Abigail Shaffer,Signature missing,standard,1
-2026-05-18,2026-05-24,Abigail Shaffer,Stale-dated,standard,1
+2026-05-04,2026-05-10,Angie Henderson,Endorsement missing,standard,4
+2026-05-04,2026-05-10,Angie Henderson,Image unreadable,standard,2
+2026-05-04,2026-05-10,Connie Lawrence,Amount mismatch,standard,3
+2026-05-04,2026-05-10,Connie Lawrence,Endorsement missing,standard,9
+2026-05-04,2026-05-10,Connie Lawrence,Image unreadable,standard,10
+2026-05-04,2026-05-10,Connie Lawrence,Post-dated,standard,1
+2026-05-04,2026-05-10,Connie Lawrence,Restrictive endorsement missing,standard,1
+2026-05-04,2026-05-10,Gabrielle Davis,Restrictive endorsement missing,fast_track,1
+2026-05-04,2026-05-10,Gina Moore,Endorsement missing,fast_track,1
+2026-05-04,2026-05-10,Noah Rhodes,Altered item,high_risk,1
+2026-05-04,2026-05-10,Ryan Munoz,Endorsement missing,fast_track,10
+2026-05-04,2026-05-10,Ryan Munoz,Image unreadable,fast_track,5
+2026-05-04,2026-05-10,Ryan Munoz,Restrictive endorsement missing,fast_track,2
+2026-05-11,2026-05-17,Allison Hill,Suspected counterfeit,high_risk,1
+2026-05-11,2026-05-17,Connie Lawrence,Amount mismatch,fast_track,1
+2026-05-11,2026-05-17,Connie Lawrence,Endorsement missing,fast_track,16
+2026-05-11,2026-05-17,Connie Lawrence,Image unreadable,fast_track,3
+2026-05-11,2026-05-17,Connie Lawrence,Restrictive endorsement missing,fast_track,1
+2026-05-11,2026-05-17,Daniel Wagner,Endorsement missing,standard,2
+2026-05-11,2026-05-17,Gabrielle Davis,Amount mismatch,fast_track,1
+2026-05-11,2026-05-17,Gabrielle Davis,Endorsement missing,fast_track,1
+2026-05-11,2026-05-17,Gabrielle Davis,Image unreadable,fast_track,1
+2026-05-11,2026-05-17,Gabrielle Davis,Restrictive endorsement missing,fast_track,2
+2026-05-11,2026-05-17,Gina Moore,Amount mismatch,standard,6
+2026-05-11,2026-05-17,Gina Moore,Endorsement missing,standard,12
+2026-05-11,2026-05-17,Gina Moore,Image unreadable,standard,8
+2026-05-11,2026-05-17,Gina Moore,Payee name mismatch,standard,3
+2026-05-11,2026-05-17,Gina Moore,Restrictive endorsement missing,standard,3
+2026-05-11,2026-05-17,Noah Rhodes,Duplicate of earlier deposit,high_risk,1
+2026-05-11,2026-05-17,Noah Rhodes,Suspected counterfeit,high_risk,1
+2026-05-18,2026-05-24,Abigail Shaffer,Amount mismatch,fast_track,5
+2026-05-18,2026-05-24,Abigail Shaffer,Endorsement missing,fast_track,11
+2026-05-18,2026-05-24,Abigail Shaffer,Image unreadable,fast_track,8
+2026-05-18,2026-05-24,Abigail Shaffer,Payee name mismatch,fast_track,1
+2026-05-18,2026-05-24,Abigail Shaffer,Restrictive endorsement missing,fast_track,4
 2026-05-18,2026-05-24,Allison Hill,Duplicate of earlier deposit,high_risk,1
-2026-05-18,2026-05-24,Allison Hill,Suspected counterfeit,high_risk,3
-2026-05-18,2026-05-24,Angie Henderson,Amount mismatch,fast_track,6
-2026-05-18,2026-05-24,Angie Henderson,Endorsement missing,fast_track,10
-2026-05-18,2026-05-24,Angie Henderson,Image unreadable,fast_track,5
-2026-05-18,2026-05-24,Angie Henderson,Payee name mismatch,fast_track,1
-2026-05-18,2026-05-24,Angie Henderson,Restrictive endorsement missing,fast_track,5
-2026-05-18,2026-05-24,Cristian Santos,Image unreadable,fast_track,1
-2026-05-18,2026-05-24,Cristian Santos,Restrictive endorsement missing,fast_track,3
-2026-05-18,2026-05-24,Gina Moore,Amount mismatch,standard,2
-2026-05-18,2026-05-24,Gina Moore,Endorsement missing,standard,6
-2026-05-18,2026-05-24,Gina Moore,Payee name mismatch,standard,1
-2026-05-18,2026-05-24,Gina Moore,Restrictive endorsement missing,standard,2
-2026-05-25,2026-05-31,Abigail Shaffer,Amount mismatch,standard,4
-2026-05-25,2026-05-31,Abigail Shaffer,Endorsement missing,standard,14
-2026-05-25,2026-05-31,Abigail Shaffer,Image unreadable,standard,3
-2026-05-25,2026-05-31,Abigail Shaffer,Post-dated,standard,1
+2026-05-18,2026-05-24,Allison Hill,Suspected counterfeit,high_risk,1
+2026-05-18,2026-05-24,Angie Henderson,Amount mismatch,standard,2
+2026-05-18,2026-05-24,Angie Henderson,Endorsement missing,standard,5
+2026-05-18,2026-05-24,Angie Henderson,Image unreadable,standard,5
+2026-05-18,2026-05-24,Connie Lawrence,Endorsement missing,fast_track,1
+2026-05-18,2026-05-24,Daniel Wagner,Endorsement missing,standard,1
+2026-05-18,2026-05-24,Gabrielle Davis,Image unreadable,fast_track,1
+2026-05-18,2026-05-24,Gabrielle Davis,Restrictive endorsement missing,fast_track,1
+2026-05-18,2026-05-24,Gina Moore,Amount mismatch,standard,5
+2026-05-18,2026-05-24,Gina Moore,Endorsement missing,standard,21
+2026-05-18,2026-05-24,Gina Moore,Image unreadable,standard,5
+2026-05-18,2026-05-24,Gina Moore,Payee name mismatch,standard,3
+2026-05-18,2026-05-24,Gina Moore,Post-dated,standard,1
+2026-05-18,2026-05-24,Gina Moore,Restrictive endorsement missing,standard,4
+2026-05-18,2026-05-24,Gina Moore,Stale-dated,standard,1
+2026-05-25,2026-05-31,Abigail Shaffer,Amount mismatch,standard,2
+2026-05-25,2026-05-31,Abigail Shaffer,Endorsement missing,standard,6
+2026-05-25,2026-05-31,Abigail Shaffer,Image unreadable,standard,2
 2026-05-25,2026-05-31,Abigail Shaffer,Restrictive endorsement missing,standard,1
 2026-05-25,2026-05-31,Allison Hill,Altered item,high_risk,3
-2026-05-25,2026-05-31,Connie Lawrence,Amount mismatch,standard,1
-2026-05-25,2026-05-31,Connie Lawrence,Endorsement missing,standard,4
-2026-05-25,2026-05-31,Connie Lawrence,Image unreadable,standard,4
-2026-05-25,2026-05-31,Connie Lawrence,Restrictive endorsement missing,standard,1
+2026-05-25,2026-05-31,Allison Hill,Payee name mismatch,high_risk,1
+2026-05-25,2026-05-31,Allison Hill,Suspected counterfeit,high_risk,1
 2026-05-25,2026-05-31,Cristian Santos,Amount mismatch,fast_track,2
-2026-05-25,2026-05-31,Cristian Santos,Endorsement missing,fast_track,13
-2026-05-25,2026-05-31,Cristian Santos,Image unreadable,fast_track,9
+2026-05-25,2026-05-31,Cristian Santos,Endorsement missing,fast_track,11
+2026-05-25,2026-05-31,Cristian Santos,Image unreadable,fast_track,8
+2026-05-25,2026-05-31,Cristian Santos,Payee name mismatch,fast_track,1
 2026-05-25,2026-05-31,Cristian Santos,Restrictive endorsement missing,fast_track,1
+2026-05-25,2026-05-31,Gabrielle Davis,Amount mismatch,standard,2
+2026-05-25,2026-05-31,Gina Moore,Amount mismatch,standard,4
+2026-05-25,2026-05-31,Gina Moore,Endorsement missing,standard,12
+2026-05-25,2026-05-31,Gina Moore,Image unreadable,standard,5
+2026-05-25,2026-05-31,Gina Moore,Restrictive endorsement missing,standard,2
 2026-05-25,2026-05-31,Ryan Munoz,Image unreadable,fast_track,2
 2026-05-25,2026-05-31,Ryan Munoz,Payee name mismatch,fast_track,1
+2026-06-01,2026-06-07,Abigail Shaffer,Amount mismatch,fast_track,2
+2026-06-01,2026-06-07,Abigail Shaffer,Endorsement missing,fast_track,7
+2026-06-01,2026-06-07,Abigail Shaffer,Image unreadable,fast_track,5
+2026-06-01,2026-06-07,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
 2026-06-01,2026-06-07,Allison Hill,Altered item,high_risk,2
+2026-06-01,2026-06-07,Allison Hill,Endorsement missing,high_risk,2
 2026-06-01,2026-06-07,Allison Hill,Signature missing,high_risk,1
-2026-06-01,2026-06-07,Allison Hill,Suspected counterfeit,high_risk,1
-2026-06-01,2026-06-07,Connie Lawrence,Amount mismatch,standard,3
-2026-06-01,2026-06-07,Connie Lawrence,Endorsement missing,standard,15
-2026-06-01,2026-06-07,Connie Lawrence,Image unreadable,standard,9
-2026-06-01,2026-06-07,Connie Lawrence,Payee name mismatch,standard,3
-2026-06-01,2026-06-07,Connie Lawrence,Post-dated,standard,1
-2026-06-01,2026-06-07,Connie Lawrence,Restrictive endorsement missing,standard,1
-2026-06-01,2026-06-07,Connie Lawrence,Signature missing,standard,1
-2026-06-01,2026-06-07,Daniel Wagner,Amount mismatch,fast_track,1
-2026-06-01,2026-06-07,Daniel Wagner,Endorsement missing,fast_track,9
-2026-06-01,2026-06-07,Daniel Wagner,Image unreadable,fast_track,6
-2026-06-01,2026-06-07,Daniel Wagner,Payee name mismatch,fast_track,1
-2026-06-01,2026-06-07,Gina Moore,Amount mismatch,fast_track,1
-2026-06-01,2026-06-07,Gina Moore,Endorsement missing,fast_track,1
-2026-06-01,2026-06-07,Gina Moore,Image unreadable,fast_track,3
+2026-06-01,2026-06-07,Cristian Santos,Endorsement missing,fast_track,2
+2026-06-01,2026-06-07,Cristian Santos,Image unreadable,fast_track,2
+2026-06-01,2026-06-07,Daniel Wagner,Amount mismatch,standard,3
+2026-06-01,2026-06-07,Daniel Wagner,Endorsement missing,standard,18
+2026-06-01,2026-06-07,Daniel Wagner,Image unreadable,standard,7
+2026-06-01,2026-06-07,Daniel Wagner,Payee name mismatch,standard,1
+2026-06-01,2026-06-07,Daniel Wagner,Post-dated,standard,1
+2026-06-01,2026-06-07,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-06-01,2026-06-07,Daniel Wagner,Stale-dated,standard,1
 2026-06-01,2026-06-07,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-06-01,2026-06-07,Ryan Munoz,Amount mismatch,standard,4
+2026-06-01,2026-06-07,Ryan Munoz,Amount mismatch,standard,2
 2026-06-01,2026-06-07,Ryan Munoz,Endorsement missing,standard,1
-2026-06-08,2026-06-14,Abigail Shaffer,Amount mismatch,fast_track,1
-2026-06-08,2026-06-14,Allison Hill,Endorsement missing,high_risk,2
-2026-06-08,2026-06-14,Angie Henderson,Endorsement missing,fast_track,1
-2026-06-08,2026-06-14,Angie Henderson,Image unreadable,fast_track,3
-2026-06-08,2026-06-14,Angie Henderson,Stale-dated,fast_track,1
+2026-06-01,2026-06-07,Ryan Munoz,Image unreadable,standard,3
+2026-06-01,2026-06-07,Ryan Munoz,Post-dated,standard,1
+2026-06-08,2026-06-14,Angie Henderson,Endorsement missing,standard,1
+2026-06-08,2026-06-14,Angie Henderson,Payee name mismatch,standard,1
+2026-06-08,2026-06-14,Connie Lawrence,Amount mismatch,fast_track,1
+2026-06-08,2026-06-14,Connie Lawrence,Endorsement missing,fast_track,1
+2026-06-08,2026-06-14,Connie Lawrence,Image unreadable,fast_track,2
+2026-06-08,2026-06-14,Connie Lawrence,Stale-dated,fast_track,1
 2026-06-08,2026-06-14,Cristian Santos,Amount mismatch,standard,1
 2026-06-08,2026-06-14,Cristian Santos,Endorsement missing,standard,2
-2026-06-08,2026-06-14,Cristian Santos,Image unreadable,standard,2
-2026-06-08,2026-06-14,Cristian Santos,Payee name mismatch,standard,3
+2026-06-08,2026-06-14,Cristian Santos,Payee name mismatch,standard,1
 2026-06-08,2026-06-14,Cristian Santos,Restrictive endorsement missing,standard,1
+2026-06-08,2026-06-14,Daniel Wagner,Amount mismatch,standard,3
+2026-06-08,2026-06-14,Daniel Wagner,Endorsement missing,standard,15
+2026-06-08,2026-06-14,Daniel Wagner,Image unreadable,standard,10
+2026-06-08,2026-06-14,Daniel Wagner,Payee name mismatch,standard,3
 2026-06-08,2026-06-14,Daniel Wagner,Post-dated,standard,1
-2026-06-08,2026-06-14,Gabrielle Davis,Amount mismatch,fast_track,1
-2026-06-08,2026-06-14,Gabrielle Davis,Endorsement missing,fast_track,4
-2026-06-08,2026-06-14,Gabrielle Davis,Image unreadable,fast_track,4
-2026-06-08,2026-06-14,Gabrielle Davis,Payee name mismatch,fast_track,1
-2026-06-08,2026-06-14,Gabrielle Davis,Restrictive endorsement missing,fast_track,1
+2026-06-08,2026-06-14,Daniel Wagner,Restrictive endorsement missing,standard,2
+2026-06-08,2026-06-14,Daniel Wagner,Stale-dated,standard,2
+2026-06-08,2026-06-14,Gina Moore,Amount mismatch,fast_track,4
+2026-06-08,2026-06-14,Gina Moore,Endorsement missing,fast_track,5
+2026-06-08,2026-06-14,Gina Moore,Image unreadable,fast_track,4
+2026-06-08,2026-06-14,Gina Moore,Payee name mismatch,fast_track,1
 2026-06-08,2026-06-14,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-06-08,2026-06-14,Ryan Munoz,Amount mismatch,standard,2
-2026-06-08,2026-06-14,Ryan Munoz,Duplicate of earlier deposit,standard,2
-2026-06-08,2026-06-14,Ryan Munoz,Endorsement missing,standard,16
-2026-06-08,2026-06-14,Ryan Munoz,Image unreadable,standard,10
-2026-06-08,2026-06-14,Ryan Munoz,Post-dated,standard,1
-2026-06-08,2026-06-14,Ryan Munoz,Restrictive endorsement missing,standard,1
 2026-06-15,2026-06-21,Allison Hill,Altered item,high_risk,2
-2026-06-15,2026-06-21,Angie Henderson,Amount mismatch,fast_track,1
-2026-06-15,2026-06-21,Angie Henderson,Endorsement missing,fast_track,1
-2026-06-15,2026-06-21,Connie Lawrence,Amount mismatch,standard,3
-2026-06-15,2026-06-21,Connie Lawrence,Endorsement missing,standard,9
-2026-06-15,2026-06-21,Connie Lawrence,Image unreadable,standard,6
-2026-06-15,2026-06-21,Connie Lawrence,Payee name mismatch,standard,1
-2026-06-15,2026-06-21,Connie Lawrence,Post-dated,standard,3
-2026-06-15,2026-06-21,Gabrielle Davis,Endorsement missing,fast_track,4
-2026-06-15,2026-06-21,Gabrielle Davis,Image unreadable,fast_track,3
-2026-06-15,2026-06-21,Gabrielle Davis,Payee name mismatch,fast_track,1
-2026-06-15,2026-06-21,Gina Moore,Endorsement missing,standard,2
-2026-06-15,2026-06-21,Noah Rhodes,Altered item,high_risk,1
+2026-06-15,2026-06-21,Angie Henderson,Endorsement missing,fast_track,6
+2026-06-15,2026-06-21,Angie Henderson,Image unreadable,fast_track,2
+2026-06-15,2026-06-21,Angie Henderson,Payee name mismatch,fast_track,1
+2026-06-15,2026-06-21,Connie Lawrence,Endorsement missing,fast_track,2
+2026-06-15,2026-06-21,Connie Lawrence,Image unreadable,fast_track,2
+2026-06-15,2026-06-21,Cristian Santos,Amount mismatch,standard,3
+2026-06-15,2026-06-21,Cristian Santos,Endorsement missing,standard,18
+2026-06-15,2026-06-21,Cristian Santos,Image unreadable,standard,6
+2026-06-15,2026-06-21,Cristian Santos,Payee name mismatch,standard,1
+2026-06-15,2026-06-21,Daniel Wagner,Amount mismatch,standard,1
+2026-06-15,2026-06-21,Daniel Wagner,Endorsement missing,standard,4
+2026-06-15,2026-06-21,Daniel Wagner,Image unreadable,standard,3
+2026-06-15,2026-06-21,Gabrielle Davis,Endorsement missing,fast_track,1
+2026-06-15,2026-06-21,Gabrielle Davis,Image unreadable,fast_track,1
+2026-06-15,2026-06-21,Noah Rhodes,Altered item,high_risk,2
 2026-06-15,2026-06-21,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-06-15,2026-06-21,Ryan Munoz,Amount mismatch,standard,3
-2026-06-15,2026-06-21,Ryan Munoz,Endorsement missing,standard,4
-2026-06-15,2026-06-21,Ryan Munoz,Post-dated,standard,1
-2026-06-22,2026-06-28,Abigail Shaffer,Amount mismatch,standard,3
-2026-06-22,2026-06-28,Abigail Shaffer,Endorsement missing,standard,19
-2026-06-22,2026-06-28,Abigail Shaffer,Image unreadable,standard,3
-2026-06-22,2026-06-28,Abigail Shaffer,Post-dated,standard,3
-2026-06-22,2026-06-28,Abigail Shaffer,Restrictive endorsement missing,standard,4
-2026-06-22,2026-06-28,Abigail Shaffer,Stale-dated,standard,1
-2026-06-22,2026-06-28,Allison Hill,Altered item,high_risk,1
+2026-06-22,2026-06-28,Abigail Shaffer,Amount mismatch,standard,1
+2026-06-22,2026-06-28,Abigail Shaffer,Endorsement missing,standard,2
+2026-06-22,2026-06-28,Allison Hill,Altered item,high_risk,2
 2026-06-22,2026-06-28,Allison Hill,Amount mismatch,high_risk,1
 2026-06-22,2026-06-28,Allison Hill,Restrictive endorsement missing,high_risk,1
-2026-06-22,2026-06-28,Connie Lawrence,Amount mismatch,standard,1
-2026-06-22,2026-06-28,Connie Lawrence,Endorsement missing,standard,3
+2026-06-22,2026-06-28,Connie Lawrence,Endorsement missing,standard,1
 2026-06-22,2026-06-28,Connie Lawrence,Image unreadable,standard,3
-2026-06-22,2026-06-28,Gabrielle Davis,Endorsement missing,fast_track,1
-2026-06-22,2026-06-28,Gabrielle Davis,Image unreadable,fast_track,1
-2026-06-22,2026-06-28,Gina Moore,Endorsement missing,fast_track,7
-2026-06-22,2026-06-28,Gina Moore,Image unreadable,fast_track,3
-2026-06-22,2026-06-28,Noah Rhodes,Altered item,high_risk,1
-2026-06-29,2026-07-05,Abigail Shaffer,Amount mismatch,standard,5
-2026-06-29,2026-07-05,Abigail Shaffer,Endorsement missing,standard,9
-2026-06-29,2026-07-05,Abigail Shaffer,Image unreadable,standard,2
-2026-06-29,2026-07-05,Abigail Shaffer,Payee name mismatch,standard,1
-2026-06-29,2026-07-05,Abigail Shaffer,Post-dated,standard,2
-2026-06-29,2026-07-05,Abigail Shaffer,Signature missing,standard,1
-2026-06-29,2026-07-05,Abigail Shaffer,Stale-dated,standard,2
-2026-06-29,2026-07-05,Allison Hill,Altered item,high_risk,1
-2026-06-29,2026-07-05,Allison Hill,Amount mismatch,high_risk,1
-2026-06-29,2026-07-05,Connie Lawrence,Endorsement missing,standard,4
-2026-06-29,2026-07-05,Connie Lawrence,Image unreadable,standard,2
-2026-06-29,2026-07-05,Connie Lawrence,Payee name mismatch,standard,1
-2026-06-29,2026-07-05,Connie Lawrence,Restrictive endorsement missing,standard,1
-2026-06-29,2026-07-05,Cristian Santos,Amount mismatch,fast_track,2
-2026-06-29,2026-07-05,Cristian Santos,Endorsement missing,fast_track,5
-2026-06-29,2026-07-05,Cristian Santos,Image unreadable,fast_track,3
-2026-06-29,2026-07-05,Cristian Santos,Payee name mismatch,fast_track,1
-2026-06-29,2026-07-05,Daniel Wagner,Image unreadable,fast_track,1
-2026-06-29,2026-07-05,Gabrielle Davis,Endorsement missing,fast_track,1
-2026-06-29,2026-07-05,Gina Moore,Amount mismatch,standard,1
+2026-06-22,2026-06-28,Cristian Santos,Endorsement missing,fast_track,2
+2026-06-22,2026-06-28,Gina Moore,Amount mismatch,standard,6
+2026-06-22,2026-06-28,Gina Moore,Endorsement missing,standard,14
+2026-06-22,2026-06-28,Gina Moore,Image unreadable,standard,2
+2026-06-22,2026-06-28,Gina Moore,Post-dated,standard,4
+2026-06-22,2026-06-28,Gina Moore,Restrictive endorsement missing,standard,3
+2026-06-22,2026-06-28,Ryan Munoz,Amount mismatch,fast_track,1
+2026-06-22,2026-06-28,Ryan Munoz,Endorsement missing,fast_track,3
+2026-06-22,2026-06-28,Ryan Munoz,Image unreadable,fast_track,2
+2026-06-29,2026-06-30,Cristian Santos,Amount mismatch,standard,1
+2026-06-29,2026-06-30,Cristian Santos,Endorsement missing,standard,2
+2026-06-29,2026-06-30,Cristian Santos,Image unreadable,standard,2
+2026-06-29,2026-06-30,Cristian Santos,Post-dated,standard,2
+2026-06-29,2026-06-30,Noah Rhodes,Suspected counterfeit,high_risk,1
+2026-06-29,2026-06-30,Ryan Munoz,Endorsement missing,fast_track,4
+2026-07-01,2026-07-05,Allison Hill,Amount mismatch,high_risk,1
+2026-07-01,2026-07-05,Angie Henderson,Image unreadable,fast_track,1
+2026-07-01,2026-07-05,Angie Henderson,Restrictive endorsement missing,fast_track,1
+2026-07-01,2026-07-05,Cristian Santos,Amount mismatch,standard,5
+2026-07-01,2026-07-05,Cristian Santos,Endorsement missing,standard,11
+2026-07-01,2026-07-05,Cristian Santos,Image unreadable,standard,3
+2026-07-01,2026-07-05,Cristian Santos,Payee name mismatch,standard,1
+2026-07-01,2026-07-05,Cristian Santos,Post-dated,standard,2
+2026-07-01,2026-07-05,Cristian Santos,Restrictive endorsement missing,standard,1
+2026-07-01,2026-07-05,Cristian Santos,Stale-dated,standard,1
+2026-07-01,2026-07-05,Gabrielle Davis,Amount mismatch,standard,1
+2026-07-01,2026-07-05,Gabrielle Davis,Image unreadable,standard,2
+2026-07-01,2026-07-05,Noah Rhodes,Endorsement missing,high_risk,1
+2026-07-01,2026-07-05,Noah Rhodes,Restrictive endorsement missing,high_risk,1
+2026-07-01,2026-07-05,Ryan Munoz,Amount mismatch,fast_track,2
+2026-07-01,2026-07-05,Ryan Munoz,Endorsement missing,fast_track,5
+2026-07-01,2026-07-05,Ryan Munoz,Image unreadable,fast_track,2
+2026-07-01,2026-07-05,Ryan Munoz,Payee name mismatch,fast_track,2
+2026-07-01,2026-07-05,Ryan Munoz,Restrictive endorsement missing,fast_track,1
 2026-07-06,2026-07-12,Allison Hill,Altered item,high_risk,2
-2026-07-06,2026-07-12,Angie Henderson,Endorsement missing,standard,3
-2026-07-06,2026-07-12,Angie Henderson,Image unreadable,standard,2
-2026-07-06,2026-07-12,Angie Henderson,Restrictive endorsement missing,standard,1
-2026-07-06,2026-07-12,Cristian Santos,Amount mismatch,fast_track,3
-2026-07-06,2026-07-12,Cristian Santos,Endorsement missing,fast_track,10
-2026-07-06,2026-07-12,Cristian Santos,Image unreadable,fast_track,5
-2026-07-06,2026-07-12,Cristian Santos,Payee name mismatch,fast_track,3
-2026-07-06,2026-07-12,Cristian Santos,Restrictive endorsement missing,fast_track,2
+2026-07-06,2026-07-12,Connie Lawrence,Endorsement missing,standard,3
+2026-07-06,2026-07-12,Connie Lawrence,Image unreadable,standard,2
+2026-07-06,2026-07-12,Cristian Santos,Amount mismatch,fast_track,5
+2026-07-06,2026-07-12,Cristian Santos,Endorsement missing,fast_track,14
+2026-07-06,2026-07-12,Cristian Santos,Image unreadable,fast_track,6
+2026-07-06,2026-07-12,Cristian Santos,Payee name mismatch,fast_track,2
+2026-07-06,2026-07-12,Cristian Santos,Restrictive endorsement missing,fast_track,1
 2026-07-06,2026-07-12,Cristian Santos,Stale-dated,fast_track,1
-2026-07-06,2026-07-12,Gabrielle Davis,Amount mismatch,standard,7
-2026-07-06,2026-07-12,Gabrielle Davis,Endorsement missing,standard,18
-2026-07-06,2026-07-12,Gabrielle Davis,Image unreadable,standard,6
-2026-07-06,2026-07-12,Gabrielle Davis,Payee name mismatch,standard,2
-2026-07-06,2026-07-12,Gabrielle Davis,Restrictive endorsement missing,standard,1
-2026-07-06,2026-07-12,Gabrielle Davis,Stale-dated,standard,3
-2026-07-06,2026-07-12,Noah Rhodes,Endorsement missing,high_risk,1
+2026-07-06,2026-07-12,Gina Moore,Amount mismatch,standard,7
+2026-07-06,2026-07-12,Gina Moore,Endorsement missing,standard,17
+2026-07-06,2026-07-12,Gina Moore,Image unreadable,standard,8
+2026-07-06,2026-07-12,Gina Moore,Payee name mismatch,standard,1
+2026-07-06,2026-07-12,Gina Moore,Post-dated,standard,2
+2026-07-06,2026-07-12,Gina Moore,Restrictive endorsement missing,standard,1
 2026-07-06,2026-07-12,Noah Rhodes,Image unreadable,high_risk,1
-2026-07-06,2026-07-12,Noah Rhodes,Restrictive endorsement missing,high_risk,1
-2026-07-06,2026-07-12,Ryan Munoz,Endorsement missing,fast_track,1
-2026-07-06,2026-07-12,Ryan Munoz,Post-dated,fast_track,2
-2026-07-13,2026-07-19,Angie Henderson,Amount mismatch,fast_track,3
-2026-07-13,2026-07-19,Angie Henderson,Endorsement missing,fast_track,10
-2026-07-13,2026-07-19,Angie Henderson,Image unreadable,fast_track,5
-2026-07-13,2026-07-19,Angie Henderson,Restrictive endorsement missing,fast_track,3
-2026-07-13,2026-07-19,Cristian Santos,Amount mismatch,fast_track,1
-2026-07-13,2026-07-19,Cristian Santos,Endorsement missing,fast_track,7
-2026-07-13,2026-07-19,Cristian Santos,Image unreadable,fast_track,1
-2026-07-13,2026-07-19,Daniel Wagner,Endorsement missing,standard,2
-2026-07-13,2026-07-19,Daniel Wagner,Image unreadable,standard,3
-2026-07-13,2026-07-19,Daniel Wagner,Payee name mismatch,standard,1
-2026-07-13,2026-07-19,Gabrielle Davis,Amount mismatch,standard,6
-2026-07-13,2026-07-19,Gabrielle Davis,Endorsement missing,standard,15
-2026-07-13,2026-07-19,Gabrielle Davis,Image unreadable,standard,10
-2026-07-13,2026-07-19,Gabrielle Davis,Payee name mismatch,standard,1
-2026-07-13,2026-07-19,Gabrielle Davis,Restrictive endorsement missing,standard,4
+2026-07-06,2026-07-12,Ryan Munoz,Endorsement missing,fast_track,2
+2026-07-06,2026-07-12,Ryan Munoz,Post-dated,fast_track,1
+2026-07-13,2026-07-19,Allison Hill,Altered item,high_risk,2
+2026-07-13,2026-07-19,Allison Hill,Suspected counterfeit,high_risk,1
+2026-07-13,2026-07-19,Connie Lawrence,Image unreadable,fast_track,1
+2026-07-13,2026-07-19,Connie Lawrence,Restrictive endorsement missing,fast_track,1
+2026-07-13,2026-07-19,Cristian Santos,Amount mismatch,standard,5
+2026-07-13,2026-07-19,Cristian Santos,Endorsement missing,standard,12
+2026-07-13,2026-07-19,Cristian Santos,Image unreadable,standard,8
+2026-07-13,2026-07-19,Cristian Santos,Payee name mismatch,standard,1
+2026-07-13,2026-07-19,Cristian Santos,Post-dated,standard,3
+2026-07-13,2026-07-19,Cristian Santos,Restrictive endorsement missing,standard,3
+2026-07-13,2026-07-19,Daniel Wagner,Endorsement missing,standard,3
+2026-07-13,2026-07-19,Daniel Wagner,Image unreadable,standard,2
+2026-07-13,2026-07-19,Gina Moore,Amount mismatch,standard,1
+2026-07-13,2026-07-19,Gina Moore,Endorsement missing,standard,2
 2026-07-13,2026-07-19,Noah Rhodes,Image unreadable,high_risk,1
-2026-07-20,2026-07-26,Abigail Shaffer,Endorsement missing,fast_track,1
-2026-07-20,2026-07-26,Allison Hill,Altered item,high_risk,2
+2026-07-13,2026-07-19,Ryan Munoz,Amount mismatch,fast_track,2
+2026-07-13,2026-07-19,Ryan Munoz,Endorsement missing,fast_track,12
+2026-07-13,2026-07-19,Ryan Munoz,Image unreadable,fast_track,6
+2026-07-13,2026-07-19,Ryan Munoz,Restrictive endorsement missing,fast_track,1
+2026-07-13,2026-07-19,Ryan Munoz,Stale-dated,fast_track,1
 2026-07-20,2026-07-26,Allison Hill,Image unreadable,high_risk,1
-2026-07-20,2026-07-26,Allison Hill,Suspected counterfeit,high_risk,2
-2026-07-20,2026-07-26,Angie Henderson,Endorsement missing,fast_track,6
-2026-07-20,2026-07-26,Angie Henderson,Image unreadable,fast_track,6
-2026-07-20,2026-07-26,Angie Henderson,Payee name mismatch,fast_track,1
-2026-07-20,2026-07-26,Angie Henderson,Restrictive endorsement missing,fast_track,2
-2026-07-20,2026-07-26,Cristian Santos,Amount mismatch,fast_track,1
-2026-07-20,2026-07-26,Cristian Santos,Restrictive endorsement missing,fast_track,2
-2026-07-20,2026-07-26,Cristian Santos,Stale-dated,fast_track,1
-2026-07-20,2026-07-26,Daniel Wagner,Amount mismatch,standard,3
-2026-07-20,2026-07-26,Daniel Wagner,Endorsement missing,standard,18
-2026-07-20,2026-07-26,Daniel Wagner,Image unreadable,standard,9
-2026-07-20,2026-07-26,Daniel Wagner,Payee name mismatch,standard,2
-2026-07-20,2026-07-26,Daniel Wagner,Post-dated,standard,4
-2026-07-20,2026-07-26,Daniel Wagner,Restrictive endorsement missing,standard,2
-2026-07-20,2026-07-26,Gabrielle Davis,Amount mismatch,standard,2
-2026-07-20,2026-07-26,Gabrielle Davis,Endorsement missing,standard,5
-2026-07-20,2026-07-26,Gabrielle Davis,Image unreadable,standard,3
-2026-07-20,2026-07-26,Gabrielle Davis,Payee name mismatch,standard,1
-2026-07-20,2026-07-26,Gabrielle Davis,Post-dated,standard,1
-2026-07-20,2026-07-26,Noah Rhodes,Altered item,high_risk,1
+2026-07-20,2026-07-26,Allison Hill,Stale-dated,high_risk,1
+2026-07-20,2026-07-26,Angie Henderson,Endorsement missing,standard,4
+2026-07-20,2026-07-26,Angie Henderson,Image unreadable,standard,1
+2026-07-20,2026-07-26,Angie Henderson,Restrictive endorsement missing,standard,1
+2026-07-20,2026-07-26,Cristian Santos,Endorsement missing,standard,1
+2026-07-20,2026-07-26,Cristian Santos,Image unreadable,standard,2
+2026-07-20,2026-07-26,Cristian Santos,Payee name mismatch,standard,1
+2026-07-20,2026-07-26,Daniel Wagner,Amount mismatch,fast_track,1
+2026-07-20,2026-07-26,Daniel Wagner,Endorsement missing,fast_track,7
+2026-07-20,2026-07-26,Daniel Wagner,Image unreadable,fast_track,7
+2026-07-20,2026-07-26,Daniel Wagner,Payee name mismatch,fast_track,1
+2026-07-20,2026-07-26,Daniel Wagner,Restrictive endorsement missing,fast_track,4
+2026-07-20,2026-07-26,Gabrielle Davis,Amount mismatch,standard,3
+2026-07-20,2026-07-26,Gabrielle Davis,Endorsement missing,standard,18
+2026-07-20,2026-07-26,Gabrielle Davis,Image unreadable,standard,11
+2026-07-20,2026-07-26,Gabrielle Davis,Post-dated,standard,2
+2026-07-20,2026-07-26,Gabrielle Davis,Restrictive endorsement missing,standard,2
+2026-07-20,2026-07-26,Gina Moore,Endorsement missing,fast_track,2
+2026-07-20,2026-07-26,Noah Rhodes,Altered item,high_risk,2
+2026-07-20,2026-07-26,Noah Rhodes,Image unreadable,high_risk,1
+2026-07-20,2026-07-26,Noah Rhodes,Restrictive endorsement missing,high_risk,1
 2026-07-20,2026-07-26,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-07-27,2026-08-02,Abigail Shaffer,Endorsement missing,fast_track,1
-2026-07-27,2026-08-02,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
-2026-07-27,2026-08-02,Allison Hill,Altered item,high_risk,1
-2026-07-27,2026-08-02,Allison Hill,Stale-dated,high_risk,1
-2026-07-27,2026-08-02,Cristian Santos,Amount mismatch,fast_track,3
-2026-07-27,2026-08-02,Cristian Santos,Endorsement missing,fast_track,7
-2026-07-27,2026-08-02,Cristian Santos,Image unreadable,fast_track,5
-2026-07-27,2026-08-02,Cristian Santos,Payee name mismatch,fast_track,1
-2026-07-27,2026-08-02,Cristian Santos,Post-dated,fast_track,2
-2026-07-27,2026-08-02,Cristian Santos,Restrictive endorsement missing,fast_track,1
-2026-07-27,2026-08-02,Cristian Santos,Stale-dated,fast_track,1
-2026-07-27,2026-08-02,Daniel Wagner,Endorsement missing,fast_track,2
-2026-07-27,2026-08-02,Gina Moore,Amount mismatch,standard,3
-2026-07-27,2026-08-02,Gina Moore,Endorsement missing,standard,2
-2026-07-27,2026-08-02,Gina Moore,Image unreadable,standard,4
-2026-07-27,2026-08-02,Noah Rhodes,Altered item,high_risk,1
-2026-07-27,2026-08-02,Noah Rhodes,Image unreadable,high_risk,1
-2026-07-27,2026-08-02,Noah Rhodes,Restrictive endorsement missing,high_risk,1
-2026-07-27,2026-08-02,Ryan Munoz,Amount mismatch,standard,5
-2026-07-27,2026-08-02,Ryan Munoz,Duplicate of earlier deposit,standard,1
-2026-07-27,2026-08-02,Ryan Munoz,Endorsement missing,standard,11
-2026-07-27,2026-08-02,Ryan Munoz,Image unreadable,standard,10
-2026-07-27,2026-08-02,Ryan Munoz,Payee name mismatch,standard,2
-2026-08-03,2026-08-09,Abigail Shaffer,Amount mismatch,fast_track,2
-2026-08-03,2026-08-09,Abigail Shaffer,Endorsement missing,fast_track,4
-2026-08-03,2026-08-09,Abigail Shaffer,Image unreadable,fast_track,3
-2026-08-03,2026-08-09,Allison Hill,Altered item,high_risk,1
+2026-07-27,2026-07-31,Allison Hill,Altered item,high_risk,1
+2026-07-27,2026-07-31,Allison Hill,Duplicate of earlier deposit,high_risk,1
+2026-07-27,2026-07-31,Angie Henderson,Amount mismatch,fast_track,2
+2026-07-27,2026-07-31,Angie Henderson,Endorsement missing,fast_track,4
+2026-07-27,2026-07-31,Angie Henderson,Image unreadable,fast_track,2
+2026-07-27,2026-07-31,Angie Henderson,Post-dated,fast_track,1
+2026-07-27,2026-07-31,Angie Henderson,Stale-dated,fast_track,1
+2026-07-27,2026-07-31,Daniel Wagner,Amount mismatch,standard,4
+2026-07-27,2026-07-31,Daniel Wagner,Endorsement missing,standard,14
+2026-07-27,2026-07-31,Daniel Wagner,Image unreadable,standard,8
+2026-07-27,2026-07-31,Daniel Wagner,Payee name mismatch,standard,1
+2026-07-27,2026-07-31,Daniel Wagner,Post-dated,standard,1
+2026-07-27,2026-07-31,Daniel Wagner,Stale-dated,standard,1
+2026-07-27,2026-07-31,Gabrielle Davis,Endorsement missing,fast_track,1
+2026-07-27,2026-07-31,Gabrielle Davis,Image unreadable,fast_track,1
+2026-07-27,2026-07-31,Gabrielle Davis,Post-dated,fast_track,1
+2026-07-27,2026-07-31,Gina Moore,Amount mismatch,standard,1
+2026-07-27,2026-07-31,Gina Moore,Endorsement missing,standard,2
+2026-07-27,2026-07-31,Gina Moore,Image unreadable,standard,2
+2026-07-27,2026-07-31,Ryan Munoz,Endorsement missing,fast_track,3
+2026-07-27,2026-07-31,Ryan Munoz,Restrictive endorsement missing,fast_track,1
+2026-08-01,2026-08-02,Angie Henderson,Amount mismatch,fast_track,1
+2026-08-01,2026-08-02,Angie Henderson,Endorsement missing,fast_track,1
+2026-08-01,2026-08-02,Angie Henderson,Image unreadable,fast_track,1
+2026-08-01,2026-08-02,Angie Henderson,Payee name mismatch,fast_track,1
+2026-08-01,2026-08-02,Daniel Wagner,Amount mismatch,standard,3
+2026-08-01,2026-08-02,Daniel Wagner,Endorsement missing,standard,3
+2026-08-01,2026-08-02,Daniel Wagner,Image unreadable,standard,3
+2026-08-01,2026-08-02,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-08-01,2026-08-02,Ryan Munoz,Image unreadable,fast_track,1
+2026-08-03,2026-08-09,Abigail Shaffer,Image unreadable,fast_track,1
+2026-08-03,2026-08-09,Allison Hill,Altered item,high_risk,2
 2026-08-03,2026-08-09,Allison Hill,Image unreadable,high_risk,1
 2026-08-03,2026-08-09,Allison Hill,Payee name mismatch,high_risk,2
-2026-08-03,2026-08-09,Connie Lawrence,Amount mismatch,fast_track,2
-2026-08-03,2026-08-09,Connie Lawrence,Endorsement missing,fast_track,3
-2026-08-03,2026-08-09,Cristian Santos,Amount mismatch,standard,8
-2026-08-03,2026-08-09,Cristian Santos,Endorsement missing,standard,14
-2026-08-03,2026-08-09,Cristian Santos,Image unreadable,standard,14
-2026-08-03,2026-08-09,Cristian Santos,Payee name mismatch,standard,1
-2026-08-03,2026-08-09,Cristian Santos,Restrictive endorsement missing,standard,1
-2026-08-03,2026-08-09,Daniel Wagner,Amount mismatch,fast_track,1
+2026-08-03,2026-08-09,Allison Hill,Post-dated,high_risk,1
+2026-08-03,2026-08-09,Allison Hill,Stale-dated,high_risk,1
+2026-08-03,2026-08-09,Angie Henderson,Endorsement missing,standard,1
+2026-08-03,2026-08-09,Angie Henderson,Image unreadable,standard,2
+2026-08-03,2026-08-09,Daniel Wagner,Amount mismatch,fast_track,5
+2026-08-03,2026-08-09,Daniel Wagner,Endorsement missing,fast_track,8
+2026-08-03,2026-08-09,Daniel Wagner,Image unreadable,fast_track,1
+2026-08-03,2026-08-09,Daniel Wagner,Payee name mismatch,fast_track,1
 2026-08-03,2026-08-09,Daniel Wagner,Restrictive endorsement missing,fast_track,1
-2026-08-03,2026-08-09,Gabrielle Davis,Amount mismatch,standard,1
-2026-08-03,2026-08-09,Gabrielle Davis,Endorsement missing,standard,3
-2026-08-03,2026-08-09,Gabrielle Davis,Image unreadable,standard,2
-2026-08-03,2026-08-09,Gabrielle Davis,Payee name mismatch,standard,1
-2026-08-03,2026-08-09,Noah Rhodes,Payee name mismatch,high_risk,1
-2026-08-03,2026-08-09,Ryan Munoz,Endorsement missing,standard,1
-2026-08-03,2026-08-09,Ryan Munoz,Image unreadable,standard,2
-2026-08-03,2026-08-09,Ryan Munoz,Restrictive endorsement missing,standard,1
+2026-08-03,2026-08-09,Gina Moore,Amount mismatch,standard,7
+2026-08-03,2026-08-09,Gina Moore,Endorsement missing,standard,14
+2026-08-03,2026-08-09,Gina Moore,Image unreadable,standard,13
+2026-08-03,2026-08-09,Gina Moore,Payee name mismatch,standard,1
+2026-08-03,2026-08-09,Gina Moore,Restrictive endorsement missing,standard,1
+2026-08-10,2026-08-16,Abigail Shaffer,Endorsement missing,standard,2
+2026-08-10,2026-08-16,Abigail Shaffer,Image unreadable,standard,1
 2026-08-10,2026-08-16,Allison Hill,Altered item,high_risk,1
 2026-08-10,2026-08-16,Allison Hill,Post-dated,high_risk,1
-2026-08-10,2026-08-16,Allison Hill,Stale-dated,high_risk,1
-2026-08-10,2026-08-16,Angie Henderson,Amount mismatch,fast_track,4
-2026-08-10,2026-08-16,Angie Henderson,Endorsement missing,fast_track,10
-2026-08-10,2026-08-16,Angie Henderson,Image unreadable,fast_track,5
-2026-08-10,2026-08-16,Connie Lawrence,Amount mismatch,fast_track,1
-2026-08-10,2026-08-16,Connie Lawrence,Endorsement missing,fast_track,1
-2026-08-10,2026-08-16,Connie Lawrence,Restrictive endorsement missing,fast_track,1
+2026-08-10,2026-08-16,Connie Lawrence,Image unreadable,fast_track,1
 2026-08-10,2026-08-16,Cristian Santos,Amount mismatch,standard,2
-2026-08-10,2026-08-16,Cristian Santos,Endorsement missing,standard,5
-2026-08-10,2026-08-16,Cristian Santos,Image unreadable,standard,6
-2026-08-10,2026-08-16,Cristian Santos,Payee name mismatch,standard,4
-2026-08-10,2026-08-16,Cristian Santos,Stale-dated,standard,1
-2026-08-10,2026-08-16,Daniel Wagner,Endorsement missing,fast_track,2
-2026-08-10,2026-08-16,Gina Moore,Amount mismatch,standard,1
-2026-08-10,2026-08-16,Gina Moore,Endorsement missing,standard,4
-2026-08-10,2026-08-16,Gina Moore,Image unreadable,standard,2
+2026-08-10,2026-08-16,Cristian Santos,Endorsement missing,standard,8
+2026-08-10,2026-08-16,Cristian Santos,Image unreadable,standard,7
+2026-08-10,2026-08-16,Cristian Santos,Payee name mismatch,standard,1
+2026-08-10,2026-08-16,Cristian Santos,Post-dated,standard,1
+2026-08-10,2026-08-16,Cristian Santos,Restrictive endorsement missing,standard,2
+2026-08-10,2026-08-16,Gina Moore,Amount mismatch,fast_track,1
+2026-08-10,2026-08-16,Gina Moore,Endorsement missing,fast_track,1
+2026-08-10,2026-08-16,Gina Moore,Image unreadable,fast_track,2
+2026-08-10,2026-08-16,Noah Rhodes,Amount mismatch,high_risk,1
 2026-08-10,2026-08-16,Noah Rhodes,Endorsement does not match payee,high_risk,1
-2026-08-17,2026-08-23,Allison Hill,Altered item,high_risk,2
+2026-08-10,2026-08-16,Ryan Munoz,Amount mismatch,fast_track,3
+2026-08-10,2026-08-16,Ryan Munoz,Endorsement missing,fast_track,13
+2026-08-10,2026-08-16,Ryan Munoz,Image unreadable,fast_track,1
+2026-08-10,2026-08-16,Ryan Munoz,Restrictive endorsement missing,fast_track,1
+2026-08-17,2026-08-23,Abigail Shaffer,Amount mismatch,fast_track,1
+2026-08-17,2026-08-23,Abigail Shaffer,Endorsement missing,fast_track,2
+2026-08-17,2026-08-23,Abigail Shaffer,Stale-dated,fast_track,1
+2026-08-17,2026-08-23,Allison Hill,Altered item,high_risk,1
+2026-08-17,2026-08-23,Allison Hill,Amount mismatch,high_risk,1
 2026-08-17,2026-08-23,Allison Hill,Payee name mismatch,high_risk,1
 2026-08-17,2026-08-23,Angie Henderson,Amount mismatch,fast_track,1
 2026-08-17,2026-08-23,Angie Henderson,Endorsement missing,fast_track,8
-2026-08-17,2026-08-23,Angie Henderson,Image unreadable,fast_track,8
-2026-08-17,2026-08-23,Daniel Wagner,Amount mismatch,standard,4
-2026-08-17,2026-08-23,Daniel Wagner,Endorsement missing,standard,12
-2026-08-17,2026-08-23,Daniel Wagner,Image unreadable,standard,9
-2026-08-17,2026-08-23,Daniel Wagner,Post-dated,standard,2
-2026-08-17,2026-08-23,Daniel Wagner,Restrictive endorsement missing,standard,1
-2026-08-17,2026-08-23,Daniel Wagner,Signature missing,standard,1
-2026-08-17,2026-08-23,Gabrielle Davis,Amount mismatch,standard,3
-2026-08-17,2026-08-23,Gabrielle Davis,Endorsement missing,standard,2
-2026-08-17,2026-08-23,Gabrielle Davis,Restrictive endorsement missing,standard,1
-2026-08-17,2026-08-23,Gina Moore,Amount mismatch,fast_track,1
-2026-08-17,2026-08-23,Gina Moore,Endorsement missing,fast_track,6
-2026-08-17,2026-08-23,Gina Moore,Image unreadable,fast_track,4
-2026-08-17,2026-08-23,Gina Moore,Stale-dated,fast_track,1
-2026-08-17,2026-08-23,Noah Rhodes,Amount mismatch,high_risk,1
-2026-08-24,2026-08-30,Abigail Shaffer,Amount mismatch,standard,4
-2026-08-24,2026-08-30,Abigail Shaffer,Endorsement missing,standard,4
-2026-08-24,2026-08-30,Abigail Shaffer,Payee name mismatch,standard,1
+2026-08-17,2026-08-23,Angie Henderson,Image unreadable,fast_track,11
+2026-08-17,2026-08-23,Angie Henderson,Restrictive endorsement missing,fast_track,1
+2026-08-17,2026-08-23,Daniel Wagner,Endorsement missing,fast_track,2
+2026-08-17,2026-08-23,Daniel Wagner,Image unreadable,fast_track,1
+2026-08-17,2026-08-23,Gabrielle Davis,Payee name mismatch,standard,1
+2026-08-17,2026-08-23,Gina Moore,Amount mismatch,standard,3
+2026-08-17,2026-08-23,Gina Moore,Endorsement missing,standard,15
+2026-08-17,2026-08-23,Gina Moore,Image unreadable,standard,8
+2026-08-17,2026-08-23,Gina Moore,Payee name mismatch,standard,1
+2026-08-17,2026-08-23,Gina Moore,Post-dated,standard,2
+2026-08-17,2026-08-23,Gina Moore,Restrictive endorsement missing,standard,2
+2026-08-17,2026-08-23,Gina Moore,Stale-dated,standard,2
+2026-08-17,2026-08-23,Ryan Munoz,Amount mismatch,standard,3
+2026-08-17,2026-08-23,Ryan Munoz,Endorsement missing,standard,1
+2026-08-17,2026-08-23,Ryan Munoz,Image unreadable,standard,2
+2026-08-17,2026-08-23,Ryan Munoz,Restrictive endorsement missing,standard,2
+2026-08-24,2026-08-30,Abigail Shaffer,Payee name mismatch,standard,2
 2026-08-24,2026-08-30,Abigail Shaffer,Restrictive endorsement missing,standard,1
-2026-08-24,2026-08-30,Allison Hill,Amount mismatch,high_risk,1
-2026-08-24,2026-08-30,Allison Hill,Duplicate of earlier deposit,high_risk,1
+2026-08-24,2026-08-30,Allison Hill,Altered item,high_risk,2
+2026-08-24,2026-08-30,Allison Hill,Payee name mismatch,high_risk,1
 2026-08-24,2026-08-30,Allison Hill,Suspected counterfeit,high_risk,1
-2026-08-24,2026-08-30,Cristian Santos,Endorsement missing,standard,2
-2026-08-24,2026-08-30,Cristian Santos,Stale-dated,standard,1
-2026-08-24,2026-08-30,Daniel Wagner,Amount mismatch,standard,4
-2026-08-24,2026-08-30,Daniel Wagner,Duplicate of earlier deposit,standard,2
-2026-08-24,2026-08-30,Daniel Wagner,Endorsement missing,standard,9
-2026-08-24,2026-08-30,Daniel Wagner,Image unreadable,standard,4
-2026-08-24,2026-08-30,Daniel Wagner,Payee name mismatch,standard,1
-2026-08-24,2026-08-30,Daniel Wagner,Post-dated,standard,1
-2026-08-24,2026-08-30,Daniel Wagner,Restrictive endorsement missing,standard,2
-2026-08-24,2026-08-30,Daniel Wagner,Stale-dated,standard,1
-2026-08-24,2026-08-30,Gabrielle Davis,Endorsement missing,fast_track,1
+2026-08-24,2026-08-30,Angie Henderson,Amount mismatch,fast_track,1
+2026-08-24,2026-08-30,Angie Henderson,Endorsement missing,fast_track,3
+2026-08-24,2026-08-30,Gabrielle Davis,Amount mismatch,standard,6
+2026-08-24,2026-08-30,Gabrielle Davis,Endorsement missing,standard,10
+2026-08-24,2026-08-30,Gabrielle Davis,Image unreadable,standard,8
+2026-08-24,2026-08-30,Gabrielle Davis,Post-dated,standard,2
 2026-08-24,2026-08-30,Gina Moore,Amount mismatch,fast_track,6
-2026-08-24,2026-08-30,Gina Moore,Endorsement missing,fast_track,7
-2026-08-24,2026-08-30,Gina Moore,Image unreadable,fast_track,6
-2026-08-24,2026-08-30,Gina Moore,Restrictive endorsement missing,fast_track,4
+2026-08-24,2026-08-30,Gina Moore,Endorsement missing,fast_track,9
+2026-08-24,2026-08-30,Gina Moore,Image unreadable,fast_track,9
+2026-08-24,2026-08-30,Gina Moore,Post-dated,fast_track,2
+2026-08-24,2026-08-30,Gina Moore,Restrictive endorsement missing,fast_track,1
+2026-08-24,2026-08-30,Noah Rhodes,Altered item,high_risk,1
 2026-08-24,2026-08-30,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-08-24,2026-08-30,Ryan Munoz,Endorsement missing,fast_track,2
-2026-08-24,2026-08-30,Ryan Munoz,Post-dated,fast_track,2
-2026-08-31,2026-09-06,Abigail Shaffer,Amount mismatch,fast_track,2
-2026-08-31,2026-09-06,Abigail Shaffer,Endorsement missing,fast_track,14
-2026-08-31,2026-09-06,Abigail Shaffer,Image unreadable,fast_track,9
-2026-08-31,2026-09-06,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
-2026-08-31,2026-09-06,Allison Hill,Altered item,high_risk,2
-2026-08-31,2026-09-06,Allison Hill,Payee name mismatch,high_risk,2
-2026-08-31,2026-09-06,Angie Henderson,Amount mismatch,standard,1
-2026-08-31,2026-09-06,Angie Henderson,Image unreadable,standard,2
-2026-08-31,2026-09-06,Angie Henderson,Payee name mismatch,standard,1
-2026-08-31,2026-09-06,Cristian Santos,Amount mismatch,standard,4
-2026-08-31,2026-09-06,Cristian Santos,Endorsement missing,standard,5
-2026-08-31,2026-09-06,Cristian Santos,Image unreadable,standard,5
-2026-08-31,2026-09-06,Cristian Santos,Payee name mismatch,standard,1
-2026-08-31,2026-09-06,Cristian Santos,Restrictive endorsement missing,standard,3
-2026-08-31,2026-09-06,Daniel Wagner,Amount mismatch,fast_track,1
-2026-08-31,2026-09-06,Daniel Wagner,Endorsement missing,fast_track,4
-2026-08-31,2026-09-06,Daniel Wagner,Image unreadable,fast_track,1
-2026-08-31,2026-09-06,Daniel Wagner,Payee name mismatch,fast_track,1
-2026-08-31,2026-09-06,Gabrielle Davis,Endorsement missing,fast_track,3
-2026-08-31,2026-09-06,Gina Moore,Amount mismatch,standard,1
-2026-08-31,2026-09-06,Gina Moore,Endorsement missing,standard,2
-2026-08-31,2026-09-06,Gina Moore,Image unreadable,standard,1
-2026-08-31,2026-09-06,Noah Rhodes,Altered item,high_risk,1
-2026-09-07,2026-09-13,Allison Hill,Altered item,high_risk,1
+2026-08-31,2026-08-31,Connie Lawrence,Amount mismatch,standard,2
+2026-08-31,2026-08-31,Connie Lawrence,Image unreadable,standard,1
+2026-08-31,2026-08-31,Connie Lawrence,Restrictive endorsement missing,standard,1
+2026-08-31,2026-08-31,Daniel Wagner,Amount mismatch,fast_track,1
+2026-08-31,2026-08-31,Daniel Wagner,Endorsement missing,fast_track,1
+2026-08-31,2026-08-31,Daniel Wagner,Payee name mismatch,fast_track,1
+2026-08-31,2026-08-31,Gina Moore,Endorsement missing,fast_track,5
+2026-08-31,2026-08-31,Gina Moore,Image unreadable,fast_track,2
+2026-08-31,2026-08-31,Gina Moore,Restrictive endorsement missing,fast_track,1
+2026-09-01,2026-09-06,Abigail Shaffer,Amount mismatch,standard,2
+2026-09-01,2026-09-06,Abigail Shaffer,Endorsement missing,standard,1
+2026-09-01,2026-09-06,Allison Hill,Altered item,high_risk,2
+2026-09-01,2026-09-06,Allison Hill,Image unreadable,high_risk,1
+2026-09-01,2026-09-06,Allison Hill,Suspected counterfeit,high_risk,1
+2026-09-01,2026-09-06,Connie Lawrence,Amount mismatch,standard,2
+2026-09-01,2026-09-06,Connie Lawrence,Endorsement missing,standard,8
+2026-09-01,2026-09-06,Connie Lawrence,Image unreadable,standard,6
+2026-09-01,2026-09-06,Connie Lawrence,Restrictive endorsement missing,standard,1
+2026-09-01,2026-09-06,Daniel Wagner,Image unreadable,fast_track,2
+2026-09-01,2026-09-06,Gabrielle Davis,Image unreadable,standard,2
+2026-09-01,2026-09-06,Gina Moore,Endorsement missing,fast_track,14
+2026-09-01,2026-09-06,Gina Moore,Image unreadable,fast_track,5
+2026-09-01,2026-09-06,Gina Moore,Post-dated,fast_track,1
+2026-09-01,2026-09-06,Gina Moore,Stale-dated,fast_track,1
+2026-09-01,2026-09-06,Noah Rhodes,Altered item,high_risk,1
+2026-09-07,2026-09-13,Allison Hill,Altered item,high_risk,3
+2026-09-07,2026-09-13,Allison Hill,Amount mismatch,high_risk,1
 2026-09-07,2026-09-13,Allison Hill,Duplicate of earlier deposit,high_risk,1
-2026-09-07,2026-09-13,Allison Hill,Image unreadable,high_risk,1
-2026-09-07,2026-09-13,Allison Hill,Suspected counterfeit,high_risk,2
-2026-09-07,2026-09-13,Angie Henderson,Image unreadable,standard,1
-2026-09-07,2026-09-13,Cristian Santos,Amount mismatch,standard,1
-2026-09-07,2026-09-13,Cristian Santos,Restrictive endorsement missing,standard,1
-2026-09-07,2026-09-13,Gabrielle Davis,Amount mismatch,fast_track,2
-2026-09-07,2026-09-13,Gabrielle Davis,Endorsement missing,fast_track,8
-2026-09-07,2026-09-13,Gabrielle Davis,Image unreadable,fast_track,1
-2026-09-07,2026-09-13,Gabrielle Davis,Payee name mismatch,fast_track,1
-2026-09-07,2026-09-13,Gabrielle Davis,Post-dated,fast_track,1
-2026-09-07,2026-09-13,Gina Moore,Amount mismatch,standard,6
-2026-09-07,2026-09-13,Gina Moore,Endorsement missing,standard,9
-2026-09-07,2026-09-13,Gina Moore,Image unreadable,standard,4
-2026-09-07,2026-09-13,Gina Moore,Payee name mismatch,standard,1
-2026-09-07,2026-09-13,Gina Moore,Restrictive endorsement missing,standard,2
+2026-09-07,2026-09-13,Allison Hill,Endorsement missing,high_risk,1
+2026-09-07,2026-09-13,Allison Hill,Suspected counterfeit,high_risk,1
+2026-09-07,2026-09-13,Angie Henderson,Amount mismatch,standard,6
+2026-09-07,2026-09-13,Angie Henderson,Endorsement missing,standard,10
+2026-09-07,2026-09-13,Angie Henderson,Image unreadable,standard,9
+2026-09-07,2026-09-13,Angie Henderson,Payee name mismatch,standard,1
+2026-09-07,2026-09-13,Angie Henderson,Post-dated,standard,1
+2026-09-07,2026-09-13,Angie Henderson,Restrictive endorsement missing,standard,1
+2026-09-07,2026-09-13,Connie Lawrence,Amount mismatch,fast_track,1
+2026-09-07,2026-09-13,Connie Lawrence,Endorsement missing,fast_track,2
+2026-09-07,2026-09-13,Connie Lawrence,Image unreadable,fast_track,2
+2026-09-07,2026-09-13,Cristian Santos,Amount mismatch,fast_track,2
+2026-09-07,2026-09-13,Cristian Santos,Endorsement missing,fast_track,7
+2026-09-07,2026-09-13,Gabrielle Davis,Amount mismatch,standard,1
+2026-09-07,2026-09-13,Gabrielle Davis,Endorsement missing,standard,1
 2026-09-07,2026-09-13,Noah Rhodes,Altered item,high_risk,1
-2026-09-07,2026-09-13,Ryan Munoz,Endorsement missing,fast_track,1
-2026-09-14,2026-09-20,Abigail Shaffer,Endorsement missing,fast_track,1
-2026-09-14,2026-09-20,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
+2026-09-07,2026-09-13,Noah Rhodes,Suspected counterfeit,high_risk,1
 2026-09-14,2026-09-20,Allison Hill,Altered item,high_risk,2
-2026-09-14,2026-09-20,Allison Hill,Amount mismatch,high_risk,1
-2026-09-14,2026-09-20,Allison Hill,Endorsement does not match payee,high_risk,1
-2026-09-14,2026-09-20,Allison Hill,Endorsement missing,high_risk,1
-2026-09-14,2026-09-20,Allison Hill,Suspected counterfeit,high_risk,1
-2026-09-14,2026-09-20,Connie Lawrence,Endorsement missing,standard,1
-2026-09-14,2026-09-20,Connie Lawrence,Payee name mismatch,standard,1
-2026-09-14,2026-09-20,Gabrielle Davis,Amount mismatch,standard,5
-2026-09-14,2026-09-20,Gabrielle Davis,Endorsement missing,standard,11
-2026-09-14,2026-09-20,Gabrielle Davis,Image unreadable,standard,5
-2026-09-14,2026-09-20,Gabrielle Davis,Restrictive endorsement missing,standard,2
-2026-09-14,2026-09-20,Gabrielle Davis,Stale-dated,standard,2
-2026-09-14,2026-09-20,Gina Moore,Endorsement missing,standard,3
-2026-09-14,2026-09-20,Gina Moore,Image unreadable,standard,2
-2026-09-14,2026-09-20,Gina Moore,Post-dated,standard,1
+2026-09-14,2026-09-20,Angie Henderson,Endorsement missing,standard,2
+2026-09-14,2026-09-20,Angie Henderson,Image unreadable,standard,1
+2026-09-14,2026-09-20,Angie Henderson,Payee name mismatch,standard,1
+2026-09-14,2026-09-20,Connie Lawrence,Amount mismatch,standard,4
+2026-09-14,2026-09-20,Connie Lawrence,Endorsement missing,standard,12
+2026-09-14,2026-09-20,Connie Lawrence,Image unreadable,standard,8
+2026-09-14,2026-09-20,Connie Lawrence,Post-dated,standard,2
+2026-09-14,2026-09-20,Connie Lawrence,Restrictive endorsement missing,standard,1
 2026-09-14,2026-09-20,Noah Rhodes,Altered item,high_risk,1
-2026-09-14,2026-09-20,Ryan Munoz,Amount mismatch,fast_track,3
-2026-09-14,2026-09-20,Ryan Munoz,Endorsement missing,fast_track,9
-2026-09-14,2026-09-20,Ryan Munoz,Image unreadable,fast_track,4
-2026-09-14,2026-09-20,Ryan Munoz,Restrictive endorsement missing,fast_track,2
-2026-09-14,2026-09-20,Ryan Munoz,Stale-dated,fast_track,1
-2026-09-21,2026-09-27,Abigail Shaffer,Amount mismatch,standard,4
-2026-09-21,2026-09-27,Abigail Shaffer,Endorsement missing,standard,4
-2026-09-21,2026-09-27,Abigail Shaffer,Image unreadable,standard,6
-2026-09-21,2026-09-27,Abigail Shaffer,Post-dated,standard,1
-2026-09-21,2026-09-27,Abigail Shaffer,Restrictive endorsement missing,standard,1
-2026-09-21,2026-09-27,Abigail Shaffer,Stale-dated,standard,1
-2026-09-21,2026-09-27,Allison Hill,Altered item,high_risk,4
+2026-09-14,2026-09-20,Ryan Munoz,Amount mismatch,fast_track,1
+2026-09-14,2026-09-20,Ryan Munoz,Endorsement missing,fast_track,10
+2026-09-14,2026-09-20,Ryan Munoz,Image unreadable,fast_track,3
+2026-09-14,2026-09-20,Ryan Munoz,Restrictive endorsement missing,fast_track,5
+2026-09-21,2026-09-27,Abigail Shaffer,Amount mismatch,fast_track,1
+2026-09-21,2026-09-27,Abigail Shaffer,Endorsement missing,fast_track,10
+2026-09-21,2026-09-27,Abigail Shaffer,Image unreadable,fast_track,1
+2026-09-21,2026-09-27,Abigail Shaffer,Post-dated,fast_track,1
+2026-09-21,2026-09-27,Abigail Shaffer,Restrictive endorsement missing,fast_track,2
+2026-09-21,2026-09-27,Allison Hill,Altered item,high_risk,1
 2026-09-21,2026-09-27,Allison Hill,Duplicate of earlier deposit,high_risk,1
 2026-09-21,2026-09-27,Allison Hill,Endorsement does not match payee,high_risk,1
 2026-09-21,2026-09-27,Allison Hill,Suspected counterfeit,high_risk,1
-2026-09-21,2026-09-27,Connie Lawrence,Amount mismatch,fast_track,1
-2026-09-21,2026-09-27,Connie Lawrence,Endorsement missing,fast_track,8
-2026-09-21,2026-09-27,Connie Lawrence,Image unreadable,fast_track,1
-2026-09-21,2026-09-27,Daniel Wagner,Endorsement missing,fast_track,3
+2026-09-21,2026-09-27,Angie Henderson,Endorsement missing,fast_track,3
+2026-09-21,2026-09-27,Angie Henderson,Image unreadable,fast_track,1
+2026-09-21,2026-09-27,Angie Henderson,Restrictive endorsement missing,fast_track,1
 2026-09-21,2026-09-27,Daniel Wagner,Image unreadable,fast_track,1
-2026-09-21,2026-09-27,Daniel Wagner,Restrictive endorsement missing,fast_track,2
-2026-09-21,2026-09-27,Daniel Wagner,Stale-dated,fast_track,1
-2026-09-21,2026-09-27,Gabrielle Davis,Amount mismatch,standard,1
-2026-09-21,2026-09-27,Gabrielle Davis,Endorsement missing,standard,2
-2026-09-21,2026-09-27,Gabrielle Davis,Restrictive endorsement missing,standard,2
-2026-09-21,2026-09-27,Gina Moore,Amount mismatch,standard,8
-2026-09-21,2026-09-27,Gina Moore,Endorsement missing,standard,14
-2026-09-21,2026-09-27,Gina Moore,Image unreadable,standard,3
+2026-09-21,2026-09-27,Gabrielle Davis,Amount mismatch,standard,6
+2026-09-21,2026-09-27,Gabrielle Davis,Endorsement missing,standard,19
+2026-09-21,2026-09-27,Gabrielle Davis,Image unreadable,standard,6
+2026-09-21,2026-09-27,Gabrielle Davis,Payee name mismatch,standard,1
+2026-09-21,2026-09-27,Gina Moore,Amount mismatch,standard,3
+2026-09-21,2026-09-27,Gina Moore,Endorsement missing,standard,1
+2026-09-21,2026-09-27,Gina Moore,Image unreadable,standard,1
+2026-09-21,2026-09-27,Gina Moore,Post-dated,standard,1
 2026-09-21,2026-09-27,Noah Rhodes,Amount mismatch,high_risk,1
 2026-09-21,2026-09-27,Noah Rhodes,Image unreadable,high_risk,2
-2026-09-28,2026-10-04,Allison Hill,Signature missing,high_risk,1
-2026-09-28,2026-10-04,Angie Henderson,Amount mismatch,fast_track,2
-2026-09-28,2026-10-04,Angie Henderson,Endorsement missing,fast_track,9
-2026-09-28,2026-10-04,Angie Henderson,Image unreadable,fast_track,4
-2026-09-28,2026-10-04,Angie Henderson,Payee name mismatch,fast_track,1
-2026-09-28,2026-10-04,Angie Henderson,Restrictive endorsement missing,fast_track,1
-2026-09-28,2026-10-04,Connie Lawrence,Image unreadable,fast_track,1
-2026-09-28,2026-10-04,Connie Lawrence,Payee name mismatch,fast_track,1
-2026-09-28,2026-10-04,Cristian Santos,Image unreadable,standard,1
-2026-09-28,2026-10-04,Cristian Santos,Restrictive endorsement missing,standard,1
-2026-09-28,2026-10-04,Gabrielle Davis,Amount mismatch,standard,3
-2026-09-28,2026-10-04,Gabrielle Davis,Duplicate of earlier deposit,standard,1
-2026-09-28,2026-10-04,Gabrielle Davis,Endorsement missing,standard,12
-2026-09-28,2026-10-04,Gabrielle Davis,Image unreadable,standard,6
-2026-09-28,2026-10-04,Gabrielle Davis,Payee name mismatch,standard,1
-2026-09-28,2026-10-04,Gabrielle Davis,Post-dated,standard,1
-2026-09-28,2026-10-04,Gabrielle Davis,Restrictive endorsement missing,standard,3
-2026-09-28,2026-10-04,Noah Rhodes,Altered item,high_risk,2
-2026-09-28,2026-10-04,Noah Rhodes,Payee name mismatch,high_risk,1
-2026-09-28,2026-10-04,Noah Rhodes,Suspected counterfeit,high_risk,1
-2026-09-28,2026-10-04,Ryan Munoz,Amount mismatch,standard,1
-2026-09-28,2026-10-04,Ryan Munoz,Endorsement missing,standard,1
-2026-09-28,2026-10-04,Ryan Munoz,Image unreadable,standard,3
-2026-09-28,2026-10-04,Ryan Munoz,Post-dated,standard,1
-2026-09-28,2026-10-04,Ryan Munoz,Stale-dated,standard,1
-2026-10-05,2026-10-11,Abigail Shaffer,Endorsement missing,fast_track,7
-2026-10-05,2026-10-11,Abigail Shaffer,Image unreadable,fast_track,2
-2026-10-05,2026-10-11,Allison Hill,Duplicate of earlier deposit,high_risk,1
+2026-09-21,2026-09-27,Noah Rhodes,Stale-dated,high_risk,1
+2026-09-21,2026-09-27,Noah Rhodes,Suspected counterfeit,high_risk,1
+2026-09-21,2026-09-27,Ryan Munoz,Endorsement missing,standard,1
+2026-09-21,2026-09-27,Ryan Munoz,Restrictive endorsement missing,standard,1
+2026-09-28,2026-09-30,Abigail Shaffer,Amount mismatch,standard,2
+2026-09-28,2026-09-30,Abigail Shaffer,Endorsement missing,standard,2
+2026-09-28,2026-09-30,Abigail Shaffer,Image unreadable,standard,4
+2026-09-28,2026-09-30,Abigail Shaffer,Post-dated,standard,2
+2026-09-28,2026-09-30,Allison Hill,Signature missing,high_risk,1
+2026-09-28,2026-09-30,Angie Henderson,Amount mismatch,standard,1
+2026-09-28,2026-09-30,Connie Lawrence,Amount mismatch,fast_track,1
+2026-09-28,2026-09-30,Connie Lawrence,Endorsement missing,fast_track,2
+2026-09-28,2026-09-30,Connie Lawrence,Image unreadable,fast_track,5
+2026-09-28,2026-09-30,Connie Lawrence,Payee name mismatch,fast_track,2
+2026-09-28,2026-09-30,Cristian Santos,Endorsement missing,fast_track,1
+2026-09-28,2026-09-30,Daniel Wagner,Amount mismatch,standard,1
+2026-09-28,2026-09-30,Daniel Wagner,Endorsement missing,standard,4
+2026-09-28,2026-09-30,Daniel Wagner,Image unreadable,standard,4
+2026-09-28,2026-09-30,Daniel Wagner,Payee name mismatch,standard,1
+2026-09-28,2026-09-30,Daniel Wagner,Post-dated,standard,1
+2026-09-28,2026-09-30,Daniel Wagner,Restrictive endorsement missing,standard,2
+2026-09-28,2026-09-30,Daniel Wagner,Stale-dated,standard,1
+2026-09-28,2026-09-30,Noah Rhodes,Altered item,high_risk,1
+2026-09-28,2026-09-30,Noah Rhodes,Payee name mismatch,high_risk,1
+2026-10-01,2026-10-04,Abigail Shaffer,Endorsement missing,standard,2
+2026-10-01,2026-10-04,Abigail Shaffer,Restrictive endorsement missing,standard,1
+2026-10-01,2026-10-04,Allison Hill,Suspected counterfeit,high_risk,1
+2026-10-01,2026-10-04,Angie Henderson,Endorsement missing,standard,1
+2026-10-01,2026-10-04,Connie Lawrence,Amount mismatch,fast_track,2
+2026-10-01,2026-10-04,Connie Lawrence,Endorsement missing,fast_track,2
+2026-10-01,2026-10-04,Connie Lawrence,Payee name mismatch,fast_track,2
+2026-10-01,2026-10-04,Cristian Santos,Image unreadable,fast_track,1
+2026-10-01,2026-10-04,Daniel Wagner,Amount mismatch,standard,1
+2026-10-01,2026-10-04,Daniel Wagner,Endorsement missing,standard,8
+2026-10-01,2026-10-04,Daniel Wagner,Image unreadable,standard,1
+2026-10-01,2026-10-04,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-10-01,2026-10-04,Noah Rhodes,Altered item,high_risk,1
 2026-10-05,2026-10-11,Allison Hill,Endorsement does not match payee,high_risk,1
 2026-10-05,2026-10-11,Allison Hill,Payee name mismatch,high_risk,1
-2026-10-05,2026-10-11,Allison Hill,Suspected counterfeit,high_risk,1
-2026-10-05,2026-10-11,Connie Lawrence,Endorsement missing,fast_track,1
-2026-10-05,2026-10-11,Connie Lawrence,Image unreadable,fast_track,3
-2026-10-05,2026-10-11,Cristian Santos,Amount mismatch,standard,4
-2026-10-05,2026-10-11,Cristian Santos,Duplicate of earlier deposit,standard,1
-2026-10-05,2026-10-11,Cristian Santos,Endorsement missing,standard,8
-2026-10-05,2026-10-11,Cristian Santos,Image unreadable,standard,5
-2026-10-05,2026-10-11,Cristian Santos,Payee name mismatch,standard,4
-2026-10-05,2026-10-11,Cristian Santos,Restrictive endorsement missing,standard,5
-2026-10-05,2026-10-11,Gina Moore,Endorsement missing,standard,2
-2026-10-05,2026-10-11,Gina Moore,Image unreadable,standard,2
-2026-10-05,2026-10-11,Gina Moore,Post-dated,standard,1
-2026-10-05,2026-10-11,Gina Moore,Restrictive endorsement missing,standard,1
-2026-10-12,2026-10-18,Abigail Shaffer,Duplicate of earlier deposit,standard,1
-2026-10-12,2026-10-18,Abigail Shaffer,Endorsement missing,standard,8
-2026-10-12,2026-10-18,Abigail Shaffer,Image unreadable,standard,6
-2026-10-12,2026-10-18,Abigail Shaffer,Payee name mismatch,standard,1
-2026-10-12,2026-10-18,Abigail Shaffer,Post-dated,standard,1
-2026-10-12,2026-10-18,Abigail Shaffer,Stale-dated,standard,2
+2026-10-05,2026-10-11,Angie Henderson,Image unreadable,fast_track,1
+2026-10-05,2026-10-11,Connie Lawrence,Amount mismatch,standard,1
+2026-10-05,2026-10-11,Connie Lawrence,Endorsement missing,standard,1
+2026-10-05,2026-10-11,Connie Lawrence,Image unreadable,standard,1
+2026-10-05,2026-10-11,Connie Lawrence,Payee name mismatch,standard,1
+2026-10-05,2026-10-11,Daniel Wagner,Amount mismatch,standard,4
+2026-10-05,2026-10-11,Daniel Wagner,Endorsement missing,standard,5
+2026-10-05,2026-10-11,Daniel Wagner,Image unreadable,standard,9
+2026-10-05,2026-10-11,Daniel Wagner,Payee name mismatch,standard,5
+2026-10-05,2026-10-11,Daniel Wagner,Restrictive endorsement missing,standard,3
+2026-10-05,2026-10-11,Daniel Wagner,Stale-dated,standard,2
+2026-10-05,2026-10-11,Gabrielle Davis,Endorsement missing,fast_track,7
+2026-10-05,2026-10-11,Gabrielle Davis,Image unreadable,fast_track,3
+2026-10-05,2026-10-11,Gabrielle Davis,Restrictive endorsement missing,fast_track,1
+2026-10-05,2026-10-11,Gabrielle Davis,Stale-dated,fast_track,1
+2026-10-05,2026-10-11,Ryan Munoz,Endorsement missing,fast_track,2
+2026-10-05,2026-10-11,Ryan Munoz,Restrictive endorsement missing,fast_track,1
 2026-10-12,2026-10-18,Allison Hill,Altered item,high_risk,2
-2026-10-12,2026-10-18,Angie Henderson,Amount mismatch,fast_track,1
-2026-10-12,2026-10-18,Angie Henderson,Endorsement missing,fast_track,8
-2026-10-12,2026-10-18,Angie Henderson,Image unreadable,fast_track,4
-2026-10-12,2026-10-18,Angie Henderson,Stale-dated,fast_track,1
-2026-10-12,2026-10-18,Daniel Wagner,Endorsement missing,fast_track,3
-2026-10-12,2026-10-18,Daniel Wagner,Post-dated,fast_track,1
-2026-10-12,2026-10-18,Daniel Wagner,Restrictive endorsement missing,fast_track,3
-2026-10-12,2026-10-18,Gina Moore,Amount mismatch,standard,1
-2026-10-12,2026-10-18,Gina Moore,Duplicate of earlier deposit,standard,1
-2026-10-12,2026-10-18,Gina Moore,Endorsement missing,standard,3
-2026-10-12,2026-10-18,Gina Moore,Image unreadable,standard,1
-2026-10-19,2026-10-25,Allison Hill,Altered item,high_risk,2
-2026-10-19,2026-10-25,Allison Hill,Image unreadable,high_risk,1
-2026-10-19,2026-10-25,Angie Henderson,Endorsement missing,fast_track,1
-2026-10-19,2026-10-25,Angie Henderson,Image unreadable,fast_track,1
-2026-10-19,2026-10-25,Connie Lawrence,Amount mismatch,standard,2
-2026-10-19,2026-10-25,Connie Lawrence,Endorsement missing,standard,7
-2026-10-19,2026-10-25,Connie Lawrence,Image unreadable,standard,3
-2026-10-19,2026-10-25,Connie Lawrence,Post-dated,standard,1
-2026-10-19,2026-10-25,Connie Lawrence,Restrictive endorsement missing,standard,4
+2026-10-12,2026-10-18,Allison Hill,Image unreadable,high_risk,1
+2026-10-12,2026-10-18,Allison Hill,Payee name mismatch,high_risk,1
+2026-10-12,2026-10-18,Daniel Wagner,Amount mismatch,standard,1
+2026-10-12,2026-10-18,Daniel Wagner,Endorsement missing,standard,16
+2026-10-12,2026-10-18,Daniel Wagner,Image unreadable,standard,8
+2026-10-12,2026-10-18,Daniel Wagner,Payee name mismatch,standard,2
+2026-10-12,2026-10-18,Daniel Wagner,Post-dated,standard,2
+2026-10-12,2026-10-18,Daniel Wagner,Restrictive endorsement missing,standard,2
+2026-10-12,2026-10-18,Daniel Wagner,Stale-dated,standard,1
+2026-10-12,2026-10-18,Gabrielle Davis,Endorsement missing,fast_track,11
+2026-10-12,2026-10-18,Gabrielle Davis,Image unreadable,fast_track,6
+2026-10-12,2026-10-18,Gabrielle Davis,Post-dated,fast_track,1
+2026-10-12,2026-10-18,Gina Moore,Amount mismatch,fast_track,1
+2026-10-12,2026-10-18,Gina Moore,Endorsement missing,fast_track,1
+2026-10-19,2026-10-25,Abigail Shaffer,Amount mismatch,standard,4
+2026-10-19,2026-10-25,Abigail Shaffer,Endorsement missing,standard,11
+2026-10-19,2026-10-25,Abigail Shaffer,Image unreadable,standard,7
+2026-10-19,2026-10-25,Abigail Shaffer,Payee name mismatch,standard,4
+2026-10-19,2026-10-25,Abigail Shaffer,Post-dated,standard,1
+2026-10-19,2026-10-25,Abigail Shaffer,Stale-dated,standard,2
+2026-10-19,2026-10-25,Allison Hill,Altered item,high_risk,1
+2026-10-19,2026-10-25,Connie Lawrence,Amount mismatch,fast_track,1
+2026-10-19,2026-10-25,Connie Lawrence,Endorsement missing,fast_track,2
+2026-10-19,2026-10-25,Connie Lawrence,Image unreadable,fast_track,1
 2026-10-19,2026-10-25,Daniel Wagner,Amount mismatch,standard,1
+2026-10-19,2026-10-25,Daniel Wagner,Endorsement missing,standard,1
 2026-10-19,2026-10-25,Daniel Wagner,Image unreadable,standard,1
-2026-10-19,2026-10-25,Daniel Wagner,Payee name mismatch,standard,2
-2026-10-19,2026-10-25,Daniel Wagner,Restrictive endorsement missing,standard,2
-2026-10-19,2026-10-25,Gabrielle Davis,Endorsement missing,fast_track,1
-2026-10-19,2026-10-25,Gabrielle Davis,Restrictive endorsement missing,fast_track,1
-2026-10-19,2026-10-25,Gina Moore,Endorsement missing,standard,2
-2026-10-19,2026-10-25,Gina Moore,Image unreadable,standard,2
-2026-10-19,2026-10-25,Gina Moore,Post-dated,standard,1
-2026-10-19,2026-10-25,Ryan Munoz,Amount mismatch,fast_track,3
-2026-10-19,2026-10-25,Ryan Munoz,Endorsement missing,fast_track,11
-2026-10-19,2026-10-25,Ryan Munoz,Image unreadable,fast_track,4
-2026-10-26,2026-11-01,Abigail Shaffer,Amount mismatch,fast_track,1
-2026-10-26,2026-11-01,Abigail Shaffer,Endorsement missing,fast_track,1
-2026-10-26,2026-11-01,Abigail Shaffer,Image unreadable,fast_track,1
-2026-10-26,2026-11-01,Allison Hill,Altered item,high_risk,1
-2026-10-26,2026-11-01,Allison Hill,Endorsement does not match payee,high_risk,1
-2026-10-26,2026-11-01,Connie Lawrence,Endorsement missing,standard,1
-2026-10-26,2026-11-01,Connie Lawrence,Image unreadable,standard,2
-2026-10-26,2026-11-01,Cristian Santos,Amount mismatch,standard,4
-2026-10-26,2026-11-01,Cristian Santos,Endorsement missing,standard,18
-2026-10-26,2026-11-01,Cristian Santos,Image unreadable,standard,7
-2026-10-26,2026-11-01,Cristian Santos,Payee name mismatch,standard,1
-2026-10-26,2026-11-01,Cristian Santos,Post-dated,standard,3
-2026-10-26,2026-11-01,Cristian Santos,Restrictive endorsement missing,standard,1
-2026-10-26,2026-11-01,Cristian Santos,Signature missing,standard,2
-2026-10-26,2026-11-01,Daniel Wagner,Amount mismatch,standard,1
-2026-10-26,2026-11-01,Daniel Wagner,Endorsement missing,standard,2
-2026-10-26,2026-11-01,Daniel Wagner,Image unreadable,standard,1
-2026-10-26,2026-11-01,Daniel Wagner,Payee name mismatch,standard,1
-2026-10-26,2026-11-01,Gabrielle Davis,Amount mismatch,fast_track,2
-2026-10-26,2026-11-01,Gabrielle Davis,Endorsement missing,fast_track,2
-2026-10-26,2026-11-01,Gabrielle Davis,Image unreadable,fast_track,7
-2026-10-26,2026-11-01,Gabrielle Davis,Restrictive endorsement missing,fast_track,2
-2026-10-26,2026-11-01,Noah Rhodes,Payee name mismatch,high_risk,1
+2026-10-19,2026-10-25,Daniel Wagner,Restrictive endorsement missing,standard,1
+2026-10-19,2026-10-25,Gabrielle Davis,Amount mismatch,fast_track,3
+2026-10-19,2026-10-25,Gabrielle Davis,Endorsement missing,fast_track,8
+2026-10-19,2026-10-25,Gabrielle Davis,Image unreadable,fast_track,2
+2026-10-19,2026-10-25,Gina Moore,Restrictive endorsement missing,fast_track,1
+2026-10-19,2026-10-25,Noah Rhodes,Payee name mismatch,high_risk,1
+2026-10-19,2026-10-25,Ryan Munoz,Image unreadable,standard,1
+2026-10-26,2026-10-31,Abigail Shaffer,Endorsement missing,standard,3
+2026-10-26,2026-10-31,Abigail Shaffer,Image unreadable,standard,2
+2026-10-26,2026-10-31,Abigail Shaffer,Restrictive endorsement missing,standard,1
+2026-10-26,2026-10-31,Allison Hill,Endorsement does not match payee,high_risk,1
+2026-10-26,2026-10-31,Allison Hill,Signature missing,high_risk,1
+2026-10-26,2026-10-31,Connie Lawrence,Amount mismatch,standard,6
+2026-10-26,2026-10-31,Connie Lawrence,Endorsement missing,standard,15
+2026-10-26,2026-10-31,Connie Lawrence,Image unreadable,standard,7
+2026-10-26,2026-10-31,Connie Lawrence,Post-dated,standard,1
+2026-10-26,2026-10-31,Connie Lawrence,Restrictive endorsement missing,standard,1
+2026-10-26,2026-10-31,Gabrielle Davis,Amount mismatch,fast_track,1
+2026-10-26,2026-10-31,Gabrielle Davis,Endorsement missing,fast_track,2
+2026-10-26,2026-10-31,Gabrielle Davis,Image unreadable,fast_track,6
+2026-10-26,2026-10-31,Gabrielle Davis,Post-dated,fast_track,1
+2026-10-26,2026-10-31,Gabrielle Davis,Restrictive endorsement missing,fast_track,2
+2026-10-26,2026-10-31,Gina Moore,Amount mismatch,fast_track,1
+2026-10-26,2026-10-31,Gina Moore,Endorsement missing,fast_track,1
+2026-10-26,2026-10-31,Gina Moore,Image unreadable,fast_track,1
+2026-11-01,2026-11-01,Abigail Shaffer,Post-dated,standard,1
+2026-11-01,2026-11-01,Connie Lawrence,Endorsement missing,standard,1
+2026-11-01,2026-11-01,Connie Lawrence,Payee name mismatch,standard,1
+2026-11-01,2026-11-01,Gabrielle Davis,Endorsement missing,fast_track,2
+2026-11-02,2026-11-08,Abigail Shaffer,Amount mismatch,standard,2
+2026-11-02,2026-11-08,Abigail Shaffer,Endorsement missing,standard,15
+2026-11-02,2026-11-08,Abigail Shaffer,Image unreadable,standard,10
+2026-11-02,2026-11-08,Abigail Shaffer,Post-dated,standard,1
+2026-11-02,2026-11-08,Abigail Shaffer,Restrictive endorsement missing,standard,4
+2026-11-02,2026-11-08,Allison Hill,Altered item,high_risk,1
 2026-11-02,2026-11-08,Allison Hill,Duplicate of earlier deposit,high_risk,1
-2026-11-02,2026-11-08,Allison Hill,Payee name mismatch,high_risk,1
-2026-11-02,2026-11-08,Allison Hill,Post-dated,high_risk,1
-2026-11-02,2026-11-08,Allison Hill,Signature missing,high_risk,1
-2026-11-02,2026-11-08,Allison Hill,Suspected counterfeit,high_risk,1
-2026-11-02,2026-11-08,Angie Henderson,Amount mismatch,standard,2
-2026-11-02,2026-11-08,Angie Henderson,Endorsement missing,standard,7
-2026-11-02,2026-11-08,Angie Henderson,Image unreadable,standard,3
-2026-11-02,2026-11-08,Angie Henderson,Restrictive endorsement missing,standard,2
-2026-11-02,2026-11-08,Connie Lawrence,Amount mismatch,fast_track,3
-2026-11-02,2026-11-08,Connie Lawrence,Endorsement missing,fast_track,10
-2026-11-02,2026-11-08,Connie Lawrence,Image unreadable,fast_track,8
-2026-11-02,2026-11-08,Cristian Santos,Amount mismatch,fast_track,1
-2026-11-02,2026-11-08,Cristian Santos,Endorsement missing,fast_track,3
-2026-11-02,2026-11-08,Cristian Santos,Payee name mismatch,fast_track,1
-2026-11-02,2026-11-08,Noah Rhodes,Altered item,high_risk,1
+2026-11-02,2026-11-08,Connie Lawrence,Amount mismatch,fast_track,1
+2026-11-02,2026-11-08,Connie Lawrence,Endorsement missing,fast_track,4
+2026-11-02,2026-11-08,Connie Lawrence,Payee name mismatch,fast_track,1
+2026-11-02,2026-11-08,Cristian Santos,Endorsement missing,standard,1
+2026-11-02,2026-11-08,Cristian Santos,Restrictive endorsement missing,standard,1
+2026-11-02,2026-11-08,Daniel Wagner,Amount mismatch,standard,2
+2026-11-02,2026-11-08,Noah Rhodes,Duplicate of earlier deposit,high_risk,1
 2026-11-02,2026-11-08,Noah Rhodes,Payee name mismatch,high_risk,1
-2026-11-02,2026-11-08,Ryan Munoz,Amount mismatch,standard,2
-2026-11-02,2026-11-08,Ryan Munoz,Endorsement missing,standard,5
-2026-11-02,2026-11-08,Ryan Munoz,Image unreadable,standard,10
-2026-11-02,2026-11-08,Ryan Munoz,Restrictive endorsement missing,standard,2
-2026-11-02,2026-11-08,Ryan Munoz,Stale-dated,standard,1
-2026-11-09,2026-11-15,Allison Hill,Altered item,high_risk,1
+2026-11-02,2026-11-08,Ryan Munoz,Amount mismatch,fast_track,5
+2026-11-02,2026-11-08,Ryan Munoz,Endorsement missing,fast_track,10
+2026-11-02,2026-11-08,Ryan Munoz,Image unreadable,fast_track,7
+2026-11-02,2026-11-08,Ryan Munoz,Payee name mismatch,fast_track,1
+2026-11-02,2026-11-08,Ryan Munoz,Post-dated,fast_track,1
+2026-11-09,2026-11-15,Abigail Shaffer,Endorsement missing,fast_track,2
+2026-11-09,2026-11-15,Allison Hill,Altered item,high_risk,2
+2026-11-09,2026-11-15,Allison Hill,Amount mismatch,high_risk,1
 2026-11-09,2026-11-15,Allison Hill,Restrictive endorsement missing,high_risk,1
-2026-11-09,2026-11-15,Cristian Santos,Amount mismatch,fast_track,1
-2026-11-09,2026-11-15,Cristian Santos,Endorsement missing,fast_track,3
+2026-11-09,2026-11-15,Allison Hill,Signature missing,high_risk,1
+2026-11-09,2026-11-15,Connie Lawrence,Amount mismatch,standard,4
+2026-11-09,2026-11-15,Connie Lawrence,Endorsement missing,standard,16
+2026-11-09,2026-11-15,Connie Lawrence,Image unreadable,standard,12
+2026-11-09,2026-11-15,Connie Lawrence,Payee name mismatch,standard,1
+2026-11-09,2026-11-15,Connie Lawrence,Post-dated,standard,2
+2026-11-09,2026-11-15,Connie Lawrence,Restrictive endorsement missing,standard,1
+2026-11-09,2026-11-15,Cristian Santos,Amount mismatch,fast_track,5
+2026-11-09,2026-11-15,Cristian Santos,Endorsement missing,fast_track,10
+2026-11-09,2026-11-15,Cristian Santos,Image unreadable,fast_track,7
+2026-11-09,2026-11-15,Cristian Santos,Payee name mismatch,fast_track,1
 2026-11-09,2026-11-15,Cristian Santos,Stale-dated,fast_track,1
-2026-11-09,2026-11-15,Daniel Wagner,Amount mismatch,fast_track,6
-2026-11-09,2026-11-15,Daniel Wagner,Endorsement missing,fast_track,10
-2026-11-09,2026-11-15,Daniel Wagner,Image unreadable,fast_track,7
-2026-11-09,2026-11-15,Daniel Wagner,Payee name mismatch,fast_track,1
-2026-11-09,2026-11-15,Daniel Wagner,Post-dated,fast_track,1
-2026-11-09,2026-11-15,Gina Moore,Amount mismatch,standard,5
-2026-11-09,2026-11-15,Gina Moore,Endorsement missing,standard,13
-2026-11-09,2026-11-15,Gina Moore,Image unreadable,standard,10
+2026-11-09,2026-11-15,Daniel Wagner,Amount mismatch,fast_track,2
+2026-11-09,2026-11-15,Gina Moore,Endorsement missing,standard,5
+2026-11-09,2026-11-15,Gina Moore,Image unreadable,standard,4
 2026-11-09,2026-11-15,Gina Moore,Payee name mismatch,standard,1
-2026-11-09,2026-11-15,Gina Moore,Post-dated,standard,2
-2026-11-09,2026-11-15,Gina Moore,Restrictive endorsement missing,standard,3
+2026-11-09,2026-11-15,Gina Moore,Post-dated,standard,1
 2026-11-09,2026-11-15,Noah Rhodes,Altered item,high_risk,1
-2026-11-09,2026-11-15,Noah Rhodes,Duplicate of earlier deposit,high_risk,1
-2026-11-09,2026-11-15,Ryan Munoz,Amount mismatch,standard,1
-2026-11-09,2026-11-15,Ryan Munoz,Endorsement missing,standard,5
-2026-11-09,2026-11-15,Ryan Munoz,Image unreadable,standard,3
-2026-11-16,2026-11-22,Abigail Shaffer,Endorsement missing,fast_track,1
+2026-11-09,2026-11-15,Ryan Munoz,Endorsement missing,standard,1
 2026-11-16,2026-11-22,Allison Hill,Altered item,high_risk,1
-2026-11-16,2026-11-22,Allison Hill,Amount mismatch,high_risk,1
-2026-11-16,2026-11-22,Allison Hill,Signature missing,high_risk,1
-2026-11-16,2026-11-22,Allison Hill,Suspected counterfeit,high_risk,1
-2026-11-16,2026-11-22,Angie Henderson,Endorsement missing,standard,1
-2026-11-16,2026-11-22,Angie Henderson,Signature missing,standard,1
-2026-11-16,2026-11-22,Connie Lawrence,Endorsement missing,fast_track,1
-2026-11-16,2026-11-22,Connie Lawrence,Image unreadable,fast_track,3
-2026-11-16,2026-11-22,Cristian Santos,Amount mismatch,standard,5
-2026-11-16,2026-11-22,Cristian Santos,Endorsement missing,standard,11
-2026-11-16,2026-11-22,Cristian Santos,Image unreadable,standard,7
-2026-11-16,2026-11-22,Cristian Santos,Payee name mismatch,standard,3
-2026-11-16,2026-11-22,Cristian Santos,Stale-dated,standard,1
-2026-11-16,2026-11-22,Gabrielle Davis,Endorsement missing,standard,3
-2026-11-16,2026-11-22,Gabrielle Davis,Image unreadable,standard,3
-2026-11-16,2026-11-22,Gabrielle Davis,Stale-dated,standard,1
-2026-11-16,2026-11-22,Gina Moore,Amount mismatch,fast_track,4
-2026-11-16,2026-11-22,Gina Moore,Endorsement missing,fast_track,14
-2026-11-16,2026-11-22,Gina Moore,Image unreadable,fast_track,8
-2026-11-16,2026-11-22,Gina Moore,Restrictive endorsement missing,fast_track,2
+2026-11-16,2026-11-22,Allison Hill,Suspected counterfeit,high_risk,2
+2026-11-16,2026-11-22,Angie Henderson,Amount mismatch,standard,4
+2026-11-16,2026-11-22,Angie Henderson,Endorsement missing,standard,16
+2026-11-16,2026-11-22,Angie Henderson,Image unreadable,standard,5
+2026-11-16,2026-11-22,Angie Henderson,Post-dated,standard,2
+2026-11-16,2026-11-22,Angie Henderson,Restrictive endorsement missing,standard,3
+2026-11-16,2026-11-22,Angie Henderson,Stale-dated,standard,3
+2026-11-16,2026-11-22,Connie Lawrence,Image unreadable,fast_track,1
+2026-11-16,2026-11-22,Gabrielle Davis,Amount mismatch,fast_track,2
+2026-11-16,2026-11-22,Gabrielle Davis,Endorsement missing,fast_track,15
+2026-11-16,2026-11-22,Gabrielle Davis,Image unreadable,fast_track,11
+2026-11-16,2026-11-22,Gabrielle Davis,Post-dated,fast_track,1
+2026-11-16,2026-11-22,Gabrielle Davis,Restrictive endorsement missing,fast_track,2
+2026-11-16,2026-11-22,Gina Moore,Endorsement missing,standard,1
+2026-11-16,2026-11-22,Gina Moore,Image unreadable,standard,1
 2026-11-16,2026-11-22,Noah Rhodes,Altered item,high_risk,2
-2026-11-23,2026-11-29,Allison Hill,Altered item,high_risk,2
-2026-11-23,2026-11-29,Allison Hill,Suspected counterfeit,high_risk,4
+2026-11-16,2026-11-22,Ryan Munoz,Endorsement missing,standard,1
+2026-11-16,2026-11-22,Ryan Munoz,Image unreadable,standard,2
+2026-11-23,2026-11-29,Abigail Shaffer,Restrictive endorsement missing,fast_track,1
+2026-11-23,2026-11-29,Allison Hill,Altered item,high_risk,1
+2026-11-23,2026-11-29,Allison Hill,Suspected counterfeit,high_risk,2
+2026-11-23,2026-11-29,Angie Henderson,Amount mismatch,fast_track,2
+2026-11-23,2026-11-29,Angie Henderson,Endorsement missing,fast_track,3
 2026-11-23,2026-11-29,Angie Henderson,Image unreadable,fast_track,3
-2026-11-23,2026-11-29,Connie Lawrence,Amount mismatch,standard,1
-2026-11-23,2026-11-29,Connie Lawrence,Duplicate of earlier deposit,standard,2
-2026-11-23,2026-11-29,Connie Lawrence,Endorsement missing,standard,3
-2026-11-23,2026-11-29,Connie Lawrence,Image unreadable,standard,3
-2026-11-23,2026-11-29,Connie Lawrence,Restrictive endorsement missing,standard,2
-2026-11-23,2026-11-29,Cristian Santos,Endorsement missing,standard,1
-2026-11-23,2026-11-29,Cristian Santos,Image unreadable,standard,1
-2026-11-23,2026-11-29,Cristian Santos,Post-dated,standard,1
-2026-11-23,2026-11-29,Cristian Santos,Restrictive endorsement missing,standard,1
-2026-11-23,2026-11-29,Daniel Wagner,Amount mismatch,fast_track,1
-2026-11-23,2026-11-29,Daniel Wagner,Endorsement missing,fast_track,5
-2026-11-23,2026-11-29,Daniel Wagner,Image unreadable,fast_track,3
-2026-11-23,2026-11-29,Daniel Wagner,Payee name mismatch,fast_track,1
-2026-11-23,2026-11-29,Daniel Wagner,Post-dated,fast_track,1
-2026-11-23,2026-11-29,Daniel Wagner,Restrictive endorsement missing,fast_track,1
-2026-11-23,2026-11-29,Gabrielle Davis,Endorsement missing,standard,7
-2026-11-23,2026-11-29,Gabrielle Davis,Post-dated,standard,1
+2026-11-23,2026-11-29,Angie Henderson,Payee name mismatch,fast_track,1
+2026-11-23,2026-11-29,Connie Lawrence,Image unreadable,standard,1
 2026-11-23,2026-11-29,Noah Rhodes,Altered item,high_risk,1
 2026-11-23,2026-11-29,Noah Rhodes,Endorsement missing,high_risk,1
+2026-11-23,2026-11-29,Ryan Munoz,Amount mismatch,standard,1
+2026-11-23,2026-11-29,Ryan Munoz,Endorsement missing,standard,4
+2026-11-23,2026-11-29,Ryan Munoz,Image unreadable,standard,2
+2026-11-23,2026-11-29,Ryan Munoz,Payee name mismatch,standard,1

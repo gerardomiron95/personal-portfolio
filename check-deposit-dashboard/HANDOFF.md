@@ -239,6 +239,8 @@ it.
 > 2,800–3,800 checks so the row counts in 4.1 still hold over the longer window.
 > The Overview tab (5.1 items 2, 3 and 7) is switched off for now with `SHOW_OVERVIEW` in `app.js`:
 > the page shows only the month tabs and opens on the latest month.
+> Review weeks in `reviewer_rejections.csv` follow the date the check was received and are cut at month
+> boundaries, so each month's reviewer rows add up exactly to its Rejected boxes (the generator asserts this).
 
 - Font: Inter (Google Fonts), falling back to the system sans-serif.
 - Colors:

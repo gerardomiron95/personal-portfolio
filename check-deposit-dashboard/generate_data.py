@@ -49,7 +49,7 @@ REJECT_REASONS = [
 ]
 REJECT_WEIGHTS = {  # per queue; high-risk leans to altered / counterfeit items
     "fast_track": [.46, .30, .12, .06, .03, .02, .01, .0, .0, .0, .0, .0],
-    "standard": [.40, .24, .14, .09, .05, .04, .02, .01, .01, .0, .0, .0],
+    "standard": [.41, .25, .14, .09, .05, .04, .02, .0, .0, .0, .0, .0],
     "high_risk": [.05, .04, .08, .02, .05, .02, .02, .03, .05, .08, .34, .22],
 }
 
@@ -177,7 +177,7 @@ def generate(seed: int, start: dt.date, end: dt.date):
             pool = rng.permutation(np.arange(2, len(reviewers)))
             for q, team in zip(["fast_track", "standard"], [pool[:sizes[0]], pool[sizes[0]:sizes.sum()]]):
                 w = np.zeros(len(reviewers))
-                w[team] = (1 / np.arange(1, len(team) + 1) ** 2.0) * rng.lognormal(0, 0.2, len(team))
+                w[team] = (1 / np.arange(1, len(team) + 1) ** 2.6) * rng.lognormal(0, 0.2, len(team))
                 week_w[(wk, q)] = w / w.sum()
         return reviewers[rng.choice(len(reviewers), p=week_w[(wk, queue)])]
 
@@ -213,7 +213,7 @@ def generate(seed: int, start: dt.date, end: dt.date):
                 hold = int(rng.integers(6, 12))
             decided = min(bday(r64, delay), end64)
             funds = bday(r64, delay + hold)
-            row.update(outcome="deposited", decision_date=str(decided), reviewer=reviewer_for(decided.astype(object), q))
+            row.update(outcome="deposited", decision_date=str(decided), reviewer=reviewer_for(rd, q))
             if funds <= end64:
                 row["funds_available_date"] = str(funds)
                 row["days_to_decision"] = bdays_between(r64, funds)
@@ -236,7 +236,7 @@ def generate(seed: int, start: dt.date, end: dt.date):
             decided = min(bday(r64, delay), end64)
             row.update(outcome="rejected", decision_date=str(decided),
                        reject_reason=pick(rng, REJECT_REASONS, REJECT_WEIGHTS[q]),
-                       reviewer=reviewer_for(decided.astype(object), q),
+                       reviewer=reviewer_for(rd, q),
                        days_to_decision=bdays_between(r64, decided))
     return checks, returns
 
@@ -285,13 +285,16 @@ def aggregate(checks: list[dict], returns: list[dict]):
                c["days_to_decision"], c["days_to_return"])
               for c in checks if c["days_to_decision"] is not None]
 
+    # Review weeks follow the date the check was received (the date every flowchart node uses), and are
+    # cut at month boundaries, so a month's weeks add up exactly to that month's Rejected boxes.
     rej = Counter()
     for c in checks:
         if c["outcome"] == "rejected":
-            d = dt.date.fromisoformat(c["decision_date"])
-            wk = d - dt.timedelta(days=d.weekday())
-            rej[(wk.isoformat(), (wk + dt.timedelta(days=6)).isoformat(), c["reviewer"], c["reject_reason"],
-                 c["queue"])] += 1
+            d = dt.date.fromisoformat(c["received_date"])
+            monday = d - dt.timedelta(days=d.weekday())
+            month_end = (d.replace(day=28) + dt.timedelta(days=4)).replace(day=1) - dt.timedelta(days=1)
+            start, end = max(monday, d.replace(day=1)), min(monday + dt.timedelta(days=6), month_end)
+            rej[(start.isoformat(), end.isoformat(), c["reviewer"], c["reject_reason"], c["queue"])] += 1
     return nodes, timing, rej
 
 
@@ -338,6 +341,14 @@ def check_invariants(checks, returns, nodes, rej) -> None:
     for (_, _, reviewer, reason, q), n in rej.items():
         rr[(q, reviewer, reason)] += n
     assert rr == rejected, "reviewer_rejections contains exactly the rejected checks"
+    by_month = Counter()
+    for (week_start, week_end, _, _, q), n in rej.items():
+        assert week_start[:7] == week_end[:7], "review weeks never cross a month boundary"
+        by_month[(week_start[:7], q)] += n
+    for m in months:
+        for q in QUEUES:
+            assert by_month[(m, q)] == v(m, "all", f"{q}_rejected", "queue_outcome"), \
+                f"reviewer rows sum to the queue's Rejected box ({m} {q})"
     assert len({r["check_id"] for r in returns}) == len(returns), "one return per check"
 
 

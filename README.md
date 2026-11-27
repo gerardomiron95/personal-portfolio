@@ -3,7 +3,7 @@
 A portfolio showcasing personal projects. Each project lives in its own folder with
 its own README.
 
-**Live site:** https://gerardomiron95.github.io/personal-portfolio/
+**Live site:** https://gerardomiron.dev
 
 | Project | What it is | Tools | Live |
 |---|---|---|---|

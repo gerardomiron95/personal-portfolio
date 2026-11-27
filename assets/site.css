@@ -39,6 +39,11 @@ a { color: var(--primary); }
   padding: 6px 14px; border: 1px solid rgba(255, 255, 255, 0.45); border-radius: 999px;
 }
 .links a:hover { background: rgba(255, 255, 255, 0.12); }
+.links button {
+  font: inherit; color: #fff; font-weight: 500; font-size: 0.9rem; cursor: pointer; background: none;
+  padding: 6px 14px; border: 1px solid rgba(255, 255, 255, 0.45); border-radius: 999px;
+}
+.links button:hover { background: rgba(255, 255, 255, 0.12); }
 
 /* ---------- sections */
 section { padding: 40px 0 8px; }
@@ -94,6 +99,13 @@ button.button { font-family: inherit; cursor: pointer; line-height: inherit; }
 .about dt { font-size: 1rem; font-weight: 700; color: var(--ink); }
 .about dt + dd { margin: 4px 0 0; line-height: 1.65; }
 .about dd + dt { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
+
+/* ---------- resume pop-up: the PDF in a frame, with a download button */
+.about.resume { width: min(900px, calc(100% - 32px)); height: min(92vh, 1180px); overflow: hidden; }
+.about.resume[open] { display: flex; flex-direction: column; }
+.about.resume h3 { margin: 0; }
+.resume-actions { display: flex; align-items: center; gap: 12px; }
+.resume-frame { flex: 1; width: 100%; border: none; background: #525659; }
 
 /* ---------- experience & education */
 .job { padding: 0 0 22px; margin-bottom: 22px; border-bottom: 1px solid var(--border); }

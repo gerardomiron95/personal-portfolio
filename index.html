@@ -20,6 +20,7 @@
         <nav class="links" aria-label="Profiles">
           <a href="https://www.linkedin.com/in/gerardomiron95">LinkedIn</a>
           <a href="https://github.com/gerardomiron95/personal-portfolio">GitHub</a>
+          <button type="button" data-about="resume">Resume</button>
         </nav>
       </div>
     </div>
@@ -278,10 +279,22 @@
     </section>
   </main>
 
+  <dialog class="about resume" id="resume" aria-labelledby="resume-title">
+    <div class="about-head">
+      <h3 id="resume-title">Resume</h3>
+      <div class="resume-actions">
+        <a class="button" href="assets/GerardoMiron_Resume.pdf" download="GerardoMiron_Resume.pdf">Download PDF</a>
+        <button type="button" class="about-close" aria-label="Close">×</button>
+      </div>
+    </div>
+    <iframe class="resume-frame" src="assets/GerardoMiron_Resume.pdf#toolbar=0&amp;navpanes=0&amp;view=FitH"
+      title="Gerardo Miron resume (PDF)" loading="lazy"></iframe>
+  </dialog>
+
   <footer class="wrap footer">© 2026 Gerardo Miron</footer>
 
   <script>
-    // "About" buttons open their project's pop-up; close with ×, Esc, or a click outside the box.
+    // "About" and "Resume" buttons open their pop-up; close with ×, Esc, or a click outside the box.
     document.querySelectorAll('[data-about]').forEach((btn) => {
       const dialog = document.getElementById(btn.dataset.about);
       btn.addEventListener('click', () => dialog.showModal());
